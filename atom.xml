@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://build.nvidia.com/models</id>
   <title>NVIDIA NIM &amp; AI Foundation Models</title>
-  <updated>2026-08-15T12:54:50.391221+00:00</updated>
+  <updated>2026-08-15T13:01:56.873032+00:00</updated>
   <author>
     <name>NVIDIA Build</name>
     <email>support@build.nvidia.com</email>
@@ -15,31 +15,21 @@
   <subtitle>Latest AI foundation models, NVIDIA NIM microservices, and preview endpoints from build.nvidia.com</subtitle>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</id>
-    <title>[NVIDIA] nemotron-3.5-lightning-30b-a3b</title>
+    <title>[NVIDIA] nemotron-3.5-lightning-30b-a3b [Downloadable, Free Endpoint]</title>
     <updated>2026-08-11T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Customization</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Long-running agents</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Open</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>August 11, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks<br/>
+<b>Tags</b>: #Customization #Text-to-Text #Long-running agents #Open<br/>
+<b>Last Updated</b>: August 11, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Customization"/>
     <category term="Text-to-Text"/>
     <category term="Long-running agents"/>
@@ -48,31 +38,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/meta/muse-glimmer-30b</id>
-    <title>[Meta] muse-glimmer-30b</title>
+    <title>[Meta] muse-glimmer-30b [Downloadable, Free Endpoint]</title>
     <updated>2026-08-10T00:00:00+00:00</updated>
     <author>
       <name>Meta</name>
       <uri>https://build.nvidia.com/meta</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#0081fb;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Meta</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Muse Glimmer 30B is a multimodal reasoning model accepting text and images, served on vLLM with native Onyx tool-calling and reasoning parsers.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Multimodal</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Image-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Chat</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Large Language Models</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>August 10, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Meta<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, served on vLLM with native Onyx tool-calling and reasoning parsers.<br/>
+<b>Tags</b>: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models<br/>
+<b>Last Updated</b>: August 10, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank">https://build.nvidia.com/meta/muse-glimmer-30b</a>]]></content>
     <link href="https://build.nvidia.com/meta/muse-glimmer-30b"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Multimodal"/>
     <category term="Image-to-Text"/>
     <category term="Reasoning"/>
@@ -83,31 +63,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</id>
-    <title>[NVIDIA] riva-translate-4b-instruct-v2</title>
+    <title>[NVIDIA] riva-translate-4b-instruct-v2 [Free Endpoint]</title>
     <updated>2026-07-27T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Translation model in 37 languages with few-shots example prompts capability.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#nvidia nim</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#neural machine translation</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text Translation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 27, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Free Endpoint<br/>
+<b>Description</b>:<br/>Translation model in 37 languages with few-shots example prompts capability.<br/>
+<b>Tags</b>: #nvidia nim #neural machine translation #Text Translation<br/>
+<b>Last Updated</b>: July 27, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank">https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2"/>
+    <category term="Free Endpoint"/>
     <category term="nvidia nim"/>
     <category term="neural machine translation"/>
     <category term="Text Translation"/>
@@ -115,31 +84,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</id>
-    <title>[NVIDIA] ising-calibration-1.5-31b</title>
+    <title>[NVIDIA] ising-calibration-1.5-31b [Free Endpoint]</title>
     <updated>2026-07-23T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Quantum Computing</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Calibration</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#NVIDIA NIM</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Vision Language Model</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 23, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Free Endpoint<br/>
+<b>Description</b>:<br/>NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.<br/>
+<b>Tags</b>: #Quantum Computing #Calibration #NVIDIA NIM #Vision Language Model<br/>
+<b>Last Updated</b>: July 23, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank">https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b"/>
+    <category term="Free Endpoint"/>
     <category term="Quantum Computing"/>
     <category term="Calibration"/>
     <category term="NVIDIA NIM"/>
@@ -148,31 +106,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/vsr</id>
-    <title>[NVIDIA] Video Super Resolution NIM</title>
+    <title>[NVIDIA] Video Super Resolution NIM [Downloadable]</title>
     <updated>2026-07-22T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#broadcast</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#video upscaling</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#streaming</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#nvidia ai for media</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#video super resolution</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 22, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/vsr" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.<br/>
+<b>Tags</b>: #broadcast #video upscaling #streaming #nvidia ai for media #video super resolution<br/>
+<b>Last Updated</b>: July 22, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/vsr" target="_blank">https://build.nvidia.com/nvidia/vsr</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/vsr"/>
+    <category term="Downloadable"/>
     <category term="broadcast"/>
     <category term="video upscaling"/>
     <category term="streaming"/>
@@ -182,31 +129,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-3-embed-1b</id>
-    <title>[NVIDIA] nemotron-3-embed-1b</title>
+    <title>[NVIDIA] nemotron-3-embed-1b [Free Endpoint]</title>
     <updated>2026-07-16T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    1B embedding model for semantic search, retrieval, and RAG applications.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Nemotron Retriever</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Agentic Retrieval</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Code Retrieval</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Embedding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Retrieval Augmented Generation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 16, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Free Endpoint<br/>
+<b>Description</b>:<br/>1B embedding model for semantic search, retrieval, and RAG applications.<br/>
+<b>Tags</b>: #Nemotron Retriever #Agentic Retrieval #Code Retrieval #Text-to-Embedding #Retrieval Augmented Generation<br/>
+<b>Last Updated</b>: July 16, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-embed-1b</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b"/>
+    <category term="Free Endpoint"/>
     <category term="Nemotron Retriever"/>
     <category term="Agentic Retrieval"/>
     <category term="Code Retrieval"/>
@@ -216,31 +152,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/thinkingmachines/inkling</id>
-    <title>[Thinkingmachines] inkling</title>
+    <title>[Thinkingmachines] inkling [Downloadable, Free Endpoint]</title>
     <updated>2026-07-16T00:00:00+00:00</updated>
     <author>
       <name>Thinkingmachines</name>
       <uri>https://build.nvidia.com/thinkingmachines</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#334155;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Thinkingmachines</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Inkling is a multimodal (text + image) reasoning model from Thinking Machines — a Mamba-hybrid, 256-expert Mixture-of-Experts architecture with tool use and switchable reasoning.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#image-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#multimodal</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 16, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/thinkingmachines/inkling" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Thinkingmachines<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Inkling is a multimodal (text + image) reasoning model from Thinking Machines — a Mamba-hybrid, 256-expert Mixture-of-Experts architecture with tool use and switchable reasoning.<br/>
+<b>Tags</b>: #text-to-text #reasoning #image-to-text #multimodal<br/>
+<b>Last Updated</b>: July 16, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/thinkingmachines/inkling" target="_blank">https://build.nvidia.com/thinkingmachines/inkling</a>]]></content>
     <link href="https://build.nvidia.com/thinkingmachines/inkling"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="text-to-text"/>
     <category term="reasoning"/>
     <category term="image-to-text"/>
@@ -249,31 +175,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/poolside/laguna-xs-2.1</id>
-    <title>[Poolside] laguna-xs-2.1</title>
+    <title>[Poolside] laguna-xs-2.1 [Free Endpoint]</title>
     <updated>2026-07-15T00:00:00+00:00</updated>
     <author>
       <name>Poolside</name>
       <uri>https://build.nvidia.com/poolside</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#06b6d4;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Poolside</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Agentic AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Tool Use</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 15, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Poolside<br/>
+<b>Features</b>: Free Endpoint<br/>
+<b>Description</b>:<br/>Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks<br/>
+<b>Tags</b>: #Agentic AI #Coding #Reasoning #Tool Use<br/>
+<b>Last Updated</b>: July 15, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank">https://build.nvidia.com/poolside/laguna-xs-2.1</a>]]></content>
     <link href="https://build.nvidia.com/poolside/laguna-xs-2.1"/>
+    <category term="Free Endpoint"/>
     <category term="Agentic AI"/>
     <category term="Coding"/>
     <category term="Reasoning"/>
@@ -282,31 +197,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/z-ai/glm-5.2</id>
-    <title>[Z.ai] glm-5.2</title>
+    <title>[Z.ai] glm-5.2 [Downloadable, Free Endpoint]</title>
     <updated>2026-07-03T00:00:00+00:00</updated>
     <author>
       <name>Z.ai</name>
       <uri>https://build.nvidia.com/z-ai</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#3b82f6;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Z.ai</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    GLM-5.2 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Agentic AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Tool Use</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 3, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 8M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/z-ai/glm-5.2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Z.ai<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>GLM-5.2 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.<br/>
+<b>Tags</b>: #Agentic AI #Coding #Reasoning #Tool Use<br/>
+<b>Last Updated</b>: July 3, 2026<br/>
+<b>Stats</b>: 8M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/z-ai/glm-5.2" target="_blank">https://build.nvidia.com/z-ai/glm-5.2</a>]]></content>
     <link href="https://build.nvidia.com/z-ai/glm-5.2"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Agentic AI"/>
     <category term="Coding"/>
     <category term="Reasoning"/>
@@ -315,31 +221,20 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</id>
-    <title>[NVIDIA] qwen-image-edit-nvpcb-ovsl2sl</title>
+    <title>[NVIDIA] qwen-image-edit-nvpcb-ovsl2sl [Downloadable]</title>
     <updated>2026-07-03T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Synthetic Data Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Image Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Physical AI</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>July 3, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations<br/>
+<b>Tags</b>: #Synthetic Data Generation #Image Generation #Physical AI<br/>
+<b>Last Updated</b>: July 3, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank">https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl"/>
+    <category term="Downloadable"/>
     <category term="Synthetic Data Generation"/>
     <category term="Image Generation"/>
     <category term="Physical AI"/>
@@ -347,31 +242,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-ocr-v2</id>
-    <title>[NVIDIA] nemotron-ocr-v2</title>
+    <title>[NVIDIA] nemotron-ocr-v2 [Downloadable]</title>
     <updated>2026-06-24T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Nemotron OCR v2 is a state-of-the-art multilingual text recognition model designed for robust end-to-end optical character recognition (OCR) on complex real-world images.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Table Extraction</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#nemo retriever</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#data ingestion</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#extraction</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Optical Character Recognition</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 24, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 338K API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Nemotron OCR v2 is a state-of-the-art multilingual text recognition model designed for robust end-to-end optical character recognition (OCR) on complex real-world images.<br/>
+<b>Tags</b>: #Table Extraction #nemo retriever #data ingestion #extraction #Optical Character Recognition<br/>
+<b>Last Updated</b>: June 24, 2026<br/>
+<b>Stats</b>: 338K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank">https://build.nvidia.com/nvidia/nemotron-ocr-v2</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-ocr-v2"/>
+    <category term="Downloadable"/>
     <category term="Table Extraction"/>
     <category term="nemo retriever"/>
     <category term="data ingestion"/>
@@ -381,31 +266,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/minimaxai/minimax-m3</id>
-    <title>[Minimaxai] minimax-m3</title>
+    <title>[Minimaxai] minimax-m3 [Free Endpoint]</title>
     <updated>2026-06-12T00:00:00+00:00</updated>
     <author>
       <name>Minimaxai</name>
       <uri>https://build.nvidia.com/minimaxai</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#334155;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Minimaxai</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#reasoning</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 12, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 10M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Minimaxai<br/>
+<b>Features</b>: Free Endpoint<br/>
+<b>Description</b>:<br/>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.<br/>
+<b>Tags</b>: #coding #text-to-text #reasoning<br/>
+<b>Last Updated</b>: June 12, 2026<br/>
+<b>Stats</b>: 10M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank">https://build.nvidia.com/minimaxai/minimax-m3</a>]]></content>
     <link href="https://build.nvidia.com/minimaxai/minimax-m3"/>
+    <category term="Free Endpoint"/>
     <category term="coding"/>
     <category term="text-to-text"/>
     <category term="reasoning"/>
@@ -413,31 +288,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</id>
-    <title>[Google] diffusiongemma-26b-a4b-it</title>
+    <title>[Google] diffusiongemma-26b-a4b-it [Downloadable, Free Endpoint]</title>
     <updated>2026-06-10T00:00:00+00:00</updated>
     <author>
       <name>Google</name>
       <uri>https://build.nvidia.com/google</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#4285f4;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Google</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Diffusion-based 26B parameter LLM enabling parallel token generation for real-time text apps
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#diffusion-llm</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#reasoning</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 10, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 4M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Google<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Diffusion-based 26B parameter LLM enabling parallel token generation for real-time text apps<br/>
+<b>Tags</b>: #diffusion-llm #text-to-text #reasoning<br/>
+<b>Last Updated</b>: June 10, 2026<br/>
+<b>Stats</b>: 4M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank">https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</a>]]></content>
     <link href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="diffusion-llm"/>
     <category term="text-to-text"/>
     <category term="reasoning"/>
@@ -445,31 +311,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</id>
-    <title>[NVIDIA] nemotron-3-ultra-550b-a55b</title>
+    <title>[NVIDIA] nemotron-3-ultra-550b-a55b [Downloadable, Free Endpoint]</title>
     <updated>2026-06-04T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Agent</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#MoE</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Frontier</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Long Context</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 4, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 52M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more<br/>
+<b>Tags</b>: #Agent #MoE #Frontier #Reasoning #Long Context<br/>
+<b>Last Updated</b>: June 4, 2026<br/>
+<b>Stats</b>: 52M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Agent"/>
     <category term="MoE"/>
     <category term="Frontier"/>
@@ -479,31 +336,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</id>
-    <title>[Resemble.AI] chatterbox-multilingual-tts</title>
+    <title>[Resemble.AI] chatterbox-multilingual-tts [Downloadable]</title>
     <updated>2026-06-03T00:00:00+00:00</updated>
     <author>
       <name>Resemble.AI</name>
       <uri>https://build.nvidia.com/resembleai</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#14b8a6;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Resemble.AI</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Natural and expressive voices in 23 languages. For voice agents and brand ambassadors.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#TTS</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Chatterbox</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Speech Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#multilingual</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Speech</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 3, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 22K API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Resemble.AI<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Natural and expressive voices in 23 languages. For voice agents and brand ambassadors.<br/>
+<b>Tags</b>: #TTS #Chatterbox #Speech Generation #multilingual #Text-to-Speech<br/>
+<b>Last Updated</b>: June 3, 2026<br/>
+<b>Stats</b>: 22K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank">https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</a>]]></content>
     <link href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts"/>
+    <category term="Downloadable"/>
     <category term="TTS"/>
     <category term="Chatterbox"/>
     <category term="Speech Generation"/>
@@ -513,31 +360,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</id>
-    <title>[NVIDIA] nemotron-3.5-content-safety</title>
+    <title>[NVIDIA] nemotron-3.5-content-safety [Downloadable, Free Endpoint]</title>
     <updated>2026-06-02T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Multilingual, multimodal model for detecting unsafe and toxic content.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#llm safety</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#safety and moderation</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#multilingual content safety</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#ai safety nemo guardrails</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 2, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 2M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Multilingual, multimodal model for detecting unsafe and toxic content.<br/>
+<b>Tags</b>: #llm safety #safety and moderation #multilingual content safety #ai safety nemo guardrails<br/>
+<b>Last Updated</b>: June 2, 2026<br/>
+<b>Stats</b>: 2M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="llm safety"/>
     <category term="safety and moderation"/>
     <category term="multilingual content safety"/>
@@ -546,31 +384,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/cosmos3-nano</id>
-    <title>[NVIDIA] cosmos3-nano</title>
+    <title>[NVIDIA] cosmos3-nano [Downloadable, Free Endpoint]</title>
     <updated>2026-06-01T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Generates physics-aware videos from text prompts or an image prompt for physical AI development.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#autonomous vehicles</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Physical AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#robotics</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#text-to-world</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#image-to-world</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Synthetic Data Generation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 1, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 2K API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Generates physics-aware videos from text prompts or an image prompt for physical AI development.<br/>
+<b>Tags</b>: #autonomous vehicles #Physical AI #robotics #text-to-world #image-to-world #Synthetic Data Generation<br/>
+<b>Last Updated</b>: June 1, 2026<br/>
+<b>Stats</b>: 2K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/cosmos3-nano"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="autonomous vehicles"/>
     <category term="Physical AI"/>
     <category term="robotics"/>
@@ -581,31 +410,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</id>
-    <title>[NVIDIA] cosmos3-nano-reasoner</title>
+    <title>[NVIDIA] cosmos3-nano-reasoner [Downloadable, Free Endpoint]</title>
     <updated>2026-06-01T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Vision language model that excels in understanding the physical world using structured reasoning on videos or images.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#video understanding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#autonomous vehicles</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#industrial</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Physical AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#vision language model</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#robotics</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#smart cities</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Synthetic Data Generation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>June 1, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 2K API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Vision language model that excels in understanding the physical world using structured reasoning on videos or images.<br/>
+<b>Tags</b>: #video understanding #autonomous vehicles #industrial #Physical AI #vision language model #reasoning #robotics #smart cities #Synthetic Data Generation<br/>
+<b>Last Updated</b>: June 1, 2026<br/>
+<b>Stats</b>: 2K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="video understanding"/>
     <category term="autonomous vehicles"/>
     <category term="industrial"/>
@@ -619,31 +439,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/stepfun-ai/step-3.7-flash</id>
-    <title>[Stepfun-ai] step-3.7-flash</title>
+    <title>[Stepfun-ai] step-3.7-flash [Downloadable, Free Endpoint]</title>
     <updated>2026-05-29T00:00:00+00:00</updated>
     <author>
       <name>Stepfun-ai</name>
       <uri>https://build.nvidia.com/stepfun-ai</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#8b5cf6;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Stepfun-ai</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Vision</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Agents</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>May 29, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 7M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/stepfun-ai/step-3.7-flash" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Stepfun-ai<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.<br/>
+<b>Tags</b>: #Coding #Vision #Agents<br/>
+<b>Last Updated</b>: May 29, 2026<br/>
+<b>Stats</b>: 7M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/stepfun-ai/step-3.7-flash" target="_blank">https://build.nvidia.com/stepfun-ai/step-3.7-flash</a>]]></content>
     <link href="https://build.nvidia.com/stepfun-ai/step-3.7-flash"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Coding"/>
     <category term="Vision"/>
     <category term="Agents"/>
@@ -651,93 +462,62 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/qwen/qwen-image</id>
-    <title>[Qwen] qwen-image</title>
+    <title>[Qwen] qwen-image [Downloadable]</title>
     <updated>2026-05-01T00:00:00+00:00</updated>
     <author>
       <name>Qwen</name>
       <uri>https://build.nvidia.com/qwen</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#6366f1;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Qwen</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Image</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Image Generation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>May 1, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Qwen<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.<br/>
+<b>Tags</b>: #Text-to-Image #Image Generation<br/>
+<b>Last Updated</b>: May 1, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank">https://build.nvidia.com/qwen/qwen-image</a>]]></content>
     <link href="https://build.nvidia.com/qwen/qwen-image"/>
+    <category term="Downloadable"/>
     <category term="Text-to-Image"/>
     <category term="Image Generation"/>
     <published>2026-05-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://build.nvidia.com/qwen/qwen-image-edit</id>
-    <title>[Qwen] qwen-image-edit</title>
+    <title>[Qwen] qwen-image-edit [Downloadable]</title>
     <updated>2026-05-01T00:00:00+00:00</updated>
     <author>
       <name>Qwen</name>
       <uri>https://build.nvidia.com/qwen</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#6366f1;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">Qwen</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Text-to-Image</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Image Generation</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>May 1, 2026</strong></p>
-    
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: Qwen<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.<br/>
+<b>Tags</b>: #Text-to-Image #Image Generation<br/>
+<b>Last Updated</b>: May 1, 2026<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank">https://build.nvidia.com/qwen/qwen-image-edit</a>]]></content>
     <link href="https://build.nvidia.com/qwen/qwen-image-edit"/>
+    <category term="Downloadable"/>
     <category term="Text-to-Image"/>
     <category term="Image Generation"/>
     <published>2026-05-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</id>
-    <title>[NVIDIA] nemotron-3-nano-omni-30b-a3b-reasoning</title>
+    <title>[NVIDIA] nemotron-3-nano-omni-30b-a3b-reasoning [Downloadable, Free Endpoint]</title>
     <updated>2026-04-28T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Image-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#VLM</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Video</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#Omni</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#OCR</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>April 28, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 8M API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.<br/>
+<b>Tags</b>: #Image-to-Text #VLM #Video #Omni #OCR<br/>
+<b>Last Updated</b>: April 28, 2026<br/>
+<b>Stats</b>: 8M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="Image-to-Text"/>
     <category term="VLM"/>
     <category term="Video"/>
@@ -747,31 +527,21 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/relighting</id>
-    <title>[NVIDIA] Relighting</title>
+    <title>[NVIDIA] Relighting [Downloadable]</title>
     <updated>2026-04-17T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#HDRI</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#remote contribution</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#lighting</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#nvidia ai for media</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>April 17, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 242 API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/relighting" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable<br/>
+<b>Description</b>:<br/>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.<br/>
+<b>Tags</b>: #HDRI #remote contribution #lighting #nvidia ai for media<br/>
+<b>Last Updated</b>: April 17, 2026<br/>
+<b>Stats</b>: 242 API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/relighting" target="_blank">https://build.nvidia.com/nvidia/relighting</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/relighting"/>
+    <category term="Downloadable"/>
     <category term="HDRI"/>
     <category term="remote contribution"/>
     <category term="lighting"/>
@@ -780,31 +550,22 @@
   </entry>
   <entry>
     <id>https://build.nvidia.com/nvidia/synthetic-video-detector</id>
-    <title>[NVIDIA] synthetic-video-detector</title>
+    <title>[NVIDIA] synthetic-video-detector [Downloadable, Free Endpoint]</title>
     <updated>2026-04-16T00:00:00+00:00</updated>
     <author>
       <name>NVIDIA</name>
       <uri>https://build.nvidia.com/nvidia</uri>
     </author>
-    <content type="CDATA"><![CDATA[<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;font-size:12px;font-weight:bold;color:#76b900;background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;text-transform:uppercase;">NVIDIA</span><span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;">Free Endpoint</span>
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.
-  </p>
-  <div style="margin-bottom:14px;"><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#broadcast</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#media2</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#forensics</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#nvidia ai for media</span><span style="display:inline-block;background-color:#f1f5f9;color:#475569;font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">#diffusion models</span></div>
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>April 16, 2026</strong></p>
-    <p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 309K API calls in the last 30 days</p>
-  </div>
-  <p style="margin-top:16px;">
-    <a href="https://build.nvidia.com/nvidia/synthetic-video-detector" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>]]></content>
+    <content type="CDATA"><![CDATA[<b>Publisher</b>: NVIDIA<br/>
+<b>Features</b>: Downloadable | Free Endpoint<br/>
+<b>Description</b>:<br/>NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.<br/>
+<b>Tags</b>: #broadcast #media2 #forensics #nvidia ai for media #diffusion models<br/>
+<b>Last Updated</b>: April 16, 2026<br/>
+<b>Stats</b>: 309K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/synthetic-video-detector" target="_blank">https://build.nvidia.com/nvidia/synthetic-video-detector</a>]]></content>
     <link href="https://build.nvidia.com/nvidia/synthetic-video-detector"/>
+    <category term="Downloadable"/>
+    <category term="Free Endpoint"/>
     <category term="broadcast"/>
     <category term="media2"/>
     <category term="forensics"/>
