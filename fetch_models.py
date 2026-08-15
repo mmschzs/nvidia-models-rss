@@ -337,7 +337,7 @@ def parse_dom_cards(html: str) -> List[Dict[str, Any]]:
 
 
 def generate_item_html(model: Dict[str, Any]) -> str:
-    """Generate clean, high-compatibility HTML formatted content for RSS readers like FreshRSS."""
+    """Generate clean, plain text / lightweight semantic HTML for maximum RSS reader compatibility."""
     name = model.get("name", "Unknown Model")
     publisher = model.get("publisher", "NVIDIA")
     url = model.get("url", MODELS_URL)
@@ -347,65 +347,24 @@ def generate_item_html(model: Dict[str, Any]) -> str:
     updated_str = model.get("updated_str", "")
     stats = model.get("stats", [])
 
-    # Badges HTML
-    badges_html = ""
-    for badge in badges:
-        bg_color = "#76b900" if "downloadable" in badge.lower() else "#7c3aed"
-        badges_html += (
-            f'<span style="display:inline-block;background-color:{bg_color};color:#ffffff;'
-            f'font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;'
-            f'text-transform:uppercase;">{badge}</span>'
-        )
+    badges_str = " | ".join(badges) if badges else "Standard"
+    tags_str = " ".join([f"#{t}" for t in tags]) if tags else ""
+    stats_str = " • ".join(stats) if stats else ""
 
-    # Publisher pill color
-    pub_color = PUBLISHER_COLORS.get(publisher, "#334155")
-    pub_badge_html = (
-        f'<span style="display:inline-block;font-size:12px;font-weight:bold;color:{pub_color};'
-        f'background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;'
-        f'text-transform:uppercase;">'
-        f'{publisher}'
-        f'</span>'
-    )
-
-    # Tags HTML
-    tags_html = ""
-    for tag in tags:
-        tags_html += (
-            f'<span style="display:inline-block;background-color:#f1f5f9;color:#475569;'
-            f'font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">'
-            f'#{tag}</span>'
-        )
-
-    # Stats HTML
-    stats_html = ""
-    if stats:
-        stats_text = " • ".join(stats)
-        stats_html = f'<p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 {stats_text}</p>'
-
-    # Updated Date HTML
-    date_html = ""
+    lines = [
+        f"<b>Publisher</b>: {publisher}",
+        f"<b>Features</b>: {badges_str}",
+        f"<b>Description</b>:<br/>{desc}",
+    ]
+    if tags_str:
+        lines.append(f"<b>Tags</b>: {tags_str}")
     if updated_str:
-        date_html = f'<p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>{updated_str}</strong></p>'
+        lines.append(f"<b>Last Updated</b>: {updated_str}")
+    if stats_str:
+        lines.append(f"<b>Stats</b>: {stats_str}")
+    lines.append(f"<b>Model Card</b>: <a href=\"{url}\" target=\"_blank\">{url}</a>")
 
-    html = f"""<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
-  <div style="margin-bottom:12px;">
-    {pub_badge_html}{badges_html}
-  </div>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
-    {desc}
-  </p>
-  {f'<div style="margin-bottom:14px;">{tags_html}</div>' if tags_html else ''}
-  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
-    {date_html}
-    {stats_html}
-  </div>
-  <p style="margin-top:16px;">
-    <a href="{url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build →
-    </a>
-  </p>
-</div>""".strip()
-    return html
+    return "<br/>\n".join(lines)
 
 
 def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
@@ -438,8 +397,10 @@ def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
         
         publisher = m.get("publisher", "NVIDIA")
         name = m.get("name", "Unknown Model")
-        fe.title(f"[{publisher}] {name}")
+        badges = m.get("badges", [])
+        badge_suffix = f" [{', '.join(badges)}]" if badges else ""
         
+        fe.title(f"[{publisher}] {name}{badge_suffix}")
         fe.link(href=m.get("url", MODELS_URL))
         fe.author({'name': publisher, 'uri': m.get("publisher_url", MODELS_URL)})
         
@@ -447,14 +408,16 @@ def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
         fe.pubDate(item_date)
         fe.updated(item_date)
 
-        # Tags as categories
+        # Badges and Tags as categories
+        for badge in badges:
+            fe.category(term=badge)
         for tag in m.get("tags", []):
             fe.category(term=tag)
 
-        # Content and description
-        content_html = generate_item_html(m)
-        fe.description(content_html)
-        fe.content(content_html, type='CDATA')
+        # Clean Content
+        content_text = generate_item_html(m)
+        fe.description(content_text)
+        fe.content(content_text, type='CDATA')
 
     # Save RSS 2.0
     rss_path = os.path.join(output_dir, "rss.xml")
