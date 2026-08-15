@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NVIDIA Models RSS Feed</title>
+  <meta name="description" content="Automated RSS and Atom feed generator for NVIDIA AI Foundation Models and NIMs.">
+  <link rel="alternate" type="application/rss+xml" title="NVIDIA Models RSS Feed" href="rss.xml">
+  <link rel="alternate" type="application/atom+xml" title="NVIDIA Models Atom Feed" href="atom.xml">
+  <style>
+    :root {
+      --primary: #76b900;
+      --primary-hover: #68a500;
+      --bg: #0b0f19;
+      --card-bg: #131b2e;
+      --border: #232f48;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .badge-nvidia {
+      background: var(--primary);
+      color: #000000;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+    }
+    .feed-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-rss {
+      background: #f97316;
+      color: #ffffff;
+    }
+    .btn-rss:hover { background: #ea580c; transform: translateY(-1px); }
+    .btn-atom {
+      background: #3b82f6;
+      color: #ffffff;
+    }
+    .btn-atom:hover { background: #2563eb; transform: translateY(-1px); }
+    .btn-gh {
+      background: #334155;
+      color: #ffffff;
+    }
+    .btn-gh:hover { background: #475569; transform: translateY(-1px); }
+    .meta-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+    }
+    .models-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>NVIDIA Models RSS <span class="badge-nvidia">Live Feed</span></h1>
+      <p class="subtitle">Real-time RSS & Atom feed tracking newly released AI models and NIM microservices from build.nvidia.com.</p>
+      <div class="feed-buttons">
+        <a href="rss.xml" class="btn btn-rss">📡 Subscribe RSS 2.0</a>
+        <a href="atom.xml" class="btn btn-atom">⚛️ Subscribe Atom 1.0</a>
+        <a href="https://build.nvidia.com/models" target="_blank" rel="noopener noreferrer" class="btn btn-gh">🌐 Official Portal</a>
+      </div>
+    </header>
+
+    <div class="meta-bar">
+      <span>📦 Total Models Indexed: <strong>24</strong></span>
+      <span>🕒 Last Updated: <strong>2026-08-15 12:40:05 UTC</strong></span>
+    </div>
+
+    <div class="models-list">
+      <h2 style="font-size:1.3rem;margin-bottom:8px;color:#cbd5e1;">Latest Model Cards Preview</h2>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-3.5-lightning-30b-a3b
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Customization</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Long-running agents</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Open</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>August 11, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#0081fb;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Meta</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      muse-glimmer-30b
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Muse Glimmer 30B is a multimodal reasoning model accepting text and images, served on vLLM with native Onyx tool-calling and reasoning parsers.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Multimodal</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Image-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Chat</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Large Language Models</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>August 10, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      riva-translate-4b-instruct-v2
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Translation model in 37 languages with few-shots example prompts capability.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#nvidia nim</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#neural machine translation</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text Translation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 27, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      ising-calibration-1.5-31b
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Quantum Computing</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Calibration</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#NVIDIA NIM</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Vision Language Model</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 23, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/vsr" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      Video Super Resolution NIM
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#broadcast</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#video upscaling</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#streaming</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#nvidia ai for media</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#video super resolution</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 22, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/vsr" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-3-embed-1b
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    1B embedding model for semantic search, retrieval, and RAG applications.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Nemotron Retriever</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Agentic Retrieval</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Code Retrieval</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Embedding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Retrieval Augmented Generation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 16, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#334155;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Thinkingmachines</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/thinkingmachines/inkling" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      inkling
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Inkling is a multimodal (text + image) reasoning model from Thinking Machines — a Mamba-hybrid, 256-expert Mixture-of-Experts architecture with tool use and switchable reasoning.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#image-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#multimodal</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 16, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/thinkingmachines/inkling" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#06b6d4;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Poolside</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      laguna-xs-2.1
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Agentic AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Tool Use</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 15, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#3b82f6;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Z.ai</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/z-ai/glm-5.2" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      glm-5.2
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    GLM-5.2 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Agentic AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Tool Use</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 3, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 8M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/z-ai/glm-5.2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      qwen-image-edit-nvpcb-ovsl2sl
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Synthetic Data Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Image Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Physical AI</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>July 3, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-ocr-v2
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Nemotron OCR v2 is a state-of-the-art multilingual text recognition model designed for robust end-to-end optical character recognition (OCR) on complex real-world images.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Table Extraction</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#nemo retriever</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#data ingestion</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#extraction</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Optical Character Recognition</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 24, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 338K API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#334155;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Minimaxai</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      minimax-m3
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#reasoning</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 12, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 10M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#4285f4;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Google</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      diffusiongemma-26b-a4b-it
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Diffusion-based 26B parameter LLM enabling parallel token generation for real-time text apps
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#diffusion-llm</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#text-to-text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#reasoning</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 10, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 4M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-3-ultra-550b-a55b
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Agent</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#MoE</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Frontier</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Long Context</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 4, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 52M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#14b8a6;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Resemble.AI</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      chatterbox-multilingual-tts
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Natural and expressive voices in 23 languages. For voice agents and brand ambassadors.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#TTS</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Chatterbox</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Speech Generation</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#multilingual</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Speech</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 3, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 22K API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-3.5-content-safety
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Multilingual, multimodal model for detecting unsafe and toxic content.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#llm safety</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#safety and moderation</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#multilingual content safety</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#ai safety nemo guardrails</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 2, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 2M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      cosmos3-nano
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Generates physics-aware videos from text prompts or an image prompt for physical AI development.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#autonomous vehicles</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Physical AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#robotics</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#text-to-world</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#image-to-world</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Synthetic Data Generation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 1, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 2K API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      cosmos3-nano-reasoner
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Vision language model that excels in understanding the physical world using structured reasoning on videos or images.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#video understanding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#autonomous vehicles</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#industrial</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Physical AI</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#vision language model</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#reasoning</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#robotics</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#smart cities</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Synthetic Data Generation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>June 1, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 2K API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#8b5cf6;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Stepfun-ai</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/stepfun-ai/step-3.7-flash" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      step-3.7-flash
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Coding</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Vision</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Agents</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>May 29, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 7M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/stepfun-ai/step-3.7-flash" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#6366f1;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Qwen</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      qwen-image
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Image</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Image Generation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>May 1, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#6366f1;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">Qwen</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      qwen-image-edit
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Text-to-Image</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Image Generation</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>May 1, 2026</strong></div>
+    
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      nemotron-3-nano-omni-30b-a3b-reasoning
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Image-to-Text</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#VLM</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Video</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#Omni</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#OCR</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>April 28, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 8M API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/relighting" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      Relighting
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#HDRI</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#remote contribution</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#lighting</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#nvidia ai for media</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>April 17, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 242 API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/relighting" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div><div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
+  <!-- Header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="display:inline-block;font-size:12px;font-weight:700;color:#76b900;background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;text-transform:uppercase;letter-spacing:0.5px;">NVIDIA</span>
+    </div>
+    <div>
+      <span style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Downloadable</span><span style="display:inline-block;background-color:#7c3aed;color:#ffffff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;">Free Endpoint</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
+    <a href="https://build.nvidia.com/nvidia/synthetic-video-detector" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
+      synthetic-video-detector
+    </a>
+  </h2>
+
+  <!-- Description -->
+  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+    NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.
+  </p>
+
+  <!-- Tags Container -->
+  <div style="margin-bottom:16px;"><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#broadcast</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#media2</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#forensics</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#nvidia ai for media</span><span style="display:inline-block;background-color:#f1f5f9;color:#334155;font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;border:1px solid #e2e8f0;">#diffusion models</span></div>
+
+  <!-- Metadata -->
+  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+    <div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>April 16, 2026</strong></div>
+    <div style="color:#64748b;font-size:12px;margin-top:8px;">📊 309K API calls in the last 30 days</div>
+  </div>
+
+  <!-- CTA Button -->
+  <div style="margin-top:16px;">
+    <a href="https://build.nvidia.com/nvidia/synthetic-video-detector" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
+      View Model Card on NVIDIA Build &rarr;
+    </a>
+  </div>
+</div>
+    </div>
+
+    <footer>
+      <p>Generated by NVIDIA Models RSS Workflow &bull; Data sourced directly from NVIDIA Build</p>
+    </footer>
+  </div>
+</body>
+</html>
