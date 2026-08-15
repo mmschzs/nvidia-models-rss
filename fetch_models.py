@@ -337,7 +337,7 @@ def parse_dom_cards(html: str) -> List[Dict[str, Any]]:
 
 
 def generate_item_html(model: Dict[str, Any]) -> str:
-    """Generate beautiful, modern HTML formatted content for RSS item."""
+    """Generate clean, high-compatibility HTML formatted content for RSS readers like FreshRSS."""
     name = model.get("name", "Unknown Model")
     publisher = model.get("publisher", "NVIDIA")
     url = model.get("url", MODELS_URL)
@@ -353,16 +353,16 @@ def generate_item_html(model: Dict[str, Any]) -> str:
         bg_color = "#76b900" if "downloadable" in badge.lower() else "#7c3aed"
         badges_html += (
             f'<span style="display:inline-block;background-color:{bg_color};color:#ffffff;'
-            f'font-size:11px;font-weight:600;padding:3px 8px;border-radius:12px;margin-right:6px;'
-            f'text-transform:uppercase;letter-spacing:0.5px;">{badge}</span>'
+            f'font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;margin-right:6px;'
+            f'text-transform:uppercase;">{badge}</span>'
         )
 
     # Publisher pill color
     pub_color = PUBLISHER_COLORS.get(publisher, "#334155")
     pub_badge_html = (
-        f'<span style="display:inline-block;font-size:12px;font-weight:700;color:{pub_color};'
-        f'background:#f8fafc;padding:3px 8px;border-radius:4px;border:1px solid #e2e8f0;'
-        f'text-transform:uppercase;letter-spacing:0.5px;">'
+        f'<span style="display:inline-block;font-size:12px;font-weight:bold;color:{pub_color};'
+        f'background:#f1f5f9;padding:2px 8px;border-radius:4px;margin-right:8px;'
+        f'text-transform:uppercase;">'
         f'{publisher}'
         f'</span>'
     )
@@ -371,63 +371,40 @@ def generate_item_html(model: Dict[str, Any]) -> str:
     tags_html = ""
     for tag in tags:
         tags_html += (
-            f'<span style="display:inline-block;background-color:#f1f5f9;color:#334155;'
-            f'font-size:12px;padding:3px 10px;border-radius:6px;margin:3px 4px 3px 0;'
-            f'border:1px solid #e2e8f0;">#{tag}</span>'
+            f'<span style="display:inline-block;background-color:#f1f5f9;color:#475569;'
+            f'font-size:12px;padding:2px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px;">'
+            f'#{tag}</span>'
         )
 
     # Stats HTML
     stats_html = ""
     if stats:
-        stats_text = " &bull; ".join(stats)
-        stats_html = f'<div style="color:#64748b;font-size:12px;margin-top:8px;">📊 {stats_text}</div>'
+        stats_text = " • ".join(stats)
+        stats_html = f'<p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">📊 {stats_text}</p>'
 
     # Updated Date HTML
     date_html = ""
     if updated_str:
-        date_html = f'<div style="color:#64748b;font-size:12px;margin-top:4px;">🕒 Last updated: <strong>{updated_str}</strong></div>'
+        date_html = f'<p style="color:#64748b;font-size:13px;margin:6px 0 0 0;">🕒 Last updated: <strong>{updated_str}</strong></p>'
 
-    html = f"""
-<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:680px;border:1px solid #e2e8f0;border-radius:12px;padding:20px;background:#ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.05);margin-bottom:16px;">
-  <!-- Header -->
-  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
-    <div>
-      {pub_badge_html}
-    </div>
-    <div>
-      {badges_html}
-    </div>
+    html = f"""<div style="font-family:system-ui,-apple-system,sans-serif;max-width:680px;line-height:1.5;color:#1e293b;">
+  <div style="margin-bottom:12px;">
+    {pub_badge_html}{badges_html}
   </div>
-
-  <!-- Title -->
-  <h2 style="margin:0 0 10px 0;font-size:20px;font-weight:700;line-height:1.3;">
-    <a href="{url}" target="_blank" rel="noopener noreferrer" style="color:#0f172a;text-decoration:none;">
-      {name}
-    </a>
-  </h2>
-
-  <!-- Description -->
-  <p style="margin:0 0 16px 0;color:#334155;font-size:14px;line-height:1.6;">
+  <p style="font-size:15px;line-height:1.6;margin:0 0 14px 0;color:#334155;">
     {desc}
   </p>
-
-  <!-- Tags Container -->
-  {f'<div style="margin-bottom:16px;">{tags_html}</div>' if tags_html else ''}
-
-  <!-- Metadata -->
-  <div style="border-top:1px solid #f1f5f9;padding-top:12px;margin-top:12px;">
+  {f'<div style="margin-bottom:14px;">{tags_html}</div>' if tags_html else ''}
+  <div style="border-top:1px solid #e2e8f0;padding-top:10px;margin-top:14px;">
     {date_html}
     {stats_html}
   </div>
-
-  <!-- CTA Button -->
-  <div style="margin-top:16px;">
+  <p style="margin-top:16px;">
     <a href="{url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#76b900;color:#ffffff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:6px;text-decoration:none;">
-      View Model Card on NVIDIA Build &rarr;
+      View Model Card on NVIDIA Build →
     </a>
-  </div>
-</div>
-""".strip()
+  </p>
+</div>""".strip()
     return html
 
 
@@ -455,7 +432,6 @@ def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
     sorted_models = sorted(models, key=lambda m: m.get("pub_datetime") or now_utc, reverse=True)
 
     for m in sorted_models:
-        # Using order='append' so that the first (newest) item remains at the top of the feed
         fe = fg.add_entry(order='append')
         item_id = m.get("url") or f"urn:nvidia:model:{m.get('name')}"
         fe.id(item_id)
@@ -475,9 +451,9 @@ def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
         for tag in m.get("tags", []):
             fe.category(term=tag)
 
-        # Rich HTML Content
+        # Content and description
         content_html = generate_item_html(m)
-        fe.description(m.get("description") or f"Model card for {name} by {publisher}")
+        fe.description(content_html)
         fe.content(content_html, type='CDATA')
 
     # Save RSS 2.0
