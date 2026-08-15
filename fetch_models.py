@@ -368,79 +368,78 @@ def generate_item_html(model: Dict[str, Any]) -> str:
 
 
 def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
-    """Generate rss.xml, atom.xml, and static index.html in output_dir."""
+    """Generate rss.xml and static index.html in output_dir using plain XML string building."""
+    import xml.sax.saxutils as saxutils
     os.makedirs(output_dir, exist_ok=True)
-    
-    fg = FeedGenerator()
-    fg.id(MODELS_URL)
-    fg.title("NVIDIA NIM & AI Foundation Models")
-    fg.author({'name': 'NVIDIA Build', 'email': 'support@build.nvidia.com'})
-    fg.link(href=MODELS_URL, rel='alternate')
-    fg.link(href=f"{BASE_URL}/rss.xml", rel='self')
-    fg.subtitle("Latest AI foundation models, NVIDIA NIM microservices, and preview endpoints from build.nvidia.com")
-    fg.description("Latest AI foundation models, NVIDIA NIM microservices, and preview endpoints from build.nvidia.com")
-    fg.language("en")
-    fg.logo("https://www.nvidia.com/favicon.ico")
-    fg.icon("https://www.nvidia.com/favicon.ico")
-    
-    now_utc = datetime.now(timezone.utc)
-    fg.lastBuildDate(now_utc)
-    fg.updated(now_utc)
 
-    # Sort models by pub_datetime descending (newest first)
+    now_utc = datetime.now(timezone.utc)
+    now_rfc = now_utc.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
     sorted_models = sorted(models, key=lambda m: m.get("pub_datetime") or now_utc, reverse=True)
 
+    items_xml = ""
     for m in sorted_models:
-        fe = fg.add_entry(order='append')
-        item_id = m.get("url") or f"urn:nvidia:model:{m.get('name')}"
-        fe.id(item_id)
-        
         publisher = m.get("publisher", "NVIDIA")
         name = m.get("name", "Unknown Model")
+        url = m.get("url", MODELS_URL)
         badges = m.get("badges", [])
+        tags = m.get("tags", [])
+        desc = m.get("description") or f"Model card for {name} by {publisher}"
+        updated_str = m.get("updated_str", "")
+
+        # Plain text summary for <description>
+        parts = [desc]
+        if badges:
+            parts.append(f"Features: {' | '.join(badges)}")
+        if tags:
+            parts.append(f"Tags: {' '.join('#' + t for t in tags)}")
+        if updated_str:
+            parts.append(f"Last Updated: {updated_str}")
+        summary = "\n".join(parts)
+
         badge_suffix = f" [{', '.join(badges)}]" if badges else ""
-        
-        fe.title(f"[{publisher}] {name}{badge_suffix}")
-        fe.link(href=m.get("url", MODELS_URL))
-        fe.author({'name': publisher, 'uri': m.get("publisher_url", MODELS_URL)})
-        
-        item_date = m.get("pub_datetime") or now_utc
-        fe.pubDate(item_date)
-        fe.updated(item_date)
+        title = f"[{publisher}] {name}{badge_suffix}"
 
-        # Badges and Tags as categories
-        for badge in badges:
-            fe.category(term=badge)
-        for tag in m.get("tags", []):
-            fe.category(term=tag)
+        pub_dt = m.get("pub_datetime") or now_utc
+        pub_rfc = pub_dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
-        # description = plain text only (feedgen XML-escapes this field automatically)
-        desc_plain = m.get("description") or f"Model card for {name} by {publisher}"
-        tags_plain = " ".join([f"#{t}" for t in m.get("tags", [])])
-        badges_plain = " | ".join(badges) if badges else ""
-        summary = f"{desc_plain}"
-        if badges_plain:
-            summary += f"\n\nFeatures: {badges_plain}"
-        if tags_plain:
-            summary += f"\nTags: {tags_plain}"
-        fe.description(summary)
+        categories_xml = "".join(
+            f"    <category>{saxutils.escape(c)}</category>\n"
+            for c in (badges + tags)
+        )
 
-        # content:encoded = proper HTML in CDATA (FreshRSS prefers this over description)
-        content_html = generate_item_html(m)
-        fe.content(content_html, type='CDATA')
+        items_xml += f"""  <item>
+    <title>{saxutils.escape(title)}</title>
+    <link>{saxutils.escape(url)}</link>
+    <guid isPermaLink="false">{saxutils.escape(url)}</guid>
+    <pubDate>{pub_rfc}</pubDate>
+    <description>{saxutils.escape(summary)}</description>
+{categories_xml}  </item>
+"""
 
-    # Save RSS 2.0
+    rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NVIDIA NIM &amp; AI Foundation Models</title>
+    <link>{MODELS_URL}</link>
+    <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
+    <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <lastBuildDate>{now_rfc}</lastBuildDate>
+{items_xml}
+  </channel>
+</rss>
+"""
+
     rss_path = os.path.join(output_dir, "rss.xml")
-    fg.rss_file(rss_path, pretty=True)
+    with open(rss_path, "w", encoding="utf-8") as f:
+        f.write(rss_xml)
     logger.info(f"Successfully generated RSS feed: {rss_path} ({os.path.getsize(rss_path)} bytes)")
 
-    # Save Atom 1.0
-    atom_path = os.path.join(output_dir, "atom.xml")
-    fg.atom_file(atom_path, pretty=True)
-    logger.info(f"Successfully generated Atom feed: {atom_path} ({os.path.getsize(atom_path)} bytes)")
 
-    # Generate an elegant index.html landing page for GitHub Pages
+    # Generate index.html landing page for GitHub Pages
     generate_landing_page(sorted_models, output_dir)
+
 
 
 def generate_landing_page(models: List[Dict[str, Any]], output_dir: str) -> None:
