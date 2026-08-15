@@ -414,10 +414,20 @@ def build_feeds(models: List[Dict[str, Any]], output_dir: str = "dist") -> None:
         for tag in m.get("tags", []):
             fe.category(term=tag)
 
-        # Clean Content
-        content_text = generate_item_html(m)
-        fe.description(content_text)
-        fe.content(content_text, type='CDATA')
+        # description = plain text only (feedgen XML-escapes this field automatically)
+        desc_plain = m.get("description") or f"Model card for {name} by {publisher}"
+        tags_plain = " ".join([f"#{t}" for t in m.get("tags", [])])
+        badges_plain = " | ".join(badges) if badges else ""
+        summary = f"{desc_plain}"
+        if badges_plain:
+            summary += f"\n\nFeatures: {badges_plain}"
+        if tags_plain:
+            summary += f"\nTags: {tags_plain}"
+        fe.description(summary)
+
+        # content:encoded = proper HTML in CDATA (FreshRSS prefers this over description)
+        content_html = generate_item_html(m)
+        fe.content(content_html, type='CDATA')
 
     # Save RSS 2.0
     rss_path = os.path.join(output_dir, "rss.xml")
