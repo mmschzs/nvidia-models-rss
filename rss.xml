@@ -6,7 +6,7 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 18:32:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 01:07:12 +0000</lastBuildDate>
   <item>
     <title>[NVIDIA] nemotron-3.5-lightning-30b-a3b [Downloadable, Free Endpoint]</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</link>
@@ -140,13 +140,13 @@ Last Updated: July 15, 2026</description>
     <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     <description>GLM-5.2 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.
 Features: Downloadable | Free Endpoint
-Tags: #Agentic AI #Coding #Reasoning #Tool Use
+Tags: #Agentic AI #Reasoning #Coding #Tool Use
 Last Updated: July 3, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Agentic AI</category>
-    <category>Coding</category>
     <category>Reasoning</category>
+    <category>Coding</category>
     <category>Tool Use</category>
   </item>
   <item>
@@ -376,12 +376,12 @@ Last Updated: April 17, 2026</description>
     <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     <description>NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.
 Features: Downloadable | Free Endpoint
-Tags: #broadcast #media2 #forensics #nvidia ai for media #diffusion models
+Tags: #media2 #broadcast #forensics #nvidia ai for media #diffusion models
 Last Updated: April 16, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
-    <category>broadcast</category>
     <category>media2</category>
+    <category>broadcast</category>
     <category>forensics</category>
     <category>nvidia ai for media</category>
     <category>diffusion models</category>
