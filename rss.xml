@@ -6,21 +6,19 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 01:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 06:42:17 +0000</lastBuildDate>
   <item>
-    <title>[DeepSeek AI] deepseek-v4-flash-0731 [Free Endpoint]</title>
-    <link>https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</link>
-    <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</guid>
+    <title>[Wan-ai] wan2.2-animate-2-14b [Downloadable]</title>
+    <link>https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</link>
+    <guid isPermaLink="false">https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</guid>
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <description>284B MoE (13B active) model ideal for long-context workloads optimized for coding, chat, and agentic workflows
-Features: Free Endpoint
-Tags: #MoE #Reasoning #Long Context #Hybrid Attention
+    <description>Wan2.2-Animate-2 is a novel end-to-end character animation framework
+Features: Downloadable
+Tags: #video editing #character animation
 Last Updated: August 19, 2026</description>
-    <category>Free Endpoint</category>
-    <category>MoE</category>
-    <category>Reasoning</category>
-    <category>Long Context</category>
-    <category>Hybrid Attention</category>
+    <category>Downloadable</category>
+    <category>video editing</category>
+    <category>character animation</category>
   </item>
   <item>
     <title>[NVIDIA] nemotron-3.5-lightning-30b-a3b [Downloadable, Free Endpoint]</title>
@@ -45,15 +43,15 @@ Last Updated: August 11, 2026</description>
     <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
   </item>
   <item>
@@ -368,21 +366,6 @@ Last Updated: April 28, 2026</description>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
-  </item>
-  <item>
-    <title>[NVIDIA] Relighting [Downloadable]</title>
-    <link>https://build.nvidia.com/nvidia/relighting</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
-Features: Downloadable
-Tags: #HDRI #remote contribution #lighting #nvidia ai for media
-Last Updated: April 17, 2026</description>
-    <category>Downloadable</category>
-    <category>HDRI</category>
-    <category>remote contribution</category>
-    <category>lighting</category>
-    <category>nvidia ai for media</category>
   </item>
 
   </channel>
