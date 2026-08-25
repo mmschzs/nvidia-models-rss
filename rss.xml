@@ -6,7 +6,7 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 18:37:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:08:32 +0000</lastBuildDate>
   <item>
     <title>[Wan-ai] wan2.2-animate-2-14b [Downloadable]</title>
     <link>https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</link>
@@ -43,15 +43,15 @@ Last Updated: August 11, 2026</description>
     <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
   </item>
   <item>
@@ -140,22 +140,6 @@ Last Updated: July 16, 2026</description>
 Features: Free Endpoint
 Tags: #Agentic AI #Coding #Reasoning #Tool Use
 Last Updated: July 15, 2026</description>
-    <category>Free Endpoint</category>
-    <category>Agentic AI</category>
-    <category>Coding</category>
-    <category>Reasoning</category>
-    <category>Tool Use</category>
-  </item>
-  <item>
-    <title>[Z.ai] glm-5.2 [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/z-ai/glm-5.2</link>
-    <guid isPermaLink="false">https://build.nvidia.com/z-ai/glm-5.2</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>GLM-5.2 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.
-Features: Downloadable | Free Endpoint
-Tags: #Agentic AI #Coding #Reasoning #Tool Use
-Last Updated: July 3, 2026</description>
-    <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Agentic AI</category>
     <category>Coding</category>
@@ -366,6 +350,21 @@ Last Updated: April 28, 2026</description>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
+  </item>
+  <item>
+    <title>[NVIDIA] Relighting [Downloadable]</title>
+    <link>https://build.nvidia.com/nvidia/relighting</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
+Features: Downloadable
+Tags: #HDRI #remote contribution #lighting #nvidia ai for media
+Last Updated: April 17, 2026</description>
+    <category>Downloadable</category>
+    <category>HDRI</category>
+    <category>remote contribution</category>
+    <category>lighting</category>
+    <category>nvidia ai for media</category>
   </item>
 
   </channel>
