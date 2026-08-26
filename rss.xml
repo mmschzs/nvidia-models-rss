@@ -6,7 +6,7 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 06:44:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 12:47:56 +0000</lastBuildDate>
   <item>
     <title>[Wan-ai] wan2.2-animate-2-14b [Downloadable]</title>
     <link>https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</link>
@@ -114,22 +114,6 @@ Last Updated: July 16, 2026</description>
     <category>Code Retrieval</category>
     <category>Text-to-Embedding</category>
     <category>Retrieval Augmented Generation</category>
-  </item>
-  <item>
-    <title>[Thinkingmachines] inkling [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/thinkingmachines/inkling</link>
-    <guid isPermaLink="false">https://build.nvidia.com/thinkingmachines/inkling</guid>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Inkling is a multimodal (text + image) reasoning model from Thinking Machines — a Mamba-hybrid, 256-expert Mixture-of-Experts architecture with tool use and switchable reasoning.
-Features: Downloadable | Free Endpoint
-Tags: #text-to-text #reasoning #image-to-text #multimodal
-Last Updated: July 16, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>text-to-text</category>
-    <category>reasoning</category>
-    <category>image-to-text</category>
-    <category>multimodal</category>
   </item>
   <item>
     <title>[Poolside] laguna-xs-2.1 [Free Endpoint]</title>
@@ -365,6 +349,23 @@ Last Updated: April 17, 2026</description>
     <category>remote contribution</category>
     <category>lighting</category>
     <category>nvidia ai for media</category>
+  </item>
+  <item>
+    <title>[NVIDIA] synthetic-video-detector [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/nvidia/synthetic-video-detector</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/synthetic-video-detector</guid>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    <description>NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.
+Features: Downloadable | Free Endpoint
+Tags: #broadcast #media2 #forensics #nvidia ai for media #diffusion models
+Last Updated: April 16, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>broadcast</category>
+    <category>media2</category>
+    <category>forensics</category>
+    <category>nvidia ai for media</category>
+    <category>diffusion models</category>
   </item>
 
   </channel>
