@@ -6,7 +6,23 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 21:46:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 09:36:06 +0000</lastBuildDate>
+  <item>
+    <title>[Moonshotai] kimi-k3 [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
+    <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
+Features: Downloadable | Free Endpoint
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Last Updated: August 27, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Multimodal</category>
+    <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
+    <category>Image-to-Text</category>
+  </item>
   <item>
     <title>[DeepSeek AI] deepseek-v4-pro-0813 [Free Endpoint]</title>
     <link>https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</link>
@@ -73,15 +89,15 @@ Last Updated: August 11, 2026</description>
     <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
   </item>
   <item>
@@ -306,21 +322,6 @@ Last Updated: June 1, 2026</description>
     <category>robotics</category>
     <category>smart cities</category>
     <category>Synthetic Data Generation</category>
-  </item>
-  <item>
-    <title>[Stepfun-ai] step-3.7-flash [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/stepfun-ai/step-3.7-flash</link>
-    <guid isPermaLink="false">https://build.nvidia.com/stepfun-ai/step-3.7-flash</guid>
-    <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    <description>A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.
-Features: Downloadable | Free Endpoint
-Tags: #Coding #Vision #Agents
-Last Updated: May 29, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Coding</category>
-    <category>Vision</category>
-    <category>Agents</category>
   </item>
   <item>
     <title>[Qwen] qwen-image [Downloadable]</title>
