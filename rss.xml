@@ -6,7 +6,7 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 02:56:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 10:39:34 +0000</lastBuildDate>
   <item>
     <title>[Moonshotai] kimi-k3 [Downloadable, Free Endpoint]</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
@@ -207,15 +207,15 @@ Last Updated: June 24, 2026</description>
     <category>Optical Character Recognition</category>
   </item>
   <item>
-    <title>[Minimaxai] minimax-m3 [Deprecation in 8d, Free Endpoint]</title>
+    <title>[Minimaxai] minimax-m3 [Deprecation in 7d, Free Endpoint]</title>
     <link>https://build.nvidia.com/minimaxai/minimax-m3</link>
     <guid isPermaLink="false">https://build.nvidia.com/minimaxai/minimax-m3</guid>
     <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     <description>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
-Features: Deprecation in 8d | Free Endpoint
+Features: Deprecation in 7d | Free Endpoint
 Tags: #coding #text-to-text #reasoning
 Last Updated: June 12, 2026</description>
-    <category>Deprecation in 8d</category>
+    <category>Deprecation in 7d</category>
     <category>Free Endpoint</category>
     <category>coding</category>
     <category>text-to-text</category>
