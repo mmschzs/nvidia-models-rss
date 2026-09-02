@@ -6,7 +6,7 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 15:58:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 20:31:03 +0000</lastBuildDate>
   <item>
     <title>[Moonshotai] kimi-k3 [Downloadable, Free Endpoint]</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
@@ -89,15 +89,15 @@ Last Updated: August 11, 2026</description>
     <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
   </item>
   <item>
@@ -243,15 +243,15 @@ Last Updated: June 10, 2026</description>
     <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     <description>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
 Features: Downloadable | Free Endpoint
-Tags: #Agent #MoE #Frontier #Reasoning #Long Context
+Tags: #Agent #MoE #Reasoning #Long Context #Frontier
 Last Updated: June 4, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Agent</category>
     <category>MoE</category>
-    <category>Frontier</category>
     <category>Reasoning</category>
     <category>Long Context</category>
+    <category>Frontier</category>
   </item>
   <item>
     <title>[Resemble.AI] chatterbox-multilingual-tts [Downloadable]</title>
@@ -357,15 +357,15 @@ Last Updated: May 1, 2026</description>
     <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     <description>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
 Features: Downloadable | Free Endpoint
-Tags: #Image-to-Text #VLM #Video #Omni #OCR
+Tags: #VLM #Video #Omni #OCR #Image-to-Text
 Last Updated: April 28, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
-    <category>Image-to-Text</category>
     <category>VLM</category>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
+    <category>Image-to-Text</category>
   </item>
   <item>
     <title>[NVIDIA] Relighting [Downloadable]</title>
