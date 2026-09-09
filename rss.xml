@@ -6,7 +6,72 @@
     <description>Latest AI foundation models and NIM microservices from build.nvidia.com</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 10:46:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 15:56:06 +0000</lastBuildDate>
+  <item>
+    <title>[NVIDIA] cosmos3-nano-reasoner [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</guid>
+    <pubDate>Wed, 09 Sep 2026 15:56:06 +0000</pubDate>
+    <description>Vision language model that excels in understanding the physical world using structured reasoning on videos or images.
+Features: Downloadable | Free Endpoint
+Tags: #video understanding #autonomous vehicles #industrial #Physical AI #vision language model #reasoning #robotics #smart cities #Synthetic Data Generation</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>video understanding</category>
+    <category>autonomous vehicles</category>
+    <category>industrial</category>
+    <category>Physical AI</category>
+    <category>vision language model</category>
+    <category>reasoning</category>
+    <category>robotics</category>
+    <category>smart cities</category>
+    <category>Synthetic Data Generation</category>
+  </item>
+  <item>
+    <title>[NVIDIA] nemotron-3.5-content-safety [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</guid>
+    <pubDate>Wed, 09 Sep 2026 15:56:06 +0000</pubDate>
+    <description>Multilingual, multimodal model for detecting unsafe and toxic content.
+Features: Downloadable | Free Endpoint
+Tags: #llm safety #safety and moderation #multilingual content safety #ai safety nemo guardrails</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>llm safety</category>
+    <category>safety and moderation</category>
+    <category>multilingual content safety</category>
+    <category>ai safety nemo guardrails</category>
+  </item>
+  <item>
+    <title>[NVIDIA] nemotron-3-ultra-550b-a55b [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</guid>
+    <pubDate>Wed, 09 Sep 2026 15:56:06 +0000</pubDate>
+    <description>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
+Features: Downloadable | Free Endpoint
+Tags: #Agent #MoE #Frontier #Reasoning #Long Context</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Agent</category>
+    <category>MoE</category>
+    <category>Frontier</category>
+    <category>Reasoning</category>
+    <category>Long Context</category>
+  </item>
+  <item>
+    <title>[Minimaxai] minimax-m3 [Deprecated, Free Endpoint]</title>
+    <link>https://build.nvidia.com/minimaxai/minimax-m3</link>
+    <guid isPermaLink="false">https://build.nvidia.com/minimaxai/minimax-m3</guid>
+    <pubDate>Wed, 09 Sep 2026 15:56:06 +0000</pubDate>
+    <description>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
+Features: Deprecated | Free Endpoint
+Tags: #coding #text-to-text #reasoning</description>
+    <category>Deprecated</category>
+    <category>Free Endpoint</category>
+    <category>coding</category>
+    <category>text-to-text</category>
+    <category>reasoning</category>
+  </item>
   <item>
     <title>[NVIDIA] parakeet-tdt-0.6b [Downloadable]</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
@@ -22,6 +87,22 @@ Last Updated: September 8, 2026</description>
     <category>NVIDIA NIM</category>
     <category>NVIDIA Riva</category>
     <category>speech-to-text</category>
+  </item>
+  <item>
+    <title>[Moonshotai] kimi-k3 [Downloadable, Free Endpoint]</title>
+    <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
+    <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
+Features: Downloadable | Free Endpoint
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Last Updated: August 27, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Multimodal</category>
+    <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
+    <category>Image-to-Text</category>
   </item>
   <item>
     <title>[DeepSeek AI] deepseek-v4-pro-0813 [Free Endpoint]</title>
@@ -207,21 +288,6 @@ Last Updated: June 24, 2026</description>
     <category>Optical Character Recognition</category>
   </item>
   <item>
-    <title>[Minimaxai] minimax-m3 [Deprecated, Free Endpoint]</title>
-    <link>https://build.nvidia.com/minimaxai/minimax-m3</link>
-    <guid isPermaLink="false">https://build.nvidia.com/minimaxai/minimax-m3</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <description>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
-Features: Deprecated | Free Endpoint
-Tags: #coding #text-to-text #reasoning
-Last Updated: June 12, 2026</description>
-    <category>Deprecated</category>
-    <category>Free Endpoint</category>
-    <category>coding</category>
-    <category>text-to-text</category>
-    <category>reasoning</category>
-  </item>
-  <item>
     <title>[Google] diffusiongemma-26b-a4b-it [Downloadable, Free Endpoint]</title>
     <link>https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</link>
     <guid isPermaLink="false">https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</guid>
@@ -235,23 +301,6 @@ Last Updated: June 10, 2026</description>
     <category>diffusion-llm</category>
     <category>text-to-text</category>
     <category>reasoning</category>
-  </item>
-  <item>
-    <title>[NVIDIA] nemotron-3-ultra-550b-a55b [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</guid>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
-Features: Downloadable | Free Endpoint
-Tags: #Agent #MoE #Frontier #Reasoning #Long Context
-Last Updated: June 4, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Agent</category>
-    <category>MoE</category>
-    <category>Frontier</category>
-    <category>Reasoning</category>
-    <category>Long Context</category>
   </item>
   <item>
     <title>[Resemble.AI] chatterbox-multilingual-tts [Downloadable]</title>
@@ -270,22 +319,6 @@ Last Updated: June 3, 2026</description>
     <category>Text-to-Speech</category>
   </item>
   <item>
-    <title>[NVIDIA] nemotron-3.5-content-safety [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</guid>
-    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Multilingual, multimodal model for detecting unsafe and toxic content.
-Features: Downloadable | Free Endpoint
-Tags: #llm safety #safety and moderation #multilingual content safety #ai safety nemo guardrails
-Last Updated: June 2, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>llm safety</category>
-    <category>safety and moderation</category>
-    <category>multilingual content safety</category>
-    <category>ai safety nemo guardrails</category>
-  </item>
-  <item>
     <title>[NVIDIA] cosmos3-nano [Downloadable, Free Endpoint]</title>
     <link>https://build.nvidia.com/nvidia/cosmos3-nano</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/cosmos3-nano</guid>
@@ -301,27 +334,6 @@ Last Updated: June 1, 2026</description>
     <category>robotics</category>
     <category>text-to-world</category>
     <category>image-to-world</category>
-    <category>Synthetic Data Generation</category>
-  </item>
-  <item>
-    <title>[NVIDIA] cosmos3-nano-reasoner [Downloadable, Free Endpoint]</title>
-    <link>https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Vision language model that excels in understanding the physical world using structured reasoning on videos or images.
-Features: Downloadable | Free Endpoint
-Tags: #video understanding #autonomous vehicles #industrial #Physical AI #vision language model #reasoning #robotics #smart cities #Synthetic Data Generation
-Last Updated: June 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>video understanding</category>
-    <category>autonomous vehicles</category>
-    <category>industrial</category>
-    <category>Physical AI</category>
-    <category>vision language model</category>
-    <category>reasoning</category>
-    <category>robotics</category>
-    <category>smart cities</category>
     <category>Synthetic Data Generation</category>
   </item>
   <item>
