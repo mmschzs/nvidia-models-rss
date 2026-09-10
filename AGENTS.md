@@ -14,7 +14,7 @@
 
 ### 已知的安全注意事项
 
-- **第三方 Actions 目前用可变 tag 引用**（`actions/checkout@v4`、`actions/setup-python@v5`、`peaceiris/actions-gh-pages@v4`）。这些 tag 上游可以被移动，一旦被劫持就在我们的 job 里执行任意代码——而该 job 持有 `contents: write` 权限和 `DMX_API_KEY`。要加固就把它们 pin 到具体的 commit SHA。
+- **第三方 Actions 已 pin 到 commit SHA**（`actions/checkout`、`actions/setup-python`、`peaceiris/actions-gh-pages`）。注释里保留了对应的 tag 方便对照。**升级时重新解析 tag 拿新 SHA，不要手改 SHA 字符串：** `gh api repos/<owner>/<repo>/commits/<tag> --jq .sha`。别退回 `@v4` 这种可变 tag——上游被劫持就会在这个同时持有 `DMX_API_KEY` 和 write 权限 `GITHUB_TOKEN` 的 job 里执行任意代码。
 - **不要用 `pull_request_target` 触发器**，也不要给 fork PR 暴露 Secrets。当前只有 `push`(main/master)、`schedule`、`workflow_dispatch`，fork PR 拿不到密钥，保持这样。
 - **Python 依赖未锁定**（`requirements.txt` 里是 `>=`），没有 hash 校验。要加固就锁定版本 + `--require-hashes`。
 - CI 里的 `git push`（回写 `state/seen.json`）依赖 `persist-credentials` 默认开启，job 内任何依赖理论上都能读到 `GITHUB_TOKEN`。代价和便利自己权衡。
