@@ -2,6 +2,24 @@
 
 给在本仓库工作的 AI agent 的约定。
 
+## ⚠️ 本仓库是公开的（public）
+
+任何人都能读到源码、Issue、PR、Actions 日志和 `dist/` 发布物。**写任何东西之前默认它会被公开。**由此产生的要求：
+
+- **禁止把密钥、token、API key、Cookie 写进任何文件**（源码、JSON、Markdown、提交信息都不行）。一律走环境变量 + 仓库 Secrets，代码里只从 `os.environ` 读，缺失就跳过该源而不是硬编码一个默认值。
+- **提交前自查**：`git diff` 里出现 `sk-`、40 位十六进制串、Bearer token 等一律停下来。
+- **`state/seen.json` 和 `dist/` 会被公开发布**，只能放模型 id 和日期，不要放账号信息、内部 URL、个人信息。
+- **日志里不要打印密钥**。请求失败时也别把 header 打出来。
+- 密钥一旦进过公开仓库就视为已泄漏：立刻去服务商轮换，删历史也没用（Git 历史、fork、缓存都还在）。
+
+### 已知的安全注意事项
+
+- **第三方 Actions 目前用可变 tag 引用**（`actions/checkout@v4`、`actions/setup-python@v5`、`peaceiris/actions-gh-pages@v4`）。这些 tag 上游可以被移动，一旦被劫持就在我们的 job 里执行任意代码——而该 job 持有 `contents: write` 权限和 `DMX_API_KEY`。要加固就把它们 pin 到具体的 commit SHA。
+- **不要用 `pull_request_target` 触发器**，也不要给 fork PR 暴露 Secrets。当前只有 `push`(main/master)、`schedule`、`workflow_dispatch`，fork PR 拿不到密钥，保持这样。
+- **Python 依赖未锁定**（`requirements.txt` 里是 `>=`），没有 hash 校验。要加固就锁定版本 + `--require-hashes`。
+- CI 里的 `git push`（回写 `state/seen.json`）依赖 `persist-credentials` 默认开启，job 内任何依赖理论上都能读到 `GITHUB_TOKEN`。代价和便利自己权衡。
+- 已发布站点 `https://mmschzs.github.io/nvidia-models-rss/` 是**全网可读**的，即使仓库将来转私有，站点依然公开（除非 Enterprise Cloud 的私有 Pages）。
+
 ## 默认不需要汇总
 
 **每个数据源输出自己的 feed（`dist/<source_key>.xml`），默认不做汇总。**
