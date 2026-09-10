@@ -1,99 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Models RSS (Multi-Source)</title>
+    <title>NVIDIA AI Models RSS</title>
     <link>https://build.nvidia.com/models</link>
-    <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
+    <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
     <lastBuildDate>Thu, 10 Sep 2026 12:09:29 +0000</lastBuildDate>
-  <item>
-    <title>【AMD】MiniCPM5-2B</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:MiniCPM5-2B</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:22 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>MiniCPM5-2B served by the AMD GPU Cloud
-Publisher: OpenBMB
-Badge: Limited Free
-Status: Limited Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 131,072
-Model ID: model_gateway:MiniCPM5-2B
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.124 pts / 1M tokens • Output: 0.7425000000000001 pts / 1M tokens • Cache read: 0.124 pts / 1M tokens</description>
-    <category>Limited Free</category>
-    <category>LLM (Text)</category>
-    <category>OpenBMB</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】Qwen3.8-Flash-Next</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:Qwen3.8-Flash-Next</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:20 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Qwen3.8-Flash-Next served by the AMD GPU Cloud
-Publisher: Qwen
-Badge: Free
-Status: Free
-Use Case: VLM (Vision)
-Providers: Radeon Cloud
-Context Length: 262,144
-Model ID: model_gateway:Qwen3.8-Flash-Next
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.15 pts / 1M tokens • Output: 0.46999999999999995 pts / 1M tokens • Cache read: 0.016 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>VLM (Vision)</category>
-    <category>Qwen</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】DeepSeek-V4-Flash-0731</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:18 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek V4 Flash 0731 served by the AMD GPU Cloud
-Publisher: DeepSeek
-Badge: Free
-Status: Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 1,048,576
-Model ID: model_gateway:DeepSeek-V4-Flash
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>LLM (Text)</category>
-    <category>DeepSeek</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】DeepSeek-V4-Flash-Vision-Exp</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash-Vision-Exp</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:17 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek-V4-Flash-Vision-Exp served by the AMD GPU Cloud
-Publisher: DeepSeek
-Badge: Free
-Status: Free
-Use Case: VLM (Vision)
-Providers: Radeon Cloud
-Context Length: 1,048,576
-Model ID: model_gateway:DeepSeek-V4-Flash-Vision-Exp
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>VLM (Vision)</category>
-    <category>DeepSeek</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
   <item>
     <title>【NVIDIA】parakeet-tdt-0.6b</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
