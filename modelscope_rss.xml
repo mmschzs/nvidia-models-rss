@@ -6,7 +6,7 @@
     <description>Real-time updates of AI foundation models available on ModelScope API-Inference</description>
     <atom:link href="https://mmschzs.github.io/nvidia-models-rss/modelscope_rss.xml" rel="self" type="application/rss+xml"/>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Sep 2026 12:10:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 12:13:09 +0000</lastBuildDate>
   <item>
     <title>[Qwen] Qwen3.8-Flash-Next</title>
     <link>https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next</link>
