@@ -2,5 +2,9 @@
   "amd:model_gateway:DeepSeek-V4-Flash": "2026-09-10T11:55:18+00:00",
   "amd:model_gateway:DeepSeek-V4-Flash-Vision-Exp": "2026-09-10T11:55:17+00:00",
   "amd:model_gateway:MiniCPM5-2B": "2026-09-10T11:55:22+00:00",
-  "amd:model_gateway:Qwen3.8-Flash-Next": "2026-09-10T11:55:20+00:00"
+  "amd:model_gateway:Qwen3.8-Flash-Next": "2026-09-10T11:55:20+00:00",
+  "dmxapi:KAT-Coder-ProV2.5-free": "2026-08-21T13:17:57+00:00",
+  "dmxapi:Qwen3.5-2B-free": "2026-08-21T13:17:57+00:00",
+  "dmxapi:bge-reranker-v2-m3-free": "2026-08-21T13:17:57+00:00",
+  "dmxapi:spark-lite-free": "2026-08-21T13:17:57+00:00"
 }

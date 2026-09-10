@@ -37,6 +37,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Fetch models from all sources and generate feeds
+        env:
+          # Optional: without it the DMXAPI source is skipped.
+          DMX_API_KEY: ${{ secrets.DMX_API_KEY }}
         run: |
           python fetch_feeds.py
 

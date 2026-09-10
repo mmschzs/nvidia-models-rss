@@ -20,8 +20,14 @@
 | `NVIDIA` | <https://build.nvidia.com/models> | AI 基础模型与 NIM 微服务，卡片自带更新时间 |
 | `AMD` | <https://developer.amd.com.cn/radeon/tokenfactory> | TokenFactory **免费（Free / Limited Free）**模型，接口无日期字段 |
 | `ModelScope` | <https://api-inference.modelscope.cn> | `GET /v1/models` 的可用推理模型，`created` 即上线时间 |
+| `DMXAPI` | <https://www.dmxapi.cn> | `GET /v1/models` 里 id 以 `free` 结尾的免费模型，需 `DMX_API_KEY` |
 
 每个源输出自己的 feed（`dist/<source_key>.xml`）；**默认不做汇总**，`dist/rss.xml` 只是遗留产物（见 `AGENTS.md`）。
+
+### DMXAPI 需要密钥
+
+`DMXAPI` 源的 `/v1/models` 必须带 bearer token。本地：`export DMX_API_KEY=sk-...`；
+GitHub Actions：在仓库 Settings → Secrets 里配 `DMX_API_KEY`。没配的话该源会被跳过（日志里有 warning），不影响其他源。
 
 ### 无日期条目如何定时间
 
@@ -86,6 +92,7 @@ python fetch_feeds.py
 | `dist/amd.xml` | 仅 AMD Radeon TokenFactory 免费模型 |
 | `dist/nvidia.xml` | 仅 NVIDIA Build 模型 |
 | `dist/modelscope.xml` | 仅 ModelScope API-Inference 模型 |
+| `dist/dmxapi.xml` | 仅 DMXAPI 免费模型（需 `DMX_API_KEY`） |
 | `dist/rss.xml` | 遗留的汇总 feed，非默认产物 |
 | `dist/index.html` | 按源分组的预览页 |
 
@@ -101,6 +108,7 @@ GitHub Actions 每 6 小时运行一次（`0 */6 * * *`），支持手动触发�
 - 只订阅 AMD：<https://mmschzs.github.io/nvidia-models-rss/amd.xml>
 - 只订阅 NVIDIA：<https://mmschzs.github.io/nvidia-models-rss/nvidia.xml>
 - 只订阅 ModelScope：<https://mmschzs.github.io/nvidia-models-rss/modelscope.xml>
+- 只订阅 DMXAPI：<https://mmschzs.github.io/nvidia-models-rss/dmxapi.xml>
 - 遗留汇总：<https://mmschzs.github.io/nvidia-models-rss/rss.xml>
 
 ---

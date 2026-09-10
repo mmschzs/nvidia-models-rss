@@ -34,7 +34,8 @@
 ## 日期
 
 - 源自带时间字段 → 直接用（ModelScope 的 `created` 是 unix 秒；NVIDIA 卡片上的 Last updated）。
-- 源没有时间字段 → 用 `self.seen.first_seen("<key>:<id>")`，首次抓取时间会写进 `state/seen.json` 并在后续运行复用，避免条目日期每次刷新都变。
+- 源的时间字段不可用 → 用 `self.seen.first_seen("<key>:<id>")`，首次抓取时间会写进 `state/seen.json` 并在后续运行复用，避免条目日期每次刷新都变。AMD 接口没有时间字段，DMXAPI 的 `created` 对所有模型都返回同一个占位值（2021-07-20），两者都走这条路。
+- 从别的项目迁移源时，把旧的历史发现时间一并写进 `state/seen.json`，否则日期会重置成迁移当天。
 
 ## 运行与依赖
 
@@ -44,6 +45,8 @@ python fetch_feeds.py
 ```
 
 改 `requirements.txt` 要小心：CI 在 `pip install` 阶段失败会直接中断部署，且本地已装过依赖时看不出来。
+
+需要密钥的源（目前 `DMXAPI` 需要 `DMX_API_KEY`）从环境变量读取，没有就跳过并记录 warning —— 不要让单个源拖垮整次运行。新密钥要加到仓库 Secrets 并在 workflow 的对应 step 里透传。
 
 ## 部署
 
