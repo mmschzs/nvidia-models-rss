@@ -3,379 +3,270 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Models RSS (Multi-Source)</title>
-  <link rel="alternate" type="application/rss+xml" title="AI Models RSS (Multi-Source)" href="rss.xml">
+  <title>NVIDIA Models RSS Feed</title>
+  <meta name="description" content="Automated RSS and Atom feed generator for NVIDIA AI Foundation Models and NIMs.">
+  <link rel="alternate" type="application/rss+xml" title="NVIDIA Models RSS Feed" href="rss.xml">
+  <link rel="alternate" type="application/atom+xml" title="NVIDIA Models Atom Feed" href="atom.xml">
   <style>
-    :root { --bg:#0b0f19; --card:#131b2e; --border:#232f48; --text:#f1f5f9; --muted:#94a3b8; }
-    * { box-sizing:border-box; margin:0; padding:0; }
-    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-           background:var(--bg); color:var(--text); line-height:1.55; padding:40px 20px; }
-    .container { max-width:900px; margin:0 auto; }
-    header { text-align:center; margin-bottom:32px; }
-    h1 { font-size:2rem; margin-bottom:10px; }
-    p.sub { color:var(--muted); margin-bottom:20px; }
-    .btn { display:inline-block; background:#f97316; color:#fff; padding:10px 20px;
-            border-radius:8px; font-weight:600; text-decoration:none; }
-    .btn-src { background:#334155; }
-    .feed-buttons { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
-    .meta { display:flex; justify-content:space-between; padding:12px 18px; background:var(--card);
-             border:1px solid var(--border); border-radius:8px; color:var(--muted);
-             font-size:.85rem; margin-bottom:28px; }
-    section { margin-bottom:34px; }
-    section h2 { font-size:1.2rem; color:#cbd5e1; margin-bottom:14px; }
-    .cards { display:flex; flex-direction:column; gap:14px; }
-    .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px 18px; }
-    .card-src { font-size:.75rem; font-weight:800; letter-spacing:.05em; color:#76b900; text-transform:uppercase; }
-    .card h3 { font-size:1.05rem; margin:6px 0 10px; }
-    .card-body { font-size:.9rem; color:#e2e8f0; }
-    .card-date { margin-top:10px; font-size:.78rem; color:var(--muted); }
-    footer { text-align:center; margin-top:40px; padding-top:20px; border-top:1px solid var(--border);
-              color:var(--muted); font-size:.85rem; }
+    :root {
+      --primary: #76b900;
+      --primary-hover: #68a500;
+      --bg: #0b0f19;
+      --card-bg: #131b2e;
+      --border: #232f48;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .badge-nvidia {
+      background: var(--primary);
+      color: #000000;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+    }
+    .feed-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-rss {
+      background: #f97316;
+      color: #ffffff;
+    }
+    .btn-rss:hover { background: #ea580c; transform: translateY(-1px); }
+    .btn-atom {
+      background: #3b82f6;
+      color: #ffffff;
+    }
+    .btn-atom:hover { background: #2563eb; transform: translateY(-1px); }
+    .btn-gh {
+      background: #334155;
+      color: #ffffff;
+    }
+    .btn-gh:hover { background: #475569; transform: translateY(-1px); }
+    .meta-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+    }
+    .models-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>AI Models RSS (Multi-Source)</h1>
-      <p class="sub">Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</p>
+      <h1>NVIDIA Models RSS <span class="badge-nvidia">Live Feed</span></h1>
+      <p class="subtitle">Real-time RSS & Atom feed tracking newly released AI models and NIM microservices from build.nvidia.com.</p>
       <div class="feed-buttons">
-        <a class="btn" href="rss.xml">All sources (rss.xml)</a>
-                <a class="btn btn-src" href="nvidia.xml">NVIDIA (nvidia.xml)</a>
-        <a class="btn btn-src" href="amd.xml">AMD (amd.xml)</a>
-
+        <a href="rss.xml" class="btn btn-rss">📡 Subscribe RSS 2.0</a>
+        <a href="atom.xml" class="btn btn-atom">⚛️ Subscribe Atom 1.0</a>
+        <a href="modelscope.html" class="btn btn-atom" style="background:#8b5cf6;">🔮 ModelScope 源</a>
+        <a href="https://build.nvidia.com/models" target="_blank" rel="noopener noreferrer" class="btn btn-gh">🌐 Official Portal</a>
       </div>
     </header>
-    <div class="meta">
-      <span>Total entries: <strong>27</strong></span>
-      <span>Last updated: <strong>2026-09-10 12:09:29 UTC</strong></span>
+
+    <div class="meta-bar">
+      <span>📦 Total Models Indexed: <strong>23</strong></span>
+      <span>🕒 Last Updated: <strong>2026-09-10 12:10:05 UTC</strong></span>
     </div>
-    <section>
-      <h2>【AMD】 · 4 models · <a href="amd.xml">amd.xml</a></h2>
-      <div class="cards">      <article class="card">
-        <div class="card-src">AMD</div>
-        <h3>MiniCPM5-2B</h3>
-        <div class="card-body">MiniCPM5-2B served by the AMD GPU Cloud<br/>
-<b>Publisher</b>: OpenBMB<br/>
-<b>Badge</b>: Limited Free<br/>
-<b>Status</b>: Limited Free<br/>
-<b>Use Case</b>: LLM (Text)<br/>
-<b>Providers</b>: Radeon Cloud<br/>
-<b>Context Length</b>: 131,072<br/>
-<b>Model ID</b>: model_gateway:MiniCPM5-2B<br/>
-<b>Tags</b>: #API #OpenAI compatible<br/>
-<b>Pricing</b>: Input: 0.124 pts / 1M tokens • Output: 0.7425000000000001 pts / 1M tokens • Cache read: 0.124 pts / 1M tokens<br/>
-<b>Model Page</b>: <a href="https://developer.amd.com.cn/radeon/tokenfactory" target="_blank">https://developer.amd.com.cn/radeon/tokenfactory</a></div>
-        <div class="card-date">Thu, 10 Sep 2026 11:55:22 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">AMD</div>
-        <h3>Qwen3.8-Flash-Next</h3>
-        <div class="card-body">Qwen3.8-Flash-Next served by the AMD GPU Cloud<br/>
-<b>Publisher</b>: Qwen<br/>
-<b>Badge</b>: Free<br/>
-<b>Status</b>: Free<br/>
-<b>Use Case</b>: VLM (Vision)<br/>
-<b>Providers</b>: Radeon Cloud<br/>
-<b>Context Length</b>: 262,144<br/>
-<b>Model ID</b>: model_gateway:Qwen3.8-Flash-Next<br/>
-<b>Tags</b>: #API #OpenAI compatible<br/>
-<b>Pricing</b>: Input: 0.15 pts / 1M tokens • Output: 0.46999999999999995 pts / 1M tokens • Cache read: 0.016 pts / 1M tokens<br/>
-<b>Model Page</b>: <a href="https://developer.amd.com.cn/radeon/tokenfactory" target="_blank">https://developer.amd.com.cn/radeon/tokenfactory</a></div>
-        <div class="card-date">Thu, 10 Sep 2026 11:55:20 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">AMD</div>
-        <h3>DeepSeek-V4-Flash-0731</h3>
-        <div class="card-body">DeepSeek V4 Flash 0731 served by the AMD GPU Cloud<br/>
-<b>Publisher</b>: DeepSeek<br/>
-<b>Badge</b>: Free<br/>
-<b>Status</b>: Free<br/>
-<b>Use Case</b>: LLM (Text)<br/>
-<b>Providers</b>: Radeon Cloud<br/>
-<b>Context Length</b>: 1,048,576<br/>
-<b>Model ID</b>: model_gateway:DeepSeek-V4-Flash<br/>
-<b>Tags</b>: #API #OpenAI compatible<br/>
-<b>Pricing</b>: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens<br/>
-<b>Model Page</b>: <a href="https://developer.amd.com.cn/radeon/tokenfactory" target="_blank">https://developer.amd.com.cn/radeon/tokenfactory</a></div>
-        <div class="card-date">Thu, 10 Sep 2026 11:55:18 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">AMD</div>
-        <h3>DeepSeek-V4-Flash-Vision-Exp</h3>
-        <div class="card-body">DeepSeek-V4-Flash-Vision-Exp served by the AMD GPU Cloud<br/>
-<b>Publisher</b>: DeepSeek<br/>
-<b>Badge</b>: Free<br/>
-<b>Status</b>: Free<br/>
-<b>Use Case</b>: VLM (Vision)<br/>
-<b>Providers</b>: Radeon Cloud<br/>
-<b>Context Length</b>: 1,048,576<br/>
-<b>Model ID</b>: model_gateway:DeepSeek-V4-Flash-Vision-Exp<br/>
-<b>Tags</b>: #API #OpenAI compatible<br/>
-<b>Pricing</b>: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens<br/>
-<b>Model Page</b>: <a href="https://developer.amd.com.cn/radeon/tokenfactory" target="_blank">https://developer.amd.com.cn/radeon/tokenfactory</a></div>
-        <div class="card-date">Thu, 10 Sep 2026 11:55:17 +0000</div>
-      </article>
-</div>
-    </section>
-    <section>
-      <h2>【NVIDIA】 · 23 models · <a href="nvidia.xml">nvidia.xml</a></h2>
-      <div class="cards">      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>parakeet-tdt-0.6b</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+
+    <div class="models-list">
+      <h2 style="font-size:1.3rem;margin-bottom:8px;color:#cbd5e1;">Latest Model Cards Preview</h2>
+      <b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Multilingual ASR across 25 European languages with punctuation, capitalization, and word timestamps<br/>
 <b>Tags</b>: #ASR #Multilingual #NVIDIA NIM #NVIDIA Riva #speech-to-text<br/>
 <b>Last Updated</b>: September 8, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b" target="_blank">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</a></div>
-        <div class="card-date">Tue, 08 Sep 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>deepseek-v4-pro-0813</h3>
-        <div class="card-body"><b>Publisher</b>: DeepSeek AI<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b" target="_blank">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</a><b>Publisher</b>: DeepSeek AI<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>DeepSeek V4 scales to 1M-token context windows with efficient MoE architecture for coding tasks.<br/>
 <b>Tags</b>: #coding #Moe #reasoning #agentic<br/>
 <b>Last Updated</b>: August 26, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813" target="_blank">https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</a></div>
-        <div class="card-date">Wed, 26 Aug 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>wan2.2-animate-2-14b</h3>
-        <div class="card-body"><b>Publisher</b>: Wan-ai<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813" target="_blank">https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</a><b>Publisher</b>: Wan-ai<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Wan2.2-Animate-2 is a novel end-to-end character animation framework<br/>
 <b>Tags</b>: #video editing #character animation<br/>
 <b>Last Updated</b>: August 19, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b" target="_blank">https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</a></div>
-        <div class="card-date">Wed, 19 Aug 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>deepseek-v4-flash-0731</h3>
-        <div class="card-body"><b>Publisher</b>: DeepSeek AI<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b" target="_blank">https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</a><b>Publisher</b>: DeepSeek AI<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>284B MoE (13B active) model ideal for long-context workloads optimized for coding, chat, and agentic workflows<br/>
 <b>Tags</b>: #MoE #Reasoning #Long Context #Hybrid Attention<br/>
 <b>Last Updated</b>: August 19, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731" target="_blank">https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</a></div>
-        <div class="card-date">Wed, 19 Aug 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-3.5-lightning-30b-a3b</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731" target="_blank">https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks<br/>
 <b>Tags</b>: #Customization #Text-to-Text #Long-running agents #Open<br/>
 <b>Last Updated</b>: August 11, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</a></div>
-        <div class="card-date">Tue, 11 Aug 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>muse-glimmer-30b</h3>
-        <div class="card-body"><b>Publisher</b>: Meta<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</a><b>Publisher</b>: Meta<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.<br/>
 <b>Tags</b>: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models<br/>
 <b>Last Updated</b>: August 10, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank">https://build.nvidia.com/meta/muse-glimmer-30b</a></div>
-        <div class="card-date">Mon, 10 Aug 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>riva-translate-4b-instruct-v2</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank">https://build.nvidia.com/meta/muse-glimmer-30b</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>Translation model in 37 languages with few-shots example prompts capability.<br/>
 <b>Tags</b>: #nvidia nim #neural machine translation #Text Translation<br/>
 <b>Last Updated</b>: July 27, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank">https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</a></div>
-        <div class="card-date">Mon, 27 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>ising-calibration-1.5-31b</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2" target="_blank">https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.<br/>
 <b>Tags</b>: #Quantum Computing #Calibration #NVIDIA NIM #Vision Language Model<br/>
 <b>Last Updated</b>: July 23, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank">https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</a></div>
-        <div class="card-date">Thu, 23 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>Video Super Resolution NIM</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b" target="_blank">https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.<br/>
 <b>Tags</b>: #broadcast #video upscaling #streaming #nvidia ai for media #video super resolution<br/>
 <b>Last Updated</b>: July 22, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/vsr" target="_blank">https://build.nvidia.com/nvidia/vsr</a></div>
-        <div class="card-date">Wed, 22 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-3-embed-1b</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/vsr" target="_blank">https://build.nvidia.com/nvidia/vsr</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>1B embedding model for semantic search, retrieval, and RAG applications.<br/>
 <b>Tags</b>: #Nemotron Retriever #Agentic Retrieval #Code Retrieval #Text-to-Embedding #Retrieval Augmented Generation<br/>
 <b>Last Updated</b>: July 16, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-embed-1b</a></div>
-        <div class="card-date">Thu, 16 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>laguna-xs-2.1</h3>
-        <div class="card-body"><b>Publisher</b>: Poolside<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-embed-1b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-embed-1b</a><b>Publisher</b>: Poolside<br/>
 <b>Features</b>: Free Endpoint<br/>
 <b>Description</b>:<br/>Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks<br/>
 <b>Tags</b>: #Agentic AI #Coding #Reasoning #Tool Use<br/>
 <b>Last Updated</b>: July 15, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank">https://build.nvidia.com/poolside/laguna-xs-2.1</a></div>
-        <div class="card-date">Wed, 15 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>qwen-image-edit-nvpcb-ovsl2sl</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/poolside/laguna-xs-2.1" target="_blank">https://build.nvidia.com/poolside/laguna-xs-2.1</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations<br/>
 <b>Tags</b>: #Synthetic Data Generation #Image Generation #Physical AI<br/>
 <b>Last Updated</b>: July 3, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank">https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</a></div>
-        <div class="card-date">Fri, 03 Jul 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-ocr-v2</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl" target="_blank">https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Nemotron OCR v2 is a state-of-the-art multilingual text recognition model designed for robust end-to-end optical character recognition (OCR) on complex real-world images.<br/>
 <b>Tags</b>: #Table Extraction #nemo retriever #data ingestion #extraction #Optical Character Recognition<br/>
 <b>Last Updated</b>: June 24, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank">https://build.nvidia.com/nvidia/nemotron-ocr-v2</a></div>
-        <div class="card-date">Wed, 24 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>minimax-m3</h3>
-        <div class="card-body"><b>Publisher</b>: Minimaxai<br/>
+<b>Stats</b>: 338K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-ocr-v2" target="_blank">https://build.nvidia.com/nvidia/nemotron-ocr-v2</a><b>Publisher</b>: Minimaxai<br/>
 <b>Features</b>: Deprecated | Free Endpoint<br/>
 <b>Description</b>:<br/>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.<br/>
 <b>Tags</b>: #coding #text-to-text #reasoning<br/>
 <b>Last Updated</b>: June 12, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank">https://build.nvidia.com/minimaxai/minimax-m3</a></div>
-        <div class="card-date">Fri, 12 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>diffusiongemma-26b-a4b-it</h3>
-        <div class="card-body"><b>Publisher</b>: Google<br/>
+<b>Stats</b>: 10M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/minimaxai/minimax-m3" target="_blank">https://build.nvidia.com/minimaxai/minimax-m3</a><b>Publisher</b>: Google<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Diffusion-based 26B parameter LLM enabling parallel token generation for real-time text apps<br/>
 <b>Tags</b>: #diffusion-llm #text-to-text #reasoning<br/>
 <b>Last Updated</b>: June 10, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank">https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</a></div>
-        <div class="card-date">Wed, 10 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-3-ultra-550b-a55b</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Stats</b>: 4M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it" target="_blank">https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more<br/>
 <b>Tags</b>: #Agent #MoE #Frontier #Reasoning #Long Context<br/>
 <b>Last Updated</b>: June 4, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</a></div>
-        <div class="card-date">Thu, 04 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>chatterbox-multilingual-tts</h3>
-        <div class="card-body"><b>Publisher</b>: Resemble.AI<br/>
+<b>Stats</b>: 52M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</a><b>Publisher</b>: Resemble.AI<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Natural and expressive voices in 23 languages. For voice agents and brand ambassadors.<br/>
 <b>Tags</b>: #TTS #Chatterbox #Speech Generation #multilingual #Text-to-Speech<br/>
 <b>Last Updated</b>: June 3, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank">https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</a></div>
-        <div class="card-date">Wed, 03 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-3.5-content-safety</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Stats</b>: 22K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts" target="_blank">https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Multilingual, multimodal model for detecting unsafe and toxic content.<br/>
 <b>Tags</b>: #llm safety #safety and moderation #multilingual content safety #ai safety nemo guardrails<br/>
 <b>Last Updated</b>: June 2, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</a></div>
-        <div class="card-date">Tue, 02 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>cosmos3-nano</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Stats</b>: 2M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety" target="_blank">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Generates physics-aware videos from text prompts or an image prompt for physical AI development.<br/>
 <b>Tags</b>: #autonomous vehicles #Physical AI #robotics #text-to-world #image-to-world #Synthetic Data Generation<br/>
 <b>Last Updated</b>: June 1, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano</a></div>
-        <div class="card-date">Mon, 01 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>cosmos3-nano-reasoner</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Stats</b>: 2K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Vision language model that excels in understanding the physical world using structured reasoning on videos or images.<br/>
 <b>Tags</b>: #video understanding #autonomous vehicles #industrial #Physical AI #vision language model #reasoning #robotics #smart cities #Synthetic Data Generation<br/>
 <b>Last Updated</b>: June 1, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</a></div>
-        <div class="card-date">Mon, 01 Jun 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>qwen-image</h3>
-        <div class="card-body"><b>Publisher</b>: Qwen<br/>
+<b>Stats</b>: 2K API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner" target="_blank">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</a><b>Publisher</b>: Qwen<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.<br/>
 <b>Tags</b>: #Text-to-Image #Image Generation<br/>
 <b>Last Updated</b>: May 1, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank">https://build.nvidia.com/qwen/qwen-image</a></div>
-        <div class="card-date">Fri, 01 May 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>qwen-image-edit</h3>
-        <div class="card-body"><b>Publisher</b>: Qwen<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image" target="_blank">https://build.nvidia.com/qwen/qwen-image</a><b>Publisher</b>: Qwen<br/>
 <b>Features</b>: Downloadable<br/>
 <b>Description</b>:<br/>Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.<br/>
 <b>Tags</b>: #Text-to-Image #Image Generation<br/>
 <b>Last Updated</b>: May 1, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank">https://build.nvidia.com/qwen/qwen-image-edit</a></div>
-        <div class="card-date">Fri, 01 May 2026 00:00:00 +0000</div>
-      </article>
-      <article class="card">
-        <div class="card-src">NVIDIA</div>
-        <h3>nemotron-3-nano-omni-30b-a3b-reasoning</h3>
-        <div class="card-body"><b>Publisher</b>: NVIDIA<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/qwen/qwen-image-edit" target="_blank">https://build.nvidia.com/qwen/qwen-image-edit</a><b>Publisher</b>: NVIDIA<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.<br/>
 <b>Tags</b>: #Image-to-Text #VLM #Video #Omni #OCR<br/>
 <b>Last Updated</b>: April 28, 2026<br/>
-<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</a></div>
-        <div class="card-date">Tue, 28 Apr 2026 00:00:00 +0000</div>
-      </article>
-</div>
-    </section>
+<b>Stats</b>: 8M API calls in the last 30 days<br/>
+<b>Model Card</b>: <a href="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning" target="_blank">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</a>
+    </div>
 
-    <footer>Generated by the multi-source models RSS workflow.</footer>
+    <footer>
+      <p>Generated by NVIDIA Models RSS Workflow &bull; Data sourced directly from NVIDIA Build</p>
+    </footer>
   </div>
 </body>
 </html>

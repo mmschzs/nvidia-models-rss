@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ModelScope API-Inference Models</title>
+  <subtitle>Real-time updates of AI foundation models available on ModelScope API-Inference</subtitle>
+  <link href="https://www.modelscope.cn/models" rel="alternate"/>
+  <link href="https://mmschzs.github.io/nvidia-models-rss/modelscope_atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://www.modelscope.cn/models</id>
+  <updated>2026-09-10T12:10:07.231759+00:00</updated>
+  <entry>
+    <title>[Qwen] Qwen3.8-Flash-Next</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.8-Flash-Next</id>
+    <updated>2026-08-26T23:37:31+00:00</updated>
+    <published>2026-08-26T23:37:31+00:00</published>
+    <summary>Model: Qwen/Qwen3.8-Flash-Next by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.8-Flash-Next&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-08-26 23:37:31 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.8-Flash-Next",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[early-access] EA-29B-A4B</title>
+    <link href="https://www.modelscope.cn/models/early-access/EA-29B-A4B" rel="alternate"/>
+    <id>urn:modelscope:model:early-access/EA-29B-A4B</id>
+    <updated>2026-08-21T16:32:51+00:00</updated>
+    <published>2026-08-21T16:32:51+00:00</published>
+    <summary>Model: early-access/EA-29B-A4B by Early Access (抢先体验) (Remote API ('created'))</summary>
+    <author>
+      <name>Early Access (抢先体验)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#ef4444;color:#ffffff;margin-right:8px;"&gt;
+      Early Access (抢先体验)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;early-access/EA-29B-A4B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-08-21 16:32:51 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/early-access/EA-29B-A4B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/early-access/EA-29B-A4B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="early-access/EA-29B-A4B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3.8-27B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.8-27B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.8-27B</id>
+    <updated>2026-08-19T16:49:38+00:00</updated>
+    <published>2026-08-19T16:49:38+00:00</published>
+    <summary>Model: Qwen/Qwen3.8-27B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.8-27B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-08-19 16:49:38 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.8-27B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.8-27B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.8-27B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[deepseek-ai] DeepSeek-V4-Pro-0813</title>
+    <link href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro-0813" rel="alternate"/>
+    <id>urn:modelscope:model:deepseek-ai/DeepSeek-V4-Pro-0813</id>
+    <updated>2026-08-18T15:50:35+00:00</updated>
+    <published>2026-08-18T15:50:35+00:00</published>
+    <summary>Model: deepseek-ai/DeepSeek-V4-Pro-0813 by DeepSeek (深度求索) (Remote API ('created'))</summary>
+    <author>
+      <name>DeepSeek (深度求索)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#0ea5e9;color:#ffffff;margin-right:8px;"&gt;
+      DeepSeek (深度求索)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;deepseek-ai/DeepSeek-V4-Pro-0813&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-08-18 15:50:35 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro-0813" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro-0813&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="deepseek-ai/DeepSeek-V4-Pro-0813",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[deepseek-ai] DeepSeek-V4-Flash-0731</title>
+    <link href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731" rel="alternate"/>
+    <id>urn:modelscope:model:deepseek-ai/DeepSeek-V4-Flash-0731</id>
+    <updated>2026-08-03T14:24:48+00:00</updated>
+    <published>2026-08-03T14:24:48+00:00</published>
+    <summary>Model: deepseek-ai/DeepSeek-V4-Flash-0731 by DeepSeek (深度求索) (Remote API ('created'))</summary>
+    <author>
+      <name>DeepSeek (深度求索)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#0ea5e9;color:#ffffff;margin-right:8px;"&gt;
+      DeepSeek (深度求索)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;deepseek-ai/DeepSeek-V4-Flash-0731&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-08-03 14:24:48 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="deepseek-ai/DeepSeek-V4-Flash-0731",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Tencent-Hunyuan] Hy3</title>
+    <link href="https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3" rel="alternate"/>
+    <id>urn:modelscope:model:Tencent-Hunyuan/Hy3</id>
+    <updated>2026-07-06T14:57:57+00:00</updated>
+    <published>2026-07-06T14:57:57+00:00</published>
+    <summary>Model: Tencent-Hunyuan/Hy3 by Tencent Hunyuan (腾讯混元) (Remote API ('created'))</summary>
+    <author>
+      <name>Tencent Hunyuan (腾讯混元)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#0052d9;color:#ffffff;margin-right:8px;"&gt;
+      Tencent Hunyuan (腾讯混元)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Tencent-Hunyuan/Hy3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-07-06 14:57:57 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Tencent-Hunyuan/Hy3",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[deepseek-ai] DeepSeek-V4-Pro</title>
+    <link href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro" rel="alternate"/>
+    <id>urn:modelscope:model:deepseek-ai/DeepSeek-V4-Pro</id>
+    <updated>2026-06-24T10:44:45+00:00</updated>
+    <published>2026-06-24T10:44:45+00:00</published>
+    <summary>Model: deepseek-ai/DeepSeek-V4-Pro by DeepSeek (深度求索) (Remote API ('created'))</summary>
+    <author>
+      <name>DeepSeek (深度求索)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#0ea5e9;color:#ffffff;margin-right:8px;"&gt;
+      DeepSeek (深度求索)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;deepseek-ai/DeepSeek-V4-Pro&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-06-24 10:44:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="deepseek-ai/DeepSeek-V4-Pro",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[ZhipuAI] GLM-5.2</title>
+    <link href="https://www.modelscope.cn/models/ZhipuAI/GLM-5.2" rel="alternate"/>
+    <id>urn:modelscope:model:ZhipuAI/GLM-5.2</id>
+    <updated>2026-06-17T09:15:46+00:00</updated>
+    <published>2026-06-17T09:15:46+00:00</published>
+    <summary>Model: ZhipuAI/GLM-5.2 by Zhipu AI (智谱清言) (Remote API ('created'))</summary>
+    <author>
+      <name>Zhipu AI (智谱清言)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2563eb;color:#ffffff;margin-right:8px;"&gt;
+      Zhipu AI (智谱清言)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;ZhipuAI/GLM-5.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-06-17 09:15:46 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/ZhipuAI/GLM-5.2" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/ZhipuAI/GLM-5.2&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="ZhipuAI/GLM-5.2",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[MiniMax] MiniMax-M3</title>
+    <link href="https://www.modelscope.cn/models/MiniMax/MiniMax-M3" rel="alternate"/>
+    <id>urn:modelscope:model:MiniMax/MiniMax-M3</id>
+    <updated>2026-06-12T16:23:31+00:00</updated>
+    <published>2026-06-12T16:23:31+00:00</published>
+    <summary>Model: MiniMax/MiniMax-M3 by MiniMax (名之梦) (Remote API ('created'))</summary>
+    <author>
+      <name>MiniMax (名之梦)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#ec4899;color:#ffffff;margin-right:8px;"&gt;
+      MiniMax (名之梦)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;MiniMax/MiniMax-M3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-06-12 16:23:31 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/MiniMax/MiniMax-M3" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/MiniMax/MiniMax-M3&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="MiniMax/MiniMax-M3",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[stepfun-ai] Step-3.7-Flash</title>
+    <link href="https://www.modelscope.cn/models/stepfun-ai/Step-3.7-Flash" rel="alternate"/>
+    <id>urn:modelscope:model:stepfun-ai/Step-3.7-Flash</id>
+    <updated>2026-05-29T11:16:45+00:00</updated>
+    <published>2026-05-29T11:16:45+00:00</published>
+    <summary>Model: stepfun-ai/Step-3.7-Flash by Stepfun (阶跃星辰) (Remote API ('created'))</summary>
+    <author>
+      <name>Stepfun (阶跃星辰)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#8b5cf6;color:#ffffff;margin-right:8px;"&gt;
+      Stepfun (阶跃星辰)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;stepfun-ai/Step-3.7-Flash&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-05-29 11:16:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/stepfun-ai/Step-3.7-Flash" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/stepfun-ai/Step-3.7-Flash&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="stepfun-ai/Step-3.7-Flash",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Shanghai_AI_Laboratory] Intern-S2-Preview</title>
+    <link href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-Preview" rel="alternate"/>
+    <id>urn:modelscope:model:Shanghai_AI_Laboratory/Intern-S2-Preview</id>
+    <updated>2026-05-15T20:48:38+00:00</updated>
+    <published>2026-05-15T20:48:38+00:00</published>
+    <summary>Model: Shanghai_AI_Laboratory/Intern-S2-Preview by Shanghai AI Lab (书生) (Remote API ('created'))</summary>
+    <author>
+      <name>Shanghai AI Lab (书生)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#059669;color:#ffffff;margin-right:8px;"&gt;
+      Shanghai AI Lab (书生)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Shanghai_AI_Laboratory/Intern-S2-Preview&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-05-15 20:48:38 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-Preview" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-Preview&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Shanghai_AI_Laboratory/Intern-S2-Preview",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[MedAIBase] AntAngelMed</title>
+    <link href="https://www.modelscope.cn/models/MedAIBase/AntAngelMed" rel="alternate"/>
+    <id>urn:modelscope:model:MedAIBase/AntAngelMed</id>
+    <updated>2026-05-11T15:38:25+00:00</updated>
+    <published>2026-05-11T15:38:25+00:00</published>
+    <summary>Model: MedAIBase/AntAngelMed by MedAIBase (医疗AI) (Remote API ('created'))</summary>
+    <author>
+      <name>MedAIBase (医疗AI)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#0284c7;color:#ffffff;margin-right:8px;"&gt;
+      MedAIBase (医疗AI)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;MedAIBase/AntAngelMed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-05-11 15:38:25 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/MedAIBase/AntAngelMed" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/MedAIBase/AntAngelMed&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="MedAIBase/AntAngelMed",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3.5-27B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.5-27B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.5-27B</id>
+    <updated>2026-02-25T09:26:53+00:00</updated>
+    <published>2026-02-25T09:26:53+00:00</published>
+    <summary>Model: Qwen/Qwen3.5-27B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.5-27B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-25 09:26:53 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.5-27B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.5-27B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.5-27B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3.5-35B-A3B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.5-35B-A3B</id>
+    <updated>2026-02-25T09:25:59+00:00</updated>
+    <published>2026-02-25T09:25:59+00:00</published>
+    <summary>Model: Qwen/Qwen3.5-35B-A3B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.5-35B-A3B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-25 09:25:59 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.5-35B-A3B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3.5-122B-A10B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.5-122B-A10B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.5-122B-A10B</id>
+    <updated>2026-02-25T09:25:04+00:00</updated>
+    <published>2026-02-25T09:25:04+00:00</published>
+    <summary>Model: Qwen/Qwen3.5-122B-A10B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.5-122B-A10B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-25 09:25:04 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.5-122B-A10B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.5-122B-A10B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.5-122B-A10B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3.5-397B-A17B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3.5-397B-A17B</id>
+    <updated>2026-02-16T17:22:06+00:00</updated>
+    <published>2026-02-16T17:22:06+00:00</published>
+    <summary>Model: Qwen/Qwen3.5-397B-A17B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3.5-397B-A17B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-16 17:22:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3.5-397B-A17B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[meituan-longcat] LongCat-Flash-Lite</title>
+    <link href="https://www.modelscope.cn/models/meituan-longcat/LongCat-Flash-Lite" rel="alternate"/>
+    <id>urn:modelscope:model:meituan-longcat/LongCat-Flash-Lite</id>
+    <updated>2026-02-06T16:47:14+00:00</updated>
+    <published>2026-02-06T16:47:14+00:00</published>
+    <summary>Model: meituan-longcat/LongCat-Flash-Lite by Meituan LongCat (美团) (Remote API ('created'))</summary>
+    <author>
+      <name>Meituan LongCat (美团)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#ffc300;color:#ffffff;margin-right:8px;"&gt;
+      Meituan LongCat (美团)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;meituan-longcat/LongCat-Flash-Lite&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-06 16:47:14 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/meituan-longcat/LongCat-Flash-Lite" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/meituan-longcat/LongCat-Flash-Lite&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="meituan-longcat/LongCat-Flash-Lite",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[stepfun-ai] Step-3.5-Flash</title>
+    <link href="https://www.modelscope.cn/models/stepfun-ai/Step-3.5-Flash" rel="alternate"/>
+    <id>urn:modelscope:model:stepfun-ai/Step-3.5-Flash</id>
+    <updated>2026-02-04T14:50:21+00:00</updated>
+    <published>2026-02-04T14:50:21+00:00</published>
+    <summary>Model: stepfun-ai/Step-3.5-Flash by Stepfun (阶跃星辰) (Remote API ('created'))</summary>
+    <author>
+      <name>Stepfun (阶跃星辰)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#8b5cf6;color:#ffffff;margin-right:8px;"&gt;
+      Stepfun (阶跃星辰)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;stepfun-ai/Step-3.5-Flash&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-02-04 14:50:21 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/stepfun-ai/Step-3.5-Flash" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/stepfun-ai/Step-3.5-Flash&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="stepfun-ai/Step-3.5-Flash",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[ZhipuAI] GLM-4.7-Flash</title>
+    <link href="https://www.modelscope.cn/models/ZhipuAI/GLM-4.7-Flash" rel="alternate"/>
+    <id>urn:modelscope:model:ZhipuAI/GLM-4.7-Flash</id>
+    <updated>2026-01-19T23:39:48+00:00</updated>
+    <published>2026-01-19T23:39:48+00:00</published>
+    <summary>Model: ZhipuAI/GLM-4.7-Flash by Zhipu AI (智谱清言) (Remote API ('created'))</summary>
+    <author>
+      <name>Zhipu AI (智谱清言)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2563eb;color:#ffffff;margin-right:8px;"&gt;
+      Zhipu AI (智谱清言)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;ZhipuAI/GLM-4.7-Flash&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-01-19 23:39:48 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/ZhipuAI/GLM-4.7-Flash" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/ZhipuAI/GLM-4.7-Flash&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="ZhipuAI/GLM-4.7-Flash",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[MusePublic] Qwen-Image-Edit</title>
+    <link href="https://www.modelscope.cn/models/MusePublic/Qwen-Image-Edit" rel="alternate"/>
+    <id>urn:modelscope:model:MusePublic/Qwen-Image-Edit</id>
+    <updated>2025-10-10T15:59:43+00:00</updated>
+    <published>2025-10-10T15:59:43+00:00</published>
+    <summary>Model: MusePublic/Qwen-Image-Edit by MusePublic (Remote API ('created'))</summary>
+    <author>
+      <name>MusePublic</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#a855f7;color:#ffffff;margin-right:8px;"&gt;
+      MusePublic
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;MusePublic/Qwen-Image-Edit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-10-10 15:59:43 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/MusePublic/Qwen-Image-Edit" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/MusePublic/Qwen-Image-Edit&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="MusePublic/Qwen-Image-Edit",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen-Image-Edit</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen-Image-Edit" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen-Image-Edit</id>
+    <updated>2025-10-10T15:59:43+00:00</updated>
+    <published>2025-10-10T15:59:43+00:00</published>
+    <summary>Model: Qwen/Qwen-Image-Edit by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen-Image-Edit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-10-10 15:59:43 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen-Image-Edit" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen-Image-Edit&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen-Image-Edit",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[OpenGVLab] InternVL3_5-241B-A28B</title>
+    <link href="https://www.modelscope.cn/models/OpenGVLab/InternVL3_5-241B-A28B" rel="alternate"/>
+    <id>urn:modelscope:model:OpenGVLab/InternVL3_5-241B-A28B</id>
+    <updated>2025-09-29T08:57:45+00:00</updated>
+    <published>2025-09-29T08:57:45+00:00</published>
+    <summary>Model: OpenGVLab/InternVL3_5-241B-A28B by OpenGVLab (书生·通用视觉) (Remote API ('created'))</summary>
+    <author>
+      <name>OpenGVLab (书生·通用视觉)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#10b981;color:#ffffff;margin-right:8px;"&gt;
+      OpenGVLab (书生·通用视觉)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;OpenGVLab/InternVL3_5-241B-A28B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-09-29 08:57:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/OpenGVLab/InternVL3_5-241B-A28B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/OpenGVLab/InternVL3_5-241B-A28B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="OpenGVLab/InternVL3_5-241B-A28B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-VL-8B-Instruct</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-VL-8B-Instruct</id>
+    <updated>2025-09-29T08:57:45+00:00</updated>
+    <published>2025-09-29T08:57:45+00:00</published>
+    <summary>Model: Qwen/Qwen3-VL-8B-Instruct by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-VL-8B-Instruct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-09-29 08:57:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-VL-8B-Instruct",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-VL-8B-Thinking</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Thinking" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-VL-8B-Thinking</id>
+    <updated>2025-09-29T08:57:45+00:00</updated>
+    <published>2025-09-29T08:57:45+00:00</published>
+    <summary>Model: Qwen/Qwen3-VL-8B-Thinking by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-VL-8B-Thinking&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-09-29 08:57:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Thinking" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Thinking&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-VL-8B-Thinking",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Shanghai_AI_Laboratory] Intern-S1</title>
+    <link href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1" rel="alternate"/>
+    <id>urn:modelscope:model:Shanghai_AI_Laboratory/Intern-S1</id>
+    <updated>2025-09-29T08:57:45+00:00</updated>
+    <published>2025-09-29T08:57:45+00:00</published>
+    <summary>Model: Shanghai_AI_Laboratory/Intern-S1 by Shanghai AI Lab (书生) (Remote API ('created'))</summary>
+    <author>
+      <name>Shanghai AI Lab (书生)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#059669;color:#ffffff;margin-right:8px;"&gt;
+      Shanghai AI Lab (书生)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Shanghai_AI_Laboratory/Intern-S1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-09-29 08:57:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Shanghai_AI_Laboratory/Intern-S1",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Shanghai_AI_Laboratory] Intern-S1-mini</title>
+    <link href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1-mini" rel="alternate"/>
+    <id>urn:modelscope:model:Shanghai_AI_Laboratory/Intern-S1-mini</id>
+    <updated>2025-09-29T08:57:45+00:00</updated>
+    <published>2025-09-29T08:57:45+00:00</published>
+    <summary>Model: Shanghai_AI_Laboratory/Intern-S1-mini by Shanghai AI Lab (书生) (Remote API ('created'))</summary>
+    <author>
+      <name>Shanghai AI Lab (书生)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#059669;color:#ffffff;margin-right:8px;"&gt;
+      Shanghai AI Lab (书生)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Shanghai_AI_Laboratory/Intern-S1-mini&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-09-29 08:57:45 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1-mini" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1-mini&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Shanghai_AI_Laboratory/Intern-S1-mini",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-235B-A22B-Thinking-2507</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-235B-A22B-Thinking-2507</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-235B-A22B-Thinking-2507 by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-235B-A22B-Thinking-2507&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-235B-A22B-Thinking-2507",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-30B-A3B-Thinking-2507</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-30B-A3B-Thinking-2507</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-30B-A3B-Thinking-2507 by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-30B-A3B-Thinking-2507&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-30B-A3B-Thinking-2507",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-Coder-30B-A3B-Instruct</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-Coder-30B-A3B-Instruct</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-Coder-30B-A3B-Instruct by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-Coder-30B-A3B-Instruct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-Next-80B-A3B-Instruct</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Instruct" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-Next-80B-A3B-Instruct</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-Next-80B-A3B-Instruct by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-Next-80B-A3B-Instruct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Instruct" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Instruct&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-Next-80B-A3B-Instruct",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-Next-80B-A3B-Thinking</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Thinking" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-Next-80B-A3B-Thinking</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-Next-80B-A3B-Thinking by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-Next-80B-A3B-Thinking&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Thinking" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Thinking&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-Next-80B-A3B-Thinking",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-VL-235B-A22B-Instruct</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-235B-A22B-Instruct" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-VL-235B-A22B-Instruct</id>
+    <updated>2025-07-22T11:44:06+00:00</updated>
+    <published>2025-07-22T11:44:06+00:00</published>
+    <summary>Model: Qwen/Qwen3-VL-235B-A22B-Instruct by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-VL-235B-A22B-Instruct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-07-22 11:44:06 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-VL-235B-A22B-Instruct" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-VL-235B-A22B-Instruct&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-VL-235B-A22B-Instruct",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[MiniMax] MiniMax-M1-80k</title>
+    <link href="https://www.modelscope.cn/models/MiniMax/MiniMax-M1-80k" rel="alternate"/>
+    <id>urn:modelscope:model:MiniMax/MiniMax-M1-80k</id>
+    <updated>2025-06-29T16:00:00+00:00</updated>
+    <published>2025-06-29T16:00:00+00:00</published>
+    <summary>Model: MiniMax/MiniMax-M1-80k by MiniMax (名之梦) (Remote API ('created'))</summary>
+    <author>
+      <name>MiniMax (名之梦)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#ec4899;color:#ffffff;margin-right:8px;"&gt;
+      MiniMax (名之梦)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;MiniMax/MiniMax-M1-80k&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-06-29 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/MiniMax/MiniMax-M1-80k" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/MiniMax/MiniMax-M1-80k&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="MiniMax/MiniMax-M1-80k",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[PaddlePaddle] ERNIE-4.5-0.3B-PT</title>
+    <link href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-0.3B-PT" rel="alternate"/>
+    <id>urn:modelscope:model:PaddlePaddle/ERNIE-4.5-0.3B-PT</id>
+    <updated>2025-06-29T16:00:00+00:00</updated>
+    <published>2025-06-29T16:00:00+00:00</published>
+    <summary>Model: PaddlePaddle/ERNIE-4.5-0.3B-PT by PaddlePaddle (百度飞桨·文心) (Remote API ('created'))</summary>
+    <author>
+      <name>PaddlePaddle (百度飞桨·文心)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2932e1;color:#ffffff;margin-right:8px;"&gt;
+      PaddlePaddle (百度飞桨·文心)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;PaddlePaddle/ERNIE-4.5-0.3B-PT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-06-29 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-0.3B-PT" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-0.3B-PT&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="PaddlePaddle/ERNIE-4.5-0.3B-PT",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[PaddlePaddle] ERNIE-4.5-21B-A3B-PT</title>
+    <link href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-21B-A3B-PT" rel="alternate"/>
+    <id>urn:modelscope:model:PaddlePaddle/ERNIE-4.5-21B-A3B-PT</id>
+    <updated>2025-06-29T16:00:00+00:00</updated>
+    <published>2025-06-29T16:00:00+00:00</published>
+    <summary>Model: PaddlePaddle/ERNIE-4.5-21B-A3B-PT by PaddlePaddle (百度飞桨·文心) (Remote API ('created'))</summary>
+    <author>
+      <name>PaddlePaddle (百度飞桨·文心)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2932e1;color:#ffffff;margin-right:8px;"&gt;
+      PaddlePaddle (百度飞桨·文心)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;PaddlePaddle/ERNIE-4.5-21B-A3B-PT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-06-29 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-21B-A3B-PT" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-21B-A3B-PT&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="PaddlePaddle/ERNIE-4.5-21B-A3B-PT",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[PaddlePaddle] ERNIE-4.5-300B-A47B-PT</title>
+    <link href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-300B-A47B-PT" rel="alternate"/>
+    <id>urn:modelscope:model:PaddlePaddle/ERNIE-4.5-300B-A47B-PT</id>
+    <updated>2025-06-29T16:00:00+00:00</updated>
+    <published>2025-06-29T16:00:00+00:00</published>
+    <summary>Model: PaddlePaddle/ERNIE-4.5-300B-A47B-PT by PaddlePaddle (百度飞桨·文心) (Remote API ('created'))</summary>
+    <author>
+      <name>PaddlePaddle (百度飞桨·文心)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2932e1;color:#ffffff;margin-right:8px;"&gt;
+      PaddlePaddle (百度飞桨·文心)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;PaddlePaddle/ERNIE-4.5-300B-A47B-PT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-06-29 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-300B-A47B-PT" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-300B-A47B-PT&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="PaddlePaddle/ERNIE-4.5-300B-A47B-PT",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[PaddlePaddle] ERNIE-4.5-VL-28B-A3B-PT</title>
+    <link href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT" rel="alternate"/>
+    <id>urn:modelscope:model:PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT</id>
+    <updated>2025-06-29T16:00:00+00:00</updated>
+    <published>2025-06-29T16:00:00+00:00</published>
+    <summary>Model: PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT by PaddlePaddle (百度飞桨·文心) (Remote API ('created'))</summary>
+    <author>
+      <name>PaddlePaddle (百度飞桨·文心)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#2932e1;color:#ffffff;margin-right:8px;"&gt;
+      PaddlePaddle (百度飞桨·文心)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-06-29 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="PaddlePaddle/ERNIE-4.5-VL-28B-A3B-PT",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-14B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-14B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-14B</id>
+    <updated>2025-04-28T16:00:00+00:00</updated>
+    <published>2025-04-28T16:00:00+00:00</published>
+    <summary>Model: Qwen/Qwen3-14B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-14B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-04-28 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-14B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-14B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-14B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-235B-A22B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-235B-A22B</id>
+    <updated>2025-04-28T16:00:00+00:00</updated>
+    <published>2025-04-28T16:00:00+00:00</published>
+    <summary>Model: Qwen/Qwen3-235B-A22B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-235B-A22B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-04-28 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-235B-A22B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-30B-A3B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-30B-A3B</id>
+    <updated>2025-04-28T16:00:00+00:00</updated>
+    <published>2025-04-28T16:00:00+00:00</published>
+    <summary>Model: Qwen/Qwen3-30B-A3B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-30B-A3B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-04-28 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-30B-A3B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-4B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-4B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-4B</id>
+    <updated>2025-04-28T16:00:00+00:00</updated>
+    <published>2025-04-28T16:00:00+00:00</published>
+    <summary>Model: Qwen/Qwen3-4B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-4B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-04-28 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-4B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-4B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-4B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[Qwen] Qwen3-8B</title>
+    <link href="https://www.modelscope.cn/models/Qwen/Qwen3-8B" rel="alternate"/>
+    <id>urn:modelscope:model:Qwen/Qwen3-8B</id>
+    <updated>2025-04-28T16:00:00+00:00</updated>
+    <published>2025-04-28T16:00:00+00:00</published>
+    <summary>Model: Qwen/Qwen3-8B by Qwen (通义千问) (Remote API ('created'))</summary>
+    <author>
+      <name>Qwen (通义千问)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#6366f1;color:#ffffff;margin-right:8px;"&gt;
+      Qwen (通义千问)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;Qwen/Qwen3-8B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2025-04-28 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/Qwen/Qwen3-8B" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/Qwen/Qwen3-8B&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="Qwen/Qwen3-8B",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[opencompass] CompassJudger-1-32B-Instruct</title>
+    <link href="https://www.modelscope.cn/models/opencompass/CompassJudger-1-32B-Instruct" rel="alternate"/>
+    <id>urn:modelscope:model:opencompass/CompassJudger-1-32B-Instruct</id>
+    <updated>2024-12-05T16:00:00+00:00</updated>
+    <published>2024-12-05T16:00:00+00:00</published>
+    <summary>Model: opencompass/CompassJudger-1-32B-Instruct by OpenCompass (司南) (Remote API ('created'))</summary>
+    <author>
+      <name>OpenCompass (司南)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#14b8a6;color:#ffffff;margin-right:8px;"&gt;
+      OpenCompass (司南)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;opencompass/CompassJudger-1-32B-Instruct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2024-12-05 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/opencompass/CompassJudger-1-32B-Instruct" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/opencompass/CompassJudger-1-32B-Instruct&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="opencompass/CompassJudger-1-32B-Instruct",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[XGenerationLab] XiYanSQL-QwenCoder-32B-2412</title>
+    <link href="https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412" rel="alternate"/>
+    <id>urn:modelscope:model:XGenerationLab/XiYanSQL-QwenCoder-32B-2412</id>
+    <updated>2024-11-25T06:51:37+00:00</updated>
+    <published>2024-11-25T06:51:37+00:00</published>
+    <summary>Model: XGenerationLab/XiYanSQL-QwenCoder-32B-2412 by XGenerationLab (析言) (Remote API ('created'))</summary>
+    <author>
+      <name>XGenerationLab (析言)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#d97706;color:#ffffff;margin-right:8px;"&gt;
+      XGenerationLab (析言)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;XGenerationLab/XiYanSQL-QwenCoder-32B-2412&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2024-11-25 06:51:37 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="XGenerationLab/XiYanSQL-QwenCoder-32B-2412",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[XGenerationLab] XiYanSQL-QwenCoder-32B-2504</title>
+    <link href="https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2504" rel="alternate"/>
+    <id>urn:modelscope:model:XGenerationLab/XiYanSQL-QwenCoder-32B-2504</id>
+    <updated>2024-11-25T06:51:37+00:00</updated>
+    <published>2024-11-25T06:51:37+00:00</published>
+    <summary>Model: XGenerationLab/XiYanSQL-QwenCoder-32B-2504 by XGenerationLab (析言) (Remote API ('created'))</summary>
+    <author>
+      <name>XGenerationLab (析言)</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#d97706;color:#ffffff;margin-right:8px;"&gt;
+      XGenerationLab (析言)
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;XGenerationLab/XiYanSQL-QwenCoder-32B-2504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2024-11-25 06:51:37 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2504" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2504&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="XGenerationLab/XiYanSQL-QwenCoder-32B-2504",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>[mistralai] Mistral-Large-Instruct-2407</title>
+    <link href="https://www.modelscope.cn/models/mistralai/Mistral-Large-Instruct-2407" rel="alternate"/>
+    <id>urn:modelscope:model:mistralai/Mistral-Large-Instruct-2407</id>
+    <updated>2024-06-30T16:00:00+00:00</updated>
+    <published>2024-06-30T16:00:00+00:00</published>
+    <summary>Model: mistralai/Mistral-Large-Instruct-2407 by Mistral AI (Remote API ('created'))</summary>
+    <author>
+      <name>Mistral AI</name>
+    </author>
+    <content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1e293b;max-width:720px;"&gt;
+  &lt;div style="margin-bottom:16px;"&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600;background:#f97316;color:#ffffff;margin-right:8px;"&gt;
+      Mistral AI
+    &lt;/span&gt;
+    &lt;span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500;background:#e2e8f0;color:#334155;"&gt;
+      ModelScope API-Inference
+    &lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;table style="width:100%;border-collapse:collapse;margin-bottom:16px;font-size:14px;"&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;width:130px;"&gt;Model Identifier&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;font-weight:600;"&gt;mistralai/Mistral-Large-Instruct-2407&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Release Time&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2024-06-30 16:00:00 UTC &lt;span style="font-size:12px;color:#64748b;"&gt;(Remote API ('created'))&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;First Discovered&lt;/td&gt;
+      &lt;td style="padding:6px 0;color:#0f172a;"&gt;2026-09-10T12:06:16.641855+00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="border-bottom:1px solid #e2e8f0;"&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Model Homepage&lt;/td&gt;
+      &lt;td style="padding:6px 0;"&gt;&lt;a href="https://www.modelscope.cn/models/mistralai/Mistral-Large-Instruct-2407" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:500;"&gt;https://www.modelscope.cn/models/mistralai/Mistral-Large-Instruct-2407&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="padding:6px 0;font-weight:600;color:#475569;"&gt;Inference Base URL&lt;/td&gt;
+      &lt;td style="padding:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#0f172a;"&gt;https://api-inference.modelscope.cn/v1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-top:16px;"&gt;
+    &lt;div style="font-weight:600;font-size:13px;color:#334155;margin-bottom:8px;"&gt;🚀 Quick Start (OpenAI Compatible Python SDK):&lt;/div&gt;
+    &lt;pre style="background:#0f172a;color:#f8fafc;padding:12px;border-radius:6px;font-size:12px;overflow-x:auto;margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"&gt;from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api-inference.modelscope.cn/v1",
+    api_key="YOUR_MODELSCOPE_API_KEY",
+)
+
+response = client.chat.completions.create(
+    model="mistralai/Mistral-Large-Instruct-2407",
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+</feed>
