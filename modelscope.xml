@@ -1,137 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Models RSS (Multi-Source)</title>
-    <link>https://build.nvidia.com/models</link>
-    <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
+    <title>ModelScope AI Models RSS</title>
+    <link>https://api-inference.modelscope.cn</link>
+    <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
     <lastBuildDate>Thu, 10 Sep 2026 12:59:19 +0000</lastBuildDate>
-  <item>
-    <title>【AMD】MinerU2.5-Pro</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:MinerU2.5-Pro</guid>
-    <pubDate>Thu, 10 Sep 2026 12:58:14 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>MinerU2.5-Pro served by the AMD GPU Cloud
-Publisher: Radeon Cloud
-Badge: Limited Free
-Status: Limited Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Model ID: model_gateway:MinerU2.5-Pro
-Tags: #API #OpenAI compatible</description>
-    <category>Limited Free</category>
-    <category>LLM (Text)</category>
-    <category>Radeon Cloud</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】MiniCPM5-2B</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:MiniCPM5-2B</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:22 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>MiniCPM5-2B served by the AMD GPU Cloud
-Publisher: OpenBMB
-Badge: Free
-Status: Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 131,072
-Model ID: model_gateway:MiniCPM5-2B
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.124 pts / 1M tokens • Output: 0.7425000000000001 pts / 1M tokens • Cache read: 0.124 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>LLM (Text)</category>
-    <category>OpenBMB</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】Qwen3.8-Flash-Next</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:Qwen3.8-Flash-Next</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:20 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Qwen3.8-Flash-Next served by the AMD GPU Cloud
-Publisher: Qwen
-Badge: Free
-Status: Free
-Use Case: VLM (Vision)
-Providers: Radeon Cloud
-Context Length: 262,144
-Model ID: model_gateway:Qwen3.8-Flash-Next
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.15 pts / 1M tokens • Output: 0.46999999999999995 pts / 1M tokens • Cache read: 0.016 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>VLM (Vision)</category>
-    <category>Qwen</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】DeepSeek-V4-Flash-0731</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:18 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek V4 Flash 0731 served by the AMD GPU Cloud
-Publisher: DeepSeek
-Badge: Free
-Status: Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 1,048,576
-Model ID: model_gateway:DeepSeek-V4-Flash
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>LLM (Text)</category>
-    <category>DeepSeek</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】DeepSeek-V4-Flash-Vision-Exp</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash-Vision-Exp</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:17 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek-V4-Flash-Vision-Exp served by the AMD GPU Cloud
-Publisher: DeepSeek
-Badge: Free
-Status: Free
-Use Case: VLM (Vision)
-Providers: Radeon Cloud
-Context Length: 1,048,576
-Model ID: model_gateway:DeepSeek-V4-Flash-Vision-Exp
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>VLM (Vision)</category>
-    <category>DeepSeek</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【NVIDIA】parakeet-tdt-0.6b</title>
-    <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b">NVIDIA</source>
-    <description>Multilingual ASR across 25 European languages with punctuation, capitalization, and word timestamps
-Features: Downloadable
-Tags: #ASR #Multilingual #NVIDIA NIM #NVIDIA Riva #speech-to-text
-Last Updated: September 8, 2026</description>
-    <category>Downloadable</category>
-    <category>ASR</category>
-    <category>Multilingual</category>
-    <category>NVIDIA NIM</category>
-    <category>NVIDIA Riva</category>
-    <category>speech-to-text</category>
-    <category>NVIDIA</category>
-  </item>
   <item>
     <title>【ModelScope】Qwen/Qwen3.8-Flash-Next</title>
     <link>https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next</link>
@@ -144,23 +18,6 @@ Owner: system
 Created: 2026-08-26 23:37:31 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】deepseek-v4-pro-0813</title>
-    <link>https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</link>
-    <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</guid>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813">NVIDIA</source>
-    <description>DeepSeek V4 scales to 1M-token context windows with efficient MoE architecture for coding tasks.
-Features: Free Endpoint
-Tags: #coding #Moe #reasoning #agentic
-Last Updated: August 26, 2026</description>
-    <category>Free Endpoint</category>
-    <category>coding</category>
-    <category>Moe</category>
-    <category>reasoning</category>
-    <category>agentic</category>
-    <category>DeepSeek AI</category>
   </item>
   <item>
     <title>【ModelScope】early-access/EA-29B-A4B</title>
@@ -176,33 +33,6 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>early-access</category>
   </item>
   <item>
-    <title>【DMXAPI】bge-reranker-v2-m3-free</title>
-    <link>https://www.dmxapi.cn</link>
-    <guid isPermaLink="false">dmxapi:bge-reranker-v2-m3-free</guid>
-    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
-    <source url="https://www.dmxapi.cn">DMXAPI</source>
-    <description>Model: bge-reranker-v2-m3-free
-Vendor: jina
-Endpoints: jina-rerank
-Base URL: https://www.dmxapi.cn/v1
-First seen: 2026-08-21 13:17:57 UTC</description>
-    <category>jina</category>
-    <category>jina-rerank</category>
-  </item>
-  <item>
-    <title>【DMXAPI】spark-lite-free</title>
-    <link>https://www.dmxapi.cn</link>
-    <guid isPermaLink="false">dmxapi:spark-lite-free</guid>
-    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
-    <source url="https://www.dmxapi.cn">DMXAPI</source>
-    <description>Model: spark-lite-free
-Vendor: openai
-Endpoints: openai
-Base URL: https://www.dmxapi.cn/v1
-First seen: 2026-08-21 13:17:57 UTC</description>
-    <category>openai</category>
-  </item>
-  <item>
     <title>【ModelScope】Qwen/Qwen3.8-27B</title>
     <link>https://www.modelscope.cn/models/Qwen/Qwen3.8-27B</link>
     <guid isPermaLink="false">modelscope:Qwen/Qwen3.8-27B</guid>
@@ -214,38 +44,6 @@ Owner: system
 Created: 2026-08-19 16:49:38 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】wan2.2-animate-2-14b</title>
-    <link>https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</guid>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b">NVIDIA</source>
-    <description>Wan2.2-Animate-2 is a novel end-to-end character animation framework
-Features: Downloadable
-Tags: #video editing #character animation
-Last Updated: August 19, 2026</description>
-    <category>Downloadable</category>
-    <category>video editing</category>
-    <category>character animation</category>
-    <category>Wan-ai</category>
-  </item>
-  <item>
-    <title>【NVIDIA】deepseek-v4-flash-0731</title>
-    <link>https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</link>
-    <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731</guid>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731">NVIDIA</source>
-    <description>284B MoE (13B active) model ideal for long-context workloads optimized for coding, chat, and agentic workflows
-Features: Free Endpoint
-Tags: #MoE #Reasoning #Long Context #Hybrid Attention
-Last Updated: August 19, 2026</description>
-    <category>Free Endpoint</category>
-    <category>MoE</category>
-    <category>Reasoning</category>
-    <category>Long Context</category>
-    <category>Hybrid Attention</category>
-    <category>DeepSeek AI</category>
   </item>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4-Pro-0813</title>
@@ -261,44 +59,6 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>deepseek-ai</category>
   </item>
   <item>
-    <title>【NVIDIA】nemotron-3.5-lightning-30b-a3b</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</guid>
-    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b">NVIDIA</source>
-    <description>Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks
-Features: Downloadable | Free Endpoint
-Tags: #Customization #Text-to-Text #Long-running agents #Open
-Last Updated: August 11, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Customization</category>
-    <category>Text-to-Text</category>
-    <category>Long-running agents</category>
-    <category>Open</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】muse-glimmer-30b</title>
-    <link>https://build.nvidia.com/meta/muse-glimmer-30b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/meta/muse-glimmer-30b</guid>
-    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
-    <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
-Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
-Last Updated: August 10, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Multimodal</category>
-    <category>Image-to-Text</category>
-    <category>Reasoning</category>
-    <category>Chat</category>
-    <category>Text-to-Text</category>
-    <category>Large Language Models</category>
-    <category>Meta</category>
-  </item>
-  <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4-Flash-0731</title>
     <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731</link>
     <guid isPermaLink="false">modelscope:deepseek-ai/DeepSeek-V4-Flash-0731</guid>
@@ -310,92 +70,6 @@ Owner: system
 Created: 2026-08-03 14:24:48 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>deepseek-ai</category>
-  </item>
-  <item>
-    <title>【NVIDIA】riva-translate-4b-instruct-v2</title>
-    <link>https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</guid>
-    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2">NVIDIA</source>
-    <description>Translation model in 37 languages with few-shots example prompts capability.
-Features: Free Endpoint
-Tags: #nvidia nim #neural machine translation #Text Translation
-Last Updated: July 27, 2026</description>
-    <category>Free Endpoint</category>
-    <category>nvidia nim</category>
-    <category>neural machine translation</category>
-    <category>Text Translation</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】ising-calibration-1.5-31b</title>
-    <link>https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</guid>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b">NVIDIA</source>
-    <description>NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.
-Features: Free Endpoint
-Tags: #Quantum Computing #Calibration #NVIDIA NIM #Vision Language Model
-Last Updated: July 23, 2026</description>
-    <category>Free Endpoint</category>
-    <category>Quantum Computing</category>
-    <category>Calibration</category>
-    <category>NVIDIA NIM</category>
-    <category>Vision Language Model</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】Video Super Resolution NIM</title>
-    <link>https://build.nvidia.com/nvidia/vsr</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/vsr</guid>
-    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/vsr">NVIDIA</source>
-    <description>Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.
-Features: Downloadable
-Tags: #broadcast #video upscaling #streaming #nvidia ai for media #video super resolution
-Last Updated: July 22, 2026</description>
-    <category>Downloadable</category>
-    <category>broadcast</category>
-    <category>video upscaling</category>
-    <category>streaming</category>
-    <category>nvidia ai for media</category>
-    <category>video super resolution</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-3-embed-1b</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3-embed-1b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-embed-1b</guid>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3-embed-1b">NVIDIA</source>
-    <description>1B embedding model for semantic search, retrieval, and RAG applications.
-Features: Free Endpoint
-Tags: #Nemotron Retriever #Agentic Retrieval #Code Retrieval #Text-to-Embedding #Retrieval Augmented Generation
-Last Updated: July 16, 2026</description>
-    <category>Free Endpoint</category>
-    <category>Nemotron Retriever</category>
-    <category>Agentic Retrieval</category>
-    <category>Code Retrieval</category>
-    <category>Text-to-Embedding</category>
-    <category>Retrieval Augmented Generation</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】laguna-xs-2.1</title>
-    <link>https://build.nvidia.com/poolside/laguna-xs-2.1</link>
-    <guid isPermaLink="false">https://build.nvidia.com/poolside/laguna-xs-2.1</guid>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/poolside/laguna-xs-2.1">NVIDIA</source>
-    <description>Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks
-Features: Free Endpoint
-Tags: #Agentic AI #Coding #Reasoning #Tool Use
-Last Updated: July 15, 2026</description>
-    <category>Free Endpoint</category>
-    <category>Agentic AI</category>
-    <category>Coding</category>
-    <category>Reasoning</category>
-    <category>Tool Use</category>
-    <category>Poolside</category>
   </item>
   <item>
     <title>【ModelScope】Tencent-Hunyuan/Hy3</title>
@@ -411,22 +85,6 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>Tencent-Hunyuan</category>
   </item>
   <item>
-    <title>【NVIDIA】qwen-image-edit-nvpcb-ovsl2sl</title>
-    <link>https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl">NVIDIA</source>
-    <description>An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations
-Features: Downloadable
-Tags: #Synthetic Data Generation #Image Generation #Physical AI
-Last Updated: July 3, 2026</description>
-    <category>Downloadable</category>
-    <category>Synthetic Data Generation</category>
-    <category>Image Generation</category>
-    <category>Physical AI</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4-Pro</title>
     <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro</link>
     <guid isPermaLink="false">modelscope:deepseek-ai/DeepSeek-V4-Pro</guid>
@@ -438,24 +96,6 @@ Owner: system
 Created: 2026-06-24 10:44:45 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>deepseek-ai</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-ocr-v2</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-ocr-v2</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-ocr-v2</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-ocr-v2">NVIDIA</source>
-    <description>Nemotron OCR v2 is a state-of-the-art multilingual text recognition model designed for robust end-to-end optical character recognition (OCR) on complex real-world images.
-Features: Downloadable
-Tags: #Table Extraction #nemo retriever #data ingestion #extraction #Optical Character Recognition
-Last Updated: June 24, 2026</description>
-    <category>Downloadable</category>
-    <category>Table Extraction</category>
-    <category>nemo retriever</category>
-    <category>data ingestion</category>
-    <category>extraction</category>
-    <category>Optical Character Recognition</category>
-    <category>NVIDIA</category>
   </item>
   <item>
     <title>【ModelScope】ZhipuAI/GLM-5.2</title>
@@ -482,138 +122,6 @@ Owner: system
 Created: 2026-06-12 16:23:31 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>MiniMax</category>
-  </item>
-  <item>
-    <title>【NVIDIA】minimax-m3</title>
-    <link>https://build.nvidia.com/minimaxai/minimax-m3</link>
-    <guid isPermaLink="false">https://build.nvidia.com/minimaxai/minimax-m3</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/minimaxai/minimax-m3">NVIDIA</source>
-    <description>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
-Features: Deprecated | Free Endpoint
-Tags: #coding #text-to-text #reasoning
-Last Updated: June 12, 2026</description>
-    <category>Deprecated</category>
-    <category>Free Endpoint</category>
-    <category>coding</category>
-    <category>text-to-text</category>
-    <category>reasoning</category>
-    <category>Minimaxai</category>
-  </item>
-  <item>
-    <title>【NVIDIA】diffusiongemma-26b-a4b-it</title>
-    <link>https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</link>
-    <guid isPermaLink="false">https://build.nvidia.com/google/diffusiongemma-26b-a4b-it</guid>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it">NVIDIA</source>
-    <description>Diffusion-based 26B parameter LLM enabling parallel token generation for real-time text apps
-Features: Downloadable | Free Endpoint
-Tags: #diffusion-llm #text-to-text #reasoning
-Last Updated: June 10, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>diffusion-llm</category>
-    <category>text-to-text</category>
-    <category>reasoning</category>
-    <category>Google</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-3-ultra-550b-a55b</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b</guid>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b">NVIDIA</source>
-    <description>Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more
-Features: Downloadable | Free Endpoint
-Tags: #Agent #MoE #Frontier #Reasoning #Long Context
-Last Updated: June 4, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Agent</category>
-    <category>MoE</category>
-    <category>Frontier</category>
-    <category>Reasoning</category>
-    <category>Long Context</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】chatterbox-multilingual-tts</title>
-    <link>https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</link>
-    <guid isPermaLink="false">https://build.nvidia.com/resembleai/chatterbox-multilingual-tts</guid>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/resembleai/chatterbox-multilingual-tts">NVIDIA</source>
-    <description>Natural and expressive voices in 23 languages. For voice agents and brand ambassadors.
-Features: Downloadable
-Tags: #TTS #Chatterbox #Speech Generation #multilingual #Text-to-Speech
-Last Updated: June 3, 2026</description>
-    <category>Downloadable</category>
-    <category>TTS</category>
-    <category>Chatterbox</category>
-    <category>Speech Generation</category>
-    <category>multilingual</category>
-    <category>Text-to-Speech</category>
-    <category>Resemble.AI</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-3.5-content-safety</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-content-safety</guid>
-    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3.5-content-safety">NVIDIA</source>
-    <description>Multilingual, multimodal model for detecting unsafe and toxic content.
-Features: Downloadable | Free Endpoint
-Tags: #llm safety #safety and moderation #multilingual content safety #ai safety nemo guardrails
-Last Updated: June 2, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>llm safety</category>
-    <category>safety and moderation</category>
-    <category>multilingual content safety</category>
-    <category>ai safety nemo guardrails</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】cosmos3-nano</title>
-    <link>https://build.nvidia.com/nvidia/cosmos3-nano</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/cosmos3-nano</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/cosmos3-nano">NVIDIA</source>
-    <description>Generates physics-aware videos from text prompts or an image prompt for physical AI development.
-Features: Downloadable | Free Endpoint
-Tags: #autonomous vehicles #Physical AI #robotics #text-to-world #image-to-world #Synthetic Data Generation
-Last Updated: June 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>autonomous vehicles</category>
-    <category>Physical AI</category>
-    <category>robotics</category>
-    <category>text-to-world</category>
-    <category>image-to-world</category>
-    <category>Synthetic Data Generation</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】cosmos3-nano-reasoner</title>
-    <link>https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/cosmos3-nano-reasoner</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/cosmos3-nano-reasoner">NVIDIA</source>
-    <description>Vision language model that excels in understanding the physical world using structured reasoning on videos or images.
-Features: Downloadable | Free Endpoint
-Tags: #video understanding #autonomous vehicles #industrial #Physical AI #vision language model #reasoning #robotics #smart cities #Synthetic Data Generation
-Last Updated: June 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>video understanding</category>
-    <category>autonomous vehicles</category>
-    <category>industrial</category>
-    <category>Physical AI</category>
-    <category>vision language model</category>
-    <category>reasoning</category>
-    <category>robotics</category>
-    <category>smart cities</category>
-    <category>Synthetic Data Generation</category>
-    <category>NVIDIA</category>
   </item>
   <item>
     <title>【ModelScope】stepfun-ai/Step-3.7-Flash</title>
@@ -653,55 +161,6 @@ Owner: system
 Created: 2026-05-11 15:38:25 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>MedAIBase</category>
-  </item>
-  <item>
-    <title>【NVIDIA】qwen-image</title>
-    <link>https://build.nvidia.com/qwen/qwen-image</link>
-    <guid isPermaLink="false">https://build.nvidia.com/qwen/qwen-image</guid>
-    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/qwen/qwen-image">NVIDIA</source>
-    <description>Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.
-Features: Downloadable
-Tags: #Text-to-Image #Image Generation
-Last Updated: May 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Text-to-Image</category>
-    <category>Image Generation</category>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】qwen-image-edit</title>
-    <link>https://build.nvidia.com/qwen/qwen-image-edit</link>
-    <guid isPermaLink="false">https://build.nvidia.com/qwen/qwen-image-edit</guid>
-    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/qwen/qwen-image-edit">NVIDIA</source>
-    <description>Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.
-Features: Downloadable
-Tags: #Text-to-Image #Image Generation
-Last Updated: May 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Text-to-Image</category>
-    <category>Image Generation</category>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-3-nano-omni-30b-a3b-reasoning</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</guid>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning">NVIDIA</source>
-    <description>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
-Features: Downloadable | Free Endpoint
-Tags: #Image-to-Text #VLM #Video #Omni #OCR
-Last Updated: April 28, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Image-to-Text</category>
-    <category>VLM</category>
-    <category>Video</category>
-    <category>Omni</category>
-    <category>OCR</category>
-    <category>NVIDIA</category>
   </item>
   <item>
     <title>【ModelScope】Qwen/Qwen3.5-27B</title>

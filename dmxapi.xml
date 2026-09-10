@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DMXAPI AI Models RSS</title>
+    <link>https://www.dmxapi.cn</link>
+    <description>Model catalog scraped from https://www.dmxapi.cn</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Sep 2026 12:59:19 +0000</lastBuildDate>
+  <item>
+    <title>【DMXAPI】bge-reranker-v2-m3-free</title>
+    <link>https://www.dmxapi.cn</link>
+    <guid isPermaLink="false">dmxapi:bge-reranker-v2-m3-free</guid>
+    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
+    <source url="https://www.dmxapi.cn">DMXAPI</source>
+    <description>Model: bge-reranker-v2-m3-free
+Vendor: jina
+Endpoints: jina-rerank
+Base URL: https://www.dmxapi.cn/v1
+First seen: 2026-08-21 13:17:57 UTC</description>
+    <category>jina</category>
+    <category>jina-rerank</category>
+  </item>
+  <item>
+    <title>【DMXAPI】spark-lite-free</title>
+    <link>https://www.dmxapi.cn</link>
+    <guid isPermaLink="false">dmxapi:spark-lite-free</guid>
+    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
+    <source url="https://www.dmxapi.cn">DMXAPI</source>
+    <description>Model: spark-lite-free
+Vendor: openai
+Endpoints: openai
+Base URL: https://www.dmxapi.cn/v1
+First seen: 2026-08-21 13:17:57 UTC</description>
+    <category>openai</category>
+  </item>
+  </channel>
+</rss>
