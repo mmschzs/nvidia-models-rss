@@ -74,19 +74,27 @@ pip install -r requirements.txt
 python fetch_feeds.py
 ```
 
-产物：
+产物（每个源一份，另加一份汇总）：
 
-- `dist/rss.xml` —— 汇总后的订阅源（按 `pubDate` 倒序，跨源混排）
-- `dist/index.html` —— 按源分组的预览页
+| 文件 | 内容 |
+| --- | --- |
+| `dist/amd.xml` | 仅 AMD Radeon TokenFactory 免费模型 |
+| `dist/nvidia.xml` | 仅 NVIDIA Build 模型 |
+| `dist/rss.xml` | 全部源汇总，按 `pubDate` 倒序混排 |
+| `dist/index.html` | 按源分组的预览页 |
+
+新增源后会自动多出一份 `<source_key>.xml`，无需改别的代码。
 
 ---
 
 ## 🚀 自动化与订阅
 
 GitHub Actions 每 6 小时运行一次（`0 */6 * * *`），支持手动触发，并把 `dist/` 发布到
-`gh-pages` 分支。订阅地址：
+订阅地址：
 
-- `https://<username>.github.io/<repo>/rss.xml`
+- 只订阅 AMD：<https://mmschzs.github.io/nvidia-models-rss/amd.xml>
+- 只订阅 NVIDIA：<https://mmschzs.github.io/nvidia-models-rss/nvidia.xml>
+- 汇总：<https://mmschzs.github.io/nvidia-models-rss/rss.xml>
 
 ---
 

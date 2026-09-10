@@ -56,7 +56,14 @@ def rfc822(dt: datetime) -> str:
     return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 
-def build_rss(items: List[Item], output_dir: str) -> str:
+def build_rss(
+    items: List[Item],
+    output_dir: str,
+    filename: str,
+    title: str,
+    link: str,
+    description: str,
+) -> str:
     os.makedirs(output_dir, exist_ok=True)
     now_rfc = rfc822(datetime.now(timezone.utc))
 
@@ -64,12 +71,12 @@ def build_rss(items: List[Item], output_dir: str) -> str:
 
     items_xml = ""
     for it in sorted_items:
-        title = f"【{it.source_label}】{it.title}"
+        entry_title = f"【{it.source_label}】{it.title}"
         categories_xml = "".join(
             f"    <category>{saxutils.escape(c)}</category>\n" for c in it.categories
         )
         items_xml += f"""  <item>
-    <title>{saxutils.escape(title)}</title>
+    <title>{saxutils.escape(entry_title)}</title>
     <link>{saxutils.escape(it.link)}</link>
     <guid isPermaLink="false">{saxutils.escape(it.guid)}</guid>
     <pubDate>{rfc822(it.pub_datetime)}</pubDate>
@@ -81,15 +88,15 @@ def build_rss(items: List[Item], output_dir: str) -> str:
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{saxutils.escape(FEED_TITLE)}</title>
-    <link>{FEED_HOME_URL}</link>
-    <description>{saxutils.escape(FEED_DESCRIPTION)}</description>
+    <title>{saxutils.escape(title)}</title>
+    <link>{link}</link>
+    <description>{saxutils.escape(description)}</description>
     <language>en</language>
     <lastBuildDate>{now_rfc}</lastBuildDate>
 {items_xml}  </channel>
 </rss>
 """
-    path = os.path.join(output_dir, "rss.xml")
+    path = os.path.join(output_dir, filename)
     with open(path, "w", encoding="utf-8") as f:
         f.write(rss_xml)
     logger.info(f"Wrote {path} ({os.path.getsize(path)} bytes, {len(sorted_items)} items)")
@@ -97,12 +104,13 @@ def build_rss(items: List[Item], output_dir: str) -> str:
 
 
 def build_landing_page(items: List[Item], output_dir: str) -> str:
-    grouped: Dict[str, List[Item]] = {}
+    grouped: "OrderedDict[str, List[Item]]" = OrderedDict()
     for it in sorted(items, key=lambda i: i.pub_datetime, reverse=True):
-        grouped.setdefault(it.source_label, []).append(it)
+        grouped.setdefault(it.source_key, []).append(it)
 
     sections = ""
-    for label, group in grouped.items():
+    for key, group in grouped.items():
+        label = group[0].source_label
         cards = "".join(
             f'      <article class="card">\n'
             f'        <div class="card-src">{saxutils.escape(label)}</div>\n'
@@ -114,10 +122,17 @@ def build_landing_page(items: List[Item], output_dir: str) -> str:
         )
         sections += (
             f'    <section>\n'
-            f'      <h2>【{saxutils.escape(label)}】 · {len(group)} models</h2>\n'
+            f'      <h2>【{saxutils.escape(label)}】 · {len(group)} models '
+            f'· <a href="{key}.xml">{key}.xml</a></h2>\n'
             f'      <div class="cards">{cards}</div>\n'
             f"    </section>\n"
         )
+
+    feed_buttons = "".join(
+        f'        <a class="btn btn-src" href="{cls.key}.xml">'
+        f'{saxutils.escape(cls.label)} ({cls.key}.xml)</a>\n'
+        for cls in SOURCES
+    )
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     html = f"""<!DOCTYPE html>
@@ -138,6 +153,8 @@ def build_landing_page(items: List[Item], output_dir: str) -> str:
     p.sub {{ color:var(--muted); margin-bottom:20px; }}
     .btn {{ display:inline-block; background:#f97316; color:#fff; padding:10px 20px;
             border-radius:8px; font-weight:600; text-decoration:none; }}
+    .btn-src {{ background:#334155; }}
+    .feed-buttons {{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }}
     .meta {{ display:flex; justify-content:space-between; padding:12px 18px; background:var(--card);
              border:1px solid var(--border); border-radius:8px; color:var(--muted);
              font-size:.85rem; margin-bottom:28px; }}
@@ -158,7 +175,10 @@ def build_landing_page(items: List[Item], output_dir: str) -> str:
     <header>
       <h1>{saxutils.escape(FEED_TITLE)}</h1>
       <p class="sub">{saxutils.escape(FEED_DESCRIPTION)}</p>
-      <a class="btn" href="rss.xml">Subscribe RSS 2.0</a>
+      <div class="feed-buttons">
+        <a class="btn" href="rss.xml">All sources (rss.xml)</a>
+        {feed_buttons}
+      </div>
     </header>
     <div class="meta">
       <span>Total entries: <strong>{len(items)}</strong></span>
@@ -188,7 +208,23 @@ def main() -> None:
         logger.error("No items collected from any source.")
         sys.exit(1)
 
-    build_rss(items, OUTPUT_DIR)
+    # One feed per source, plus the merged feed.
+    by_source: Dict[str, List[Item]] = {}
+    for it in items:
+        by_source.setdefault(it.source_key, []).append(it)
+
+    for cls in SOURCES:
+        group = by_source.get(cls.key, [])
+        build_rss(
+            group,
+            OUTPUT_DIR,
+            f"{cls.key}.xml",
+            f"{cls.label} AI Models RSS",
+            cls.home_url,
+            f"Model catalog scraped from {cls.home_url}",
+        )
+
+    build_rss(items, OUTPUT_DIR, "rss.xml", FEED_TITLE, FEED_HOME_URL, FEED_DESCRIPTION)
     build_landing_page(items, OUTPUT_DIR)
     logger.info("Done.")
 

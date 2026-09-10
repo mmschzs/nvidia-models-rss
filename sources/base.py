@@ -4,6 +4,7 @@
 import json
 import logging
 import os
+import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
@@ -98,27 +99,40 @@ class Source:
         self.seen = seen
         self.session = requests.Session()
         self.session.headers.update(HTML_HEADERS)
+        self.timeout = 60
+        self.retries = 3
 
     def fetch(self) -> List[Item]:
         raise NotImplementedError
 
+    def _request(self, method: str, url: str, extra_headers=None):
+        last_error = None
+        for attempt in range(1, self.retries + 1):
+            try:
+                resp = self.session.request(
+                    method, url, headers=extra_headers or {}, timeout=self.timeout
+                )
+                resp.raise_for_status()
+                return resp
+            except Exception as e:
+                last_error = e
+                logger.warning(
+                    f"[{self.key}] {method} {url} attempt {attempt}/{self.retries} failed: {e}"
+                )
+                if attempt < self.retries:
+                    time.sleep(2 * attempt)
+        raise last_error
+
     def get_html(self, url: str) -> str:
         logger.info(f"[{self.key}] GET {url}")
-        resp = self.session.get(url, timeout=30)
-        resp.raise_for_status()
+        resp = self._request("GET", url)
         logger.info(f"[{self.key}] {len(resp.text)} bytes (HTTP {resp.status_code})")
         return resp.text
 
-    def get_json(self, url: str, extra_headers: Optional[Dict[str, str]] = None) -> Any:
+    def get_json(self, url: str, extra_headers=None) -> Any:
         logger.info(f"[{self.key}] GET JSON {url}")
-        resp = self.session.get(url, headers=extra_headers or {}, timeout=30)
-        resp.raise_for_status()
-        return resp.json()
+        return self._request("GET", url, extra_headers).json()
 
-    def post_json(
-        self, url: str, extra_headers: Optional[Dict[str, str]] = None
-    ) -> Any:
+    def post_json(self, url: str, extra_headers=None) -> Any:
         logger.info(f"[{self.key}] POST JSON {url}")
-        resp = self.session.post(url, headers=extra_headers or {}, timeout=30)
-        resp.raise_for_status()
-        return resp.json()
+        return self._request("POST", url, extra_headers).json()
