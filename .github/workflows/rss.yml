@@ -1,4 +1,4 @@
-name: Generate and Deploy NVIDIA Models RSS
+name: Generate and Deploy Models RSS
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
     branches:
       - main
       - master
+      - velvetfish
 
 concurrency:
   group: "rss-pages"
@@ -40,9 +41,20 @@ jobs:
         run: |
           python fetch_models.py
 
+      - name: Fetch ModelScope models and generate feeds
+        run: |
+          python fetch_modelscope.py
+
+      - name: Commit and push updated model discovery history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/modelscope_history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update model history [skip ci]" && git push)
+
       - name: Deploy feeds to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/velvetfish' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist

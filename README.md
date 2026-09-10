@@ -100,11 +100,25 @@ git push -u origin main
 
 部署完成后，你的 RSS / Atom 订阅链接为：
 
+#### NVIDIA Models 订阅源
 - **RSS 2.0**：`https://<your-username>.github.io/<your-repo-name>/rss.xml`
 - **Atom 1.0**：`https://<your-username>.github.io/<your-repo-name>/atom.xml`
 - **在线预览页面**：`https://<your-username>.github.io/<your-repo-name>/`
 
+#### ModelScope (魔搭) API-Inference 订阅源
+- **RSS 2.0**：`https://<your-username>.github.io/<your-repo-name>/modelscope_rss.xml`
+- **Atom 1.0**：`https://<your-username>.github.io/<your-repo-name>/modelscope_atom.xml`
+- **在线预览页面**：`https://<your-username>.github.io/<your-repo-name>/modelscope.html`
+
+> 💡 **时间戳策略**：优先使用 ModelScope 远端返回的 `created` 时间戳；若远端未提供或字段缺失，则以本地抓取首次发现该模型的时间（`first_seen`）为准并持久化于 `data/modelscope_history.json`，确保时间永不漂移。
+
 ---
+
+### 4. 运行 ModelScope 独立抓取
+
+```bash
+python fetch_modelscope.py
+```
 
 ## 📄 License
 

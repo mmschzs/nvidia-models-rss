@@ -577,6 +577,7 @@ def generate_landing_page(models: List[Dict[str, Any]], output_dir: str) -> None
       <div class="feed-buttons">
         <a href="rss.xml" class="btn btn-rss">📡 Subscribe RSS 2.0</a>
         <a href="atom.xml" class="btn btn-atom">⚛️ Subscribe Atom 1.0</a>
+        <a href="modelscope.html" class="btn btn-atom" style="background:#8b5cf6;">🔮 ModelScope 源</a>
         <a href="https://build.nvidia.com/models" target="_blank" rel="noopener noreferrer" class="btn btn-gh">🌐 Official Portal</a>
       </div>
     </header>
