@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 15:53:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:27:35 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】parakeet-tdt-0.6b</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
@@ -100,15 +100,15 @@ Last Updated: August 11, 2026</description>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
+Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
+    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Meta</category>
   </item>
@@ -231,23 +231,6 @@ Last Updated: June 24, 2026</description>
     <category>extraction</category>
     <category>Optical Character Recognition</category>
     <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】minimax-m3</title>
-    <link>https://build.nvidia.com/minimaxai/minimax-m3</link>
-    <guid isPermaLink="false">https://build.nvidia.com/minimaxai/minimax-m3</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/minimaxai/minimax-m3">NVIDIA</source>
-    <description>MiniMax M3 Preview is a multimodal MoE vision-language model with strong reasoning, coding, and tool-calling capabilities.
-Features: Deprecated | Free Endpoint
-Tags: #coding #text-to-text #reasoning
-Last Updated: June 12, 2026</description>
-    <category>Deprecated</category>
-    <category>Free Endpoint</category>
-    <category>coding</category>
-    <category>text-to-text</category>
-    <category>reasoning</category>
-    <category>Minimaxai</category>
   </item>
   <item>
     <title>【NVIDIA】diffusiongemma-26b-a4b-it</title>
@@ -411,6 +394,23 @@ Last Updated: April 28, 2026</description>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
+    <category>NVIDIA</category>
+  </item>
+  <item>
+    <title>【NVIDIA】Relighting</title>
+    <link>https://build.nvidia.com/nvidia/relighting</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/relighting">NVIDIA</source>
+    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
+Features: Downloadable
+Tags: #HDRI #remote contribution #lighting #nvidia ai for media
+Last Updated: April 17, 2026</description>
+    <category>Downloadable</category>
+    <category>HDRI</category>
+    <category>remote contribution</category>
+    <category>lighting</category>
+    <category>nvidia ai for media</category>
     <category>NVIDIA</category>
   </item>
   </channel>
