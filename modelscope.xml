@@ -5,7 +5,33 @@
     <link>https://api-inference.modelscope.cn</link>
     <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 10:38:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 15:53:08 +0000</lastBuildDate>
+  <item>
+    <title>【ModelScope】nex-agi/Nex-N2.5-Pro</title>
+    <link>https://www.modelscope.cn/models/nex-agi/Nex-N2.5-Pro</link>
+    <guid isPermaLink="false">modelscope:nex-agi/Nex-N2.5-Pro</guid>
+    <pubDate>Fri, 11 Sep 2026 19:05:23 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/nex-agi/Nex-N2.5-Pro">ModelScope</source>
+    <description>Model: nex-agi/Nex-N2.5-Pro
+Namespace: nex-agi
+Owner: system
+Created: 2026-09-11 19:05:23 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>nex-agi</category>
+  </item>
+  <item>
+    <title>【ModelScope】nex-agi/Nex-N2.5-mini</title>
+    <link>https://www.modelscope.cn/models/nex-agi/Nex-N2.5-mini</link>
+    <guid isPermaLink="false">modelscope:nex-agi/Nex-N2.5-mini</guid>
+    <pubDate>Fri, 11 Sep 2026 19:04:08 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/nex-agi/Nex-N2.5-mini">ModelScope</source>
+    <description>Model: nex-agi/Nex-N2.5-mini
+Namespace: nex-agi
+Owner: system
+Created: 2026-09-11 19:04:08 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>nex-agi</category>
+  </item>
   <item>
     <title>【ModelScope】Qwen/Qwen3.8-Flash-Next</title>
     <link>https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next</link>

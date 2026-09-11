@@ -5,7 +5,33 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 10:38:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 15:53:08 +0000</lastBuildDate>
+  <item>
+    <title>【ModelScope】nex-agi/Nex-N2.5-Pro</title>
+    <link>https://www.modelscope.cn/models/nex-agi/Nex-N2.5-Pro</link>
+    <guid isPermaLink="false">modelscope:nex-agi/Nex-N2.5-Pro</guid>
+    <pubDate>Fri, 11 Sep 2026 19:05:23 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/nex-agi/Nex-N2.5-Pro">ModelScope</source>
+    <description>Model: nex-agi/Nex-N2.5-Pro
+Namespace: nex-agi
+Owner: system
+Created: 2026-09-11 19:05:23 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>nex-agi</category>
+  </item>
+  <item>
+    <title>【ModelScope】nex-agi/Nex-N2.5-mini</title>
+    <link>https://www.modelscope.cn/models/nex-agi/Nex-N2.5-mini</link>
+    <guid isPermaLink="false">modelscope:nex-agi/Nex-N2.5-mini</guid>
+    <pubDate>Fri, 11 Sep 2026 19:04:08 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/nex-agi/Nex-N2.5-mini">ModelScope</source>
+    <description>Model: nex-agi/Nex-N2.5-mini
+Namespace: nex-agi
+Owner: system
+Created: 2026-09-11 19:04:08 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>nex-agi</category>
+  </item>
   <item>
     <title>【AMD】MinerU2.5-Pro</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -151,10 +177,11 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</guid>
     <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813">NVIDIA</source>
-    <description>DeepSeek V4 scales to 1M-token context windows with efficient MoE architecture for coding tasks.
-Features: Free Endpoint
+    <description>DeepSeek V4 scales to 262K-token context windows with efficient MoE architecture for coding tasks.
+Features: Downloadable | Free Endpoint
 Tags: #coding #Moe #reasoning #agentic
 Last Updated: August 26, 2026</description>
+    <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>coding</category>
     <category>Moe</category>
