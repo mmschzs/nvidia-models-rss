@@ -5,24 +5,58 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 20:27:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 03:10:53 +0000</lastBuildDate>
   <item>
-    <title>【NVIDIA】parakeet-tdt-0.6b</title>
-    <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b">NVIDIA</source>
-    <description>Multilingual ASR across 25 European languages with punctuation, capitalization, and word timestamps
+    <title>【NVIDIA】nemotron-parse-2.0</title>
+    <link>https://build.nvidia.com/nvidia/nemotron-parse-2.0</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-parse-2.0</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/nemotron-parse-2.0">NVIDIA</source>
+    <description>Cutting-edge vision-language model excelling in retrieving text and metadata from images.
 Features: Downloadable
-Tags: #ASR #Multilingual #NVIDIA NIM #NVIDIA Riva #speech-to-text
-Last Updated: September 8, 2026</description>
+Tags: #text and table extraction #document parsing #supported language - english
+Last Updated: September 11, 2026</description>
     <category>Downloadable</category>
-    <category>ASR</category>
-    <category>Multilingual</category>
-    <category>NVIDIA NIM</category>
-    <category>NVIDIA Riva</category>
-    <category>speech-to-text</category>
+    <category>text and table extraction</category>
+    <category>document parsing</category>
+    <category>supported language - english</category>
     <category>NVIDIA</category>
+  </item>
+  <item>
+    <title>【NVIDIA】Kumo Relational</title>
+    <link>https://build.nvidia.com/nvidia/kumo-relational</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/kumo-relational</guid>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/kumo-relational">NVIDIA</source>
+    <description>A relational foundation model for prediction over structured, multi-table data.
+Features: Downloadable | Free Endpoint
+Tags: #Prediction #Structured Data #Relational Models #Graph Learning
+Last Updated: September 4, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Prediction</category>
+    <category>Structured Data</category>
+    <category>Relational Models</category>
+    <category>Graph Learning</category>
+    <category>NVIDIA</category>
+  </item>
+  <item>
+    <title>【NVIDIA】kimi-k3</title>
+    <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
+    <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
+    <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
+Features: Downloadable | Free Endpoint
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Last Updated: August 27, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Multimodal</category>
+    <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
+    <category>Image-to-Text</category>
+    <category>Moonshotai</category>
   </item>
   <item>
     <title>【NVIDIA】deepseek-v4-pro-0813</title>
@@ -376,42 +410,6 @@ Last Updated: May 1, 2026</description>
     <category>Text-to-Image</category>
     <category>Image Generation</category>
     <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】nemotron-3-nano-omni-30b-a3b-reasoning</title>
-    <link>https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</guid>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning">NVIDIA</source>
-    <description>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
-Features: Downloadable | Free Endpoint
-Tags: #Image-to-Text #VLM #Video #Omni #OCR
-Last Updated: April 28, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Image-to-Text</category>
-    <category>VLM</category>
-    <category>Video</category>
-    <category>Omni</category>
-    <category>OCR</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】Relighting</title>
-    <link>https://build.nvidia.com/nvidia/relighting</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/relighting">NVIDIA</source>
-    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
-Features: Downloadable
-Tags: #HDRI #remote contribution #lighting #nvidia ai for media
-Last Updated: April 17, 2026</description>
-    <category>Downloadable</category>
-    <category>HDRI</category>
-    <category>remote contribution</category>
-    <category>lighting</category>
-    <category>nvidia ai for media</category>
-    <category>NVIDIA</category>
   </item>
   </channel>
 </rss>

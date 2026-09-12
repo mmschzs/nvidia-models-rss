@@ -5,27 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 20:27:35 +0000</lastBuildDate>
-  <item>
-    <title>【AMD】MinerU2.5-Pro</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:MinerU2.5-Pro</guid>
-    <pubDate>Thu, 10 Sep 2026 12:58:14 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>MinerU2.5-Pro served by the AMD GPU Cloud
-Publisher: Radeon Cloud
-Badge: Limited Free
-Status: Limited Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Model ID: model_gateway:MinerU2.5-Pro
-Tags: #API #OpenAI compatible</description>
-    <category>Limited Free</category>
-    <category>LLM (Text)</category>
-    <category>Radeon Cloud</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
+    <lastBuildDate>Sat, 12 Sep 2026 03:10:53 +0000</lastBuildDate>
   <item>
     <title>【AMD】MiniCPM5-2B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
