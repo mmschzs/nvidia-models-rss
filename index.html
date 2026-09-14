@@ -48,8 +48,8 @@
       </div>
     </header>
     <div class="meta">
-      <span>Total entries: <strong>80</strong></span>
-      <span>Last updated: <strong>2026-09-14 17:43:17 UTC</strong></span>
+      <span>Total entries: <strong>81</strong></span>
+      <span>Last updated: <strong>2026-09-14 21:29:50 UTC</strong></span>
     </div>
     <section>
       <h2>【AMD】 · 7 models · <a href="amd.xml">amd.xml</a></h2>
@@ -721,7 +721,7 @@
         <div class="card-body"><b>Publisher</b>: Meta<br/>
 <b>Features</b>: Downloadable | Free Endpoint<br/>
 <b>Description</b>:<br/>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.<br/>
-<b>Tags</b>: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models<br/>
+<b>Tags</b>: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models<br/>
 <b>Last Updated</b>: August 10, 2026<br/>
 <b>Model Card</b>: <a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank">https://build.nvidia.com/meta/muse-glimmer-30b</a></div>
         <div class="card-date">Mon, 10 Aug 2026 00:00:00 +0000</div>
@@ -916,7 +916,7 @@
 </div>
     </section>
     <section>
-      <h2>【DMXAPI】 · 1 models · <a href="dmxapi.xml">dmxapi.xml</a></h2>
+      <h2>【DMXAPI】 · 2 models · <a href="dmxapi.xml">dmxapi.xml</a></h2>
       <div class="cards">      <article class="card">
         <div class="card-src">DMXAPI</div>
         <h3>bge-reranker-v2-m3-free</h3>
@@ -929,6 +929,21 @@
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $DMX_API_KEY" \
   -d '{"model": "bge-reranker-v2-m3-free", "query": "hello", "documents": ["doc a", "doc b"]}'</pre><br/>
+<b>Site</b>: <a href="https://www.dmxapi.cn" target="_blank">https://www.dmxapi.cn</a></div>
+        <div class="card-date">Fri, 21 Aug 2026 13:17:57 +0000</div>
+      </article>
+      <article class="card">
+        <div class="card-src">DMXAPI</div>
+        <h3>spark-lite-free</h3>
+        <div class="card-body"><b>Model</b>: spark-lite-free<br/>
+<b>Vendor</b>: openai<br/>
+<b>Endpoints</b>: openai<br/>
+<b>Base URL</b>: https://www.dmxapi.cn/v1<br/>
+<b>First seen</b>: 2026-08-21 13:17:57 UTC<br/>
+<b>Quick test</b>:<br/><pre>curl https://www.dmxapi.cn/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $DMX_API_KEY" \
+  -d '{"model": "spark-lite-free", "messages": [{"role": "user", "content": "Hello!"}]}'</pre><br/>
 <b>Site</b>: <a href="https://www.dmxapi.cn" target="_blank">https://www.dmxapi.cn</a></div>
         <div class="card-date">Fri, 21 Aug 2026 13:17:57 +0000</div>
       </article>

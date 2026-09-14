@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 17:43:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 21:29:50 +0000</lastBuildDate>
   <item>
     <title>【AMD】Qwen3.8-27B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -271,6 +271,19 @@ First seen: 2026-08-21 13:17:57 UTC</description>
     <category>jina-rerank</category>
   </item>
   <item>
+    <title>【DMXAPI】spark-lite-free</title>
+    <link>https://www.dmxapi.cn</link>
+    <guid isPermaLink="false">dmxapi:spark-lite-free</guid>
+    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
+    <source url="https://www.dmxapi.cn">DMXAPI</source>
+    <description>Model: spark-lite-free
+Vendor: openai
+Endpoints: openai
+Base URL: https://www.dmxapi.cn/v1
+First seen: 2026-08-21 13:17:57 UTC</description>
+    <category>openai</category>
+  </item>
+  <item>
     <title>【ModelScope】Qwen/Qwen3.8-27B</title>
     <link>https://www.modelscope.cn/models/Qwen/Qwen3.8-27B</link>
     <guid isPermaLink="false">modelscope:Qwen/Qwen3.8-27B</guid>
@@ -354,15 +367,15 @@ Last Updated: August 11, 2026</description>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
+Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
+    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Meta</category>
   </item>
