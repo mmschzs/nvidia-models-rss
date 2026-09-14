@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 03:26:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 11:50:15 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】nemotron-parse-2.0</title>
     <link>https://build.nvidia.com/nvidia/nemotron-parse-2.0</link>
@@ -48,33 +48,15 @@ Last Updated: September 4, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Mixture-of-Experts</category>
     <category>Reasoning</category>
+    <category>Mixture-of-Experts</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
-  </item>
-  <item>
-    <title>【NVIDIA】deepseek-v4-pro-0813</title>
-    <link>https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</link>
-    <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813</guid>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813">NVIDIA</source>
-    <description>DeepSeek V4 scales to 262K-token context windows with efficient MoE architecture for coding tasks.
-Features: Downloadable | Free Endpoint
-Tags: #coding #Moe #reasoning #agentic
-Last Updated: August 26, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>coding</category>
-    <category>Moe</category>
-    <category>reasoning</category>
-    <category>agentic</category>
-    <category>DeepSeek AI</category>
   </item>
   <item>
     <title>【NVIDIA】wan2.2-animate-2-14b</title>
@@ -410,6 +392,25 @@ Last Updated: May 1, 2026</description>
     <category>Text-to-Image</category>
     <category>Image Generation</category>
     <category>Qwen</category>
+  </item>
+  <item>
+    <title>【NVIDIA】nemotron-3-nano-omni-30b-a3b-reasoning</title>
+    <link>https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning</guid>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning">NVIDIA</source>
+    <description>Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.
+Features: Downloadable | Free Endpoint
+Tags: #Image-to-Text #VLM #Video #Omni #OCR
+Last Updated: April 28, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Image-to-Text</category>
+    <category>VLM</category>
+    <category>Video</category>
+    <category>Omni</category>
+    <category>OCR</category>
+    <category>NVIDIA</category>
   </item>
   </channel>
 </rss>
