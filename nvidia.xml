@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 11:50:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:43:17 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】nemotron-parse-2.0</title>
     <link>https://build.nvidia.com/nvidia/nemotron-parse-2.0</link>
@@ -23,24 +23,6 @@ Last Updated: September 11, 2026</description>
     <category>NVIDIA</category>
   </item>
   <item>
-    <title>【NVIDIA】Kumo Relational</title>
-    <link>https://build.nvidia.com/nvidia/kumo-relational</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/kumo-relational</guid>
-    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/kumo-relational">NVIDIA</source>
-    <description>A relational foundation model for prediction over structured, multi-table data.
-Features: Downloadable | Free Endpoint
-Tags: #Prediction #Structured Data #Relational Models #Graph Learning
-Last Updated: September 4, 2026</description>
-    <category>Downloadable</category>
-    <category>Free Endpoint</category>
-    <category>Prediction</category>
-    <category>Structured Data</category>
-    <category>Relational Models</category>
-    <category>Graph Learning</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
     <title>【NVIDIA】kimi-k3</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
     <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
@@ -48,13 +30,13 @@ Last Updated: September 4, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Reasoning</category>
     <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -116,15 +98,15 @@ Last Updated: August 11, 2026</description>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Meta</category>
   </item>
@@ -410,6 +392,23 @@ Last Updated: April 28, 2026</description>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
+    <category>NVIDIA</category>
+  </item>
+  <item>
+    <title>【NVIDIA】Relighting</title>
+    <link>https://build.nvidia.com/nvidia/relighting</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/relighting">NVIDIA</source>
+    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
+Features: Downloadable
+Tags: #HDRI #remote contribution #lighting #nvidia ai for media
+Last Updated: April 17, 2026</description>
+    <category>Downloadable</category>
+    <category>HDRI</category>
+    <category>remote contribution</category>
+    <category>lighting</category>
+    <category>nvidia ai for media</category>
     <category>NVIDIA</category>
   </item>
   </channel>
