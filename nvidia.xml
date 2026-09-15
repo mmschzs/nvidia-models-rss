@@ -5,7 +5,26 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 16:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 20:54:15 +0000</lastBuildDate>
+  <item>
+    <title>【NVIDIA】glm-5-3</title>
+    <link>https://build.nvidia.com/z-ai/glm-5-3</link>
+    <guid isPermaLink="false">https://build.nvidia.com/z-ai/glm-5-3</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/z-ai/glm-5-3">NVIDIA</source>
+    <description>753B-parameter text MoE with DeepSeek-style sparse attention, native FP8 weights, reasoning and tool calling.
+Features: Downloadable | Free Endpoint
+Tags: #Reasoning #Chat #Text-to-Text #Large Language Models #Tool Use
+Last Updated: September 15, 2026</description>
+    <category>Downloadable</category>
+    <category>Free Endpoint</category>
+    <category>Reasoning</category>
+    <category>Chat</category>
+    <category>Text-to-Text</category>
+    <category>Large Language Models</category>
+    <category>Tool Use</category>
+    <category>Z.ai</category>
+  </item>
   <item>
     <title>【NVIDIA】nemotron-parse-2.0</title>
     <link>https://build.nvidia.com/nvidia/nemotron-parse-2.0</link>
@@ -23,6 +42,24 @@ Last Updated: September 11, 2026</description>
     <category>NVIDIA</category>
   </item>
   <item>
+    <title>【NVIDIA】parakeet-tdt-0.6b</title>
+    <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
+    <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b">NVIDIA</source>
+    <description>Multilingual ASR across 25 European languages with punctuation, capitalization, and word timestamps
+Features: Downloadable
+Tags: #ASR #Multilingual #NVIDIA NIM #NVIDIA Riva #speech-to-text
+Last Updated: September 8, 2026</description>
+    <category>Downloadable</category>
+    <category>ASR</category>
+    <category>Multilingual</category>
+    <category>NVIDIA NIM</category>
+    <category>NVIDIA Riva</category>
+    <category>speech-to-text</category>
+    <category>NVIDIA</category>
+  </item>
+  <item>
     <title>【NVIDIA】kimi-k3</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
     <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
@@ -30,13 +67,13 @@ Last Updated: September 11, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Reasoning</category>
     <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -392,23 +429,6 @@ Last Updated: April 28, 2026</description>
     <category>Video</category>
     <category>Omni</category>
     <category>OCR</category>
-    <category>NVIDIA</category>
-  </item>
-  <item>
-    <title>【NVIDIA】Relighting</title>
-    <link>https://build.nvidia.com/nvidia/relighting</link>
-    <guid isPermaLink="false">https://build.nvidia.com/nvidia/relighting</guid>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/nvidia/relighting">NVIDIA</source>
-    <description>Re-illuminate people in video to match target lighting from a 360 HDRI environment map.
-Features: Downloadable
-Tags: #HDRI #remote contribution #lighting #nvidia ai for media
-Last Updated: April 17, 2026</description>
-    <category>Downloadable</category>
-    <category>HDRI</category>
-    <category>remote contribution</category>
-    <category>lighting</category>
-    <category>nvidia ai for media</category>
     <category>NVIDIA</category>
   </item>
   </channel>
