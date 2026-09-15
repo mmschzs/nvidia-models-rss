@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 03:27:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 11:06:22 +0000</lastBuildDate>
   <item>
     <title>【AMD】Qwen3.8-27B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -192,6 +192,19 @@ Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache 
     <category>OpenAI compatible</category>
   </item>
   <item>
+    <title>【ModelScope】ZhipuAI/GLM-5.3-Flash</title>
+    <link>https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash</link>
+    <guid isPermaLink="false">modelscope:ZhipuAI/GLM-5.3-Flash</guid>
+    <pubDate>Thu, 27 Aug 2026 09:31:38 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash">ModelScope</source>
+    <description>Model: ZhipuAI/GLM-5.3-Flash
+Namespace: ZhipuAI
+Owner: system
+Created: 2026-08-27 09:31:38 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>ZhipuAI</category>
+  </item>
+  <item>
     <title>【NVIDIA】kimi-k3</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
     <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
@@ -346,15 +359,15 @@ Last Updated: August 11, 2026</description>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
+Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
+    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Meta</category>
   </item>
