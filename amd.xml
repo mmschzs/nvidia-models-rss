@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 21:29:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 03:27:49 +0000</lastBuildDate>
   <item>
     <title>【AMD】Qwen3.8-27B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -20,32 +20,11 @@ Use Case: VLM (Vision)
 Providers: Radeon Cloud
 Context Length: 131,072
 Model ID: model_gateway:Qwen3.8-27B
-Tags: #API #OpenAI compatible</description>
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.5 pts / 1M tokens • Output: 3 pts / 1M tokens • Cache read: 0.050000000000000004 pts / 1M tokens</description>
     <category>Limited Free</category>
     <category>VLM (Vision)</category>
     <category>Qwen</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】DeepSeek-V4.1-Flash</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4.1-Flash</guid>
-    <pubDate>Mon, 14 Sep 2026 17:43:12 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek-V4.1-Flash served by the AMD GPU Cloud
-Publisher: DeepSeek
-Badge: Free
-Status: Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 1,048,576
-Model ID: model_gateway:DeepSeek-V4.1-Flash
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Free</category>
-    <category>LLM (Text)</category>
-    <category>DeepSeek</category>
     <category>API</category>
     <category>OpenAI compatible</category>
   </item>

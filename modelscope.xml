@@ -5,7 +5,7 @@
     <link>https://api-inference.modelscope.cn</link>
     <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 21:29:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 03:27:49 +0000</lastBuildDate>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4.1-Flash</title>
     <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash</link>
@@ -332,32 +332,6 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>OpenGVLab</category>
   </item>
   <item>
-    <title>【ModelScope】Qwen/Qwen3-VL-8B-Instruct</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-VL-8B-Instruct</guid>
-    <pubDate>Mon, 29 Sep 2025 08:57:45 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct">ModelScope</source>
-    <description>Model: Qwen/Qwen3-VL-8B-Instruct
-Namespace: Qwen
-Owner: system
-Created: 2025-09-29 08:57:45 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-VL-8B-Thinking</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Thinking</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-VL-8B-Thinking</guid>
-    <pubDate>Mon, 29 Sep 2025 08:57:45 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Thinking">ModelScope</source>
-    <description>Model: Qwen/Qwen3-VL-8B-Thinking
-Namespace: Qwen
-Owner: system
-Created: 2025-09-29 08:57:45 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
     <title>【ModelScope】Shanghai_AI_Laboratory/Intern-S1</title>
     <link>https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S1</link>
     <guid isPermaLink="false">modelscope:Shanghai_AI_Laboratory/Intern-S1</guid>
@@ -382,84 +356,6 @@ Owner: system
 Created: 2025-09-29 08:57:45 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>Shanghai_AI_Laboratory</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-235B-A22B-Thinking-2507</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-235B-A22B-Thinking-2507</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507">ModelScope</source>
-    <description>Model: Qwen/Qwen3-235B-A22B-Thinking-2507
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-30B-A3B-Thinking-2507</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-30B-A3B-Thinking-2507</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507">ModelScope</source>
-    <description>Model: Qwen/Qwen3-30B-A3B-Thinking-2507
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-Coder-30B-A3B-Instruct</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-Coder-30B-A3B-Instruct</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct">ModelScope</source>
-    <description>Model: Qwen/Qwen3-Coder-30B-A3B-Instruct
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-Next-80B-A3B-Instruct</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Instruct</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-Next-80B-A3B-Instruct</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Instruct">ModelScope</source>
-    <description>Model: Qwen/Qwen3-Next-80B-A3B-Instruct
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-Next-80B-A3B-Thinking</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Thinking</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-Next-80B-A3B-Thinking</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-Next-80B-A3B-Thinking">ModelScope</source>
-    <description>Model: Qwen/Qwen3-Next-80B-A3B-Thinking
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-VL-235B-A22B-Instruct</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-VL-235B-A22B-Instruct</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-VL-235B-A22B-Instruct</guid>
-    <pubDate>Tue, 22 Jul 2025 11:44:06 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-VL-235B-A22B-Instruct">ModelScope</source>
-    <description>Model: Qwen/Qwen3-VL-235B-A22B-Instruct
-Namespace: Qwen
-Owner: system
-Created: 2025-07-22 11:44:06 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
   </item>
   <item>
     <title>【ModelScope】MiniMax/MiniMax-M1-80k</title>
@@ -525,71 +421,6 @@ Owner: system
 Created: 2025-06-29 16:00:00 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>PaddlePaddle</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-14B</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-14B</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-14B</guid>
-    <pubDate>Mon, 28 Apr 2025 16:00:00 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-14B">ModelScope</source>
-    <description>Model: Qwen/Qwen3-14B
-Namespace: Qwen
-Owner: system
-Created: 2025-04-28 16:00:00 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-235B-A22B</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-235B-A22B</guid>
-    <pubDate>Mon, 28 Apr 2025 16:00:00 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-235B-A22B">ModelScope</source>
-    <description>Model: Qwen/Qwen3-235B-A22B
-Namespace: Qwen
-Owner: system
-Created: 2025-04-28 16:00:00 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-30B-A3B</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-30B-A3B</guid>
-    <pubDate>Mon, 28 Apr 2025 16:00:00 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-30B-A3B">ModelScope</source>
-    <description>Model: Qwen/Qwen3-30B-A3B
-Namespace: Qwen
-Owner: system
-Created: 2025-04-28 16:00:00 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-4B</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-4B</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-4B</guid>
-    <pubDate>Mon, 28 Apr 2025 16:00:00 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-4B">ModelScope</source>
-    <description>Model: Qwen/Qwen3-4B
-Namespace: Qwen
-Owner: system
-Created: 2025-04-28 16:00:00 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【ModelScope】Qwen/Qwen3-8B</title>
-    <link>https://www.modelscope.cn/models/Qwen/Qwen3-8B</link>
-    <guid isPermaLink="false">modelscope:Qwen/Qwen3-8B</guid>
-    <pubDate>Mon, 28 Apr 2025 16:00:00 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Qwen/Qwen3-8B">ModelScope</source>
-    <description>Model: Qwen/Qwen3-8B
-Namespace: Qwen
-Owner: system
-Created: 2025-04-28 16:00:00 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Qwen</category>
   </item>
   <item>
     <title>【ModelScope】opencompass/CompassJudger-1-32B-Instruct</title>
