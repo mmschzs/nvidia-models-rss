@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 11:06:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 16:16:54 +0000</lastBuildDate>
   <item>
     <title>【AMD】Qwen3.8-27B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -212,13 +212,13 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Mixture-of-Experts</category>
     <category>Reasoning</category>
+    <category>Mixture-of-Experts</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
