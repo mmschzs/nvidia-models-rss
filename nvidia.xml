@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 16:09:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 20:53:10 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】Kumo Relational</title>
     <link>https://build.nvidia.com/nvidia/kumo-relational</link>
@@ -31,14 +31,33 @@ Last Updated: September 15, 2026</description>
     <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     <source url="https://build.nvidia.com/z-ai/glm-5-3">NVIDIA</source>
     <description>753B-parameter text MoE with DeepSeek-style sparse attention, native FP8 weights, reasoning and tool calling.
-Features: Downloadable | Free Endpoint
+Features: Free Endpoint
 Tags: #Reasoning #Chat #Text-to-Text #Large Language Models #Tool Use
 Last Updated: September 15, 2026</description>
-    <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
+    <category>Large Language Models</category>
+    <category>Tool Use</category>
+    <category>Z.ai</category>
+  </item>
+  <item>
+    <title>【NVIDIA】glm-5-3-flash</title>
+    <link>https://build.nvidia.com/z-ai/glm-5-3-flash</link>
+    <guid isPermaLink="false">https://build.nvidia.com/z-ai/glm-5-3-flash</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://build.nvidia.com/z-ai/glm-5-3-flash">NVIDIA</source>
+    <description>Multimodal 320B-total / 18B-active MoE with hybrid KDA and sparse MLA attention, native FP8 weights, reasoning and tool calling.
+Features: Free Endpoint
+Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models #Tool Use
+Last Updated: September 15, 2026</description>
+    <category>Free Endpoint</category>
+    <category>Multimodal</category>
+    <category>Reasoning</category>
+    <category>Chat</category>
+    <category>Text-to-Text</category>
+    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Tool Use</category>
     <category>Z.ai</category>
@@ -85,13 +104,13 @@ Last Updated: September 8, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Reasoning</category>
     <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -407,21 +426,6 @@ Last Updated: June 1, 2026</description>
     <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     <source url="https://build.nvidia.com/qwen/qwen-image">NVIDIA</source>
     <description>Qwen-Image is a text-to-image foundation model with advanced multilingual text rendering.
-Features: Downloadable
-Tags: #Text-to-Image #Image Generation
-Last Updated: May 1, 2026</description>
-    <category>Downloadable</category>
-    <category>Text-to-Image</category>
-    <category>Image Generation</category>
-    <category>Qwen</category>
-  </item>
-  <item>
-    <title>【NVIDIA】qwen-image-edit</title>
-    <link>https://build.nvidia.com/qwen/qwen-image-edit</link>
-    <guid isPermaLink="false">https://build.nvidia.com/qwen/qwen-image-edit</guid>
-    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    <source url="https://build.nvidia.com/qwen/qwen-image-edit">NVIDIA</source>
-    <description>Qwen-Image-Edit is an image editing model with multilingual text editing and strong subject consistency.
 Features: Downloadable
 Tags: #Text-to-Image #Image Generation
 Last Updated: May 1, 2026</description>
