@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 10:52:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 16:09:18 +0000</lastBuildDate>
   <item>
     <title>【AMD】GLM-5.3-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -25,28 +25,6 @@ Pricing: Input: 0.15 pts / 1M tokens • Output: 0.5 pts / 1M tokens • Cache r
     <category>Free</category>
     <category>LLM (Text)</category>
     <category>Z.ai</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】deepseek-v4-pro</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Pro</guid>
-    <pubDate>Wed, 16 Sep 2026 10:52:01 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Dynamic vllm-router service managed by Model Ops
-Publisher: DeepSeek
-Badge: Limited Free
-Status: Limited Free
-Use Case: LLM (Text)
-Providers: Radeon Cloud
-Context Length: 1,000,000
-Model ID: model_gateway:DeepSeek-V4-Pro
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.55 pts / 1M tokens • Output: 2.1899999999999998 pts / 1M tokens • Cache read: 0.14 pts / 1M tokens</description>
-    <category>Limited Free</category>
-    <category>LLM (Text)</category>
-    <category>DeepSeek</category>
     <category>API</category>
     <category>OpenAI compatible</category>
   </item>
@@ -229,6 +207,28 @@ Pricing: Input: 0.15 pts / 1M tokens • Output: 0.46999999999999995 pts / 1M to
     <category>OpenAI compatible</category>
   </item>
   <item>
+    <title>【AMD】DeepSeek-V4-Flash-0731</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash</guid>
+    <pubDate>Thu, 10 Sep 2026 11:55:18 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>DeepSeek V4 Flash 0731 served by the AMD GPU Cloud
+Publisher: DeepSeek
+Badge: Free
+Status: Free
+Use Case: LLM (Text)
+Providers: Radeon Cloud
+Context Length: 1,048,576
+Model ID: model_gateway:DeepSeek-V4-Flash
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
+    <category>Free</category>
+    <category>LLM (Text)</category>
+    <category>DeepSeek</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
+  <item>
     <title>【NVIDIA】parakeet-tdt-0.6b</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
@@ -267,13 +267,13 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Mixture-of-Experts</category>
     <category>Reasoning</category>
+    <category>Mixture-of-Experts</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -414,15 +414,15 @@ Last Updated: August 11, 2026</description>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Chat #Text-to-Text #Image-to-Text #Large Language Models
+Tags: #Multimodal #Image-to-Text #Reasoning #Chat #Text-to-Text #Large Language Models
 Last Updated: August 10, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
+    <category>Image-to-Text</category>
     <category>Reasoning</category>
     <category>Chat</category>
     <category>Text-to-Text</category>
-    <category>Image-to-Text</category>
     <category>Large Language Models</category>
     <category>Meta</category>
   </item>
