@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:15:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 20:57:39 +0000</lastBuildDate>
   <item>
     <title>【AMD】GLM-5.3-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -47,6 +47,28 @@ Pricing: Input: 0.5 pts / 1M tokens • Output: 3 pts / 1M tokens • Cache read
     <category>Free</category>
     <category>VLM (Vision)</category>
     <category>Qwen</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
+  <item>
+    <title>【AMD】DeepSeek-V4.1-Flash</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4.1-Flash</guid>
+    <pubDate>Mon, 14 Sep 2026 17:43:12 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>DeepSeek-V4.1-Flash served by the AMD GPU Cloud
+Publisher: DeepSeek
+Badge: Limited Free
+Status: Limited Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 1,048,576
+Model ID: model_gateway:DeepSeek-V4.1-Flash
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
+    <category>Limited Free</category>
+    <category>VLM (Vision)</category>
+    <category>DeepSeek</category>
     <category>API</category>
     <category>OpenAI compatible</category>
   </item>
