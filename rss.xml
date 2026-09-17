@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 10:58:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 16:15:45 +0000</lastBuildDate>
   <item>
     <title>【AMD】GLM-5.3-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -294,13 +294,13 @@ Last Updated: September 8, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
+Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Reasoning</category>
     <category>Mixture-of-Experts</category>
+    <category>Reasoning</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
