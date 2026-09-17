@@ -5,7 +5,7 @@
     <link>https://api-inference.modelscope.cn</link>
     <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 03:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:58:53 +0000</lastBuildDate>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4.1-Flash</title>
     <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash</link>
@@ -44,19 +44,6 @@ Owner: system
 Created: 2026-09-11 19:04:08 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>nex-agi</category>
-  </item>
-  <item>
-    <title>【ModelScope】ZhipuAI/GLM-5.3-Flash</title>
-    <link>https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash</link>
-    <guid isPermaLink="false">modelscope:ZhipuAI/GLM-5.3-Flash</guid>
-    <pubDate>Thu, 27 Aug 2026 09:31:38 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash">ModelScope</source>
-    <description>Model: ZhipuAI/GLM-5.3-Flash
-Namespace: ZhipuAI
-Owner: system
-Created: 2026-08-27 09:31:38 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>ZhipuAI</category>
   </item>
   <item>
     <title>【ModelScope】Qwen/Qwen3.8-Flash-Next</title>
@@ -122,19 +109,6 @@ Owner: system
 Created: 2026-08-03 14:24:48 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>deepseek-ai</category>
-  </item>
-  <item>
-    <title>【ModelScope】Tencent-Hunyuan/Hy3</title>
-    <link>https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3</link>
-    <guid isPermaLink="false">modelscope:Tencent-Hunyuan/Hy3</guid>
-    <pubDate>Mon, 06 Jul 2026 14:57:57 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3">ModelScope</source>
-    <description>Model: Tencent-Hunyuan/Hy3
-Namespace: Tencent-Hunyuan
-Owner: system
-Created: 2026-07-06 14:57:57 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Tencent-Hunyuan</category>
   </item>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4-Pro</title>

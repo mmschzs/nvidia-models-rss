@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Model catalog scraped from https://build.nvidia.com/models</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 03:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:58:53 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】Kumo Relational</title>
     <link>https://build.nvidia.com/nvidia/kumo-relational</link>
@@ -104,13 +104,13 @@ Last Updated: September 8, 2026</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Mixture-of-Experts</category>
     <category>Reasoning</category>
+    <category>Mixture-of-Experts</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -136,9 +136,10 @@ Last Updated: August 19, 2026</description>
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731">NVIDIA</source>
     <description>284B MoE (13B active) model ideal for long-context workloads optimized for coding, chat, and agentic workflows
-Features: Free Endpoint
+Features: Deprecation in 3d | Free Endpoint
 Tags: #MoE #Reasoning #Long Context #Hybrid Attention
 Last Updated: August 19, 2026</description>
+    <category>Deprecation in 3d</category>
     <category>Free Endpoint</category>
     <category>MoE</category>
     <category>Reasoning</category>

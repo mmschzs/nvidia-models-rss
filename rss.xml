@@ -5,7 +5,7 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 03:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:58:53 +0000</lastBuildDate>
   <item>
     <title>【AMD】GLM-5.3-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -90,7 +90,7 @@ Last Updated: September 15, 2026</description>
     <guid isPermaLink="false">amd:model_gateway:Qwen3.8-27B</guid>
     <pubDate>Mon, 14 Sep 2026 17:43:13 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Dynamic sglang-router service managed by Model Ops
+    <description>Qwen3.8-27B served by the AMD GPU Cloud
 Publisher: Qwen
 Badge: Free
 Status: Free
@@ -248,6 +248,27 @@ Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache 
     <category>OpenAI compatible</category>
   </item>
   <item>
+    <title>【AMD】DeepSeek-V4-Flash-Vision-Exp</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash-Vision-Exp</guid>
+    <pubDate>Thu, 10 Sep 2026 11:55:17 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>DeepSeek-V4-Flash-Vision-Exp served by the AMD GPU Cloud
+Publisher: DeepSeek
+Badge: Free
+Status: Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 1,048,576
+Model ID: model_gateway:DeepSeek-V4-Flash-Vision-Exp
+Tags: #API #OpenAI compatible</description>
+    <category>Free</category>
+    <category>VLM (Vision)</category>
+    <category>DeepSeek</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
+  <item>
     <title>【NVIDIA】parakeet-tdt-0.6b</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
@@ -266,19 +287,6 @@ Last Updated: September 8, 2026</description>
     <category>NVIDIA</category>
   </item>
   <item>
-    <title>【ModelScope】ZhipuAI/GLM-5.3-Flash</title>
-    <link>https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash</link>
-    <guid isPermaLink="false">modelscope:ZhipuAI/GLM-5.3-Flash</guid>
-    <pubDate>Thu, 27 Aug 2026 09:31:38 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/ZhipuAI/GLM-5.3-Flash">ModelScope</source>
-    <description>Model: ZhipuAI/GLM-5.3-Flash
-Namespace: ZhipuAI
-Owner: system
-Created: 2026-08-27 09:31:38 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>ZhipuAI</category>
-  </item>
-  <item>
     <title>【NVIDIA】kimi-k3</title>
     <link>https://build.nvidia.com/moonshotai/kimi-k3</link>
     <guid isPermaLink="false">https://build.nvidia.com/moonshotai/kimi-k3</guid>
@@ -286,13 +294,13 @@ Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <source url="https://build.nvidia.com/moonshotai/kimi-k3">NVIDIA</source>
     <description>~2.8T hybrid KDA+MLA multimodal MoE for long-horizon coding, agentic tool use, and image understanding.
 Features: Downloadable | Free Endpoint
-Tags: #Multimodal #Mixture-of-Experts #Reasoning #Image-to-Text
+Tags: #Multimodal #Reasoning #Mixture-of-Experts #Image-to-Text
 Last Updated: August 27, 2026</description>
     <category>Downloadable</category>
     <category>Free Endpoint</category>
     <category>Multimodal</category>
-    <category>Mixture-of-Experts</category>
     <category>Reasoning</category>
+    <category>Mixture-of-Experts</category>
     <category>Image-to-Text</category>
     <category>Moonshotai</category>
   </item>
@@ -384,9 +392,10 @@ Last Updated: August 19, 2026</description>
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731">NVIDIA</source>
     <description>284B MoE (13B active) model ideal for long-context workloads optimized for coding, chat, and agentic workflows
-Features: Free Endpoint
+Features: Deprecation in 3d | Free Endpoint
 Tags: #MoE #Reasoning #Long Context #Hybrid Attention
 Last Updated: August 19, 2026</description>
+    <category>Deprecation in 3d</category>
     <category>Free Endpoint</category>
     <category>MoE</category>
     <category>Reasoning</category>
@@ -543,19 +552,6 @@ Last Updated: July 15, 2026</description>
     <category>Reasoning</category>
     <category>Tool Use</category>
     <category>Poolside</category>
-  </item>
-  <item>
-    <title>【ModelScope】Tencent-Hunyuan/Hy3</title>
-    <link>https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3</link>
-    <guid isPermaLink="false">modelscope:Tencent-Hunyuan/Hy3</guid>
-    <pubDate>Mon, 06 Jul 2026 14:57:57 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/Tencent-Hunyuan/Hy3">ModelScope</source>
-    <description>Model: Tencent-Hunyuan/Hy3
-Namespace: Tencent-Hunyuan
-Owner: system
-Created: 2026-07-06 14:57:57 UTC
-Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>Tencent-Hunyuan</category>
   </item>
   <item>
     <title>【NVIDIA】qwen-image-edit-nvpcb-ovsl2sl</title>
