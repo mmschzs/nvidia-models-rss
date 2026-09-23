@@ -5,7 +5,29 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 20:53:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 03:23:40 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】MiMo-V2.6-Flash</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:MiMo-V2.6-Flash</guid>
+    <pubDate>Wed, 23 Sep 2026 03:23:35 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>MiMo-V2.6-Flash served by the AMD GPU Cloud
+Publisher: Radeon Cloud
+Badge: Limited Free
+Status: Limited Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 1,048,576
+Model ID: model_gateway:MiMo-V2.6-Flash
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
+    <category>Limited Free</category>
+    <category>VLM (Vision)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
   <item>
     <title>【AMD】GLM-5.3-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
