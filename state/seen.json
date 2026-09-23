@@ -4,6 +4,7 @@
   "amd:model_gateway:DeepSeek-V4-Pro": "2026-09-16T10:52:01+00:00",
   "amd:model_gateway:DeepSeek-V4.1-Flash": "2026-09-14T17:43:12+00:00",
   "amd:model_gateway:GLM-5.3-Flash": "2026-09-16T10:52:12+00:00",
+  "amd:model_gateway:MiMo-V2.6-Flash": "2026-09-23T03:23:35+00:00",
   "amd:model_gateway:MinerU2.5-Pro": "2026-09-10T12:58:14+00:00",
   "amd:model_gateway:MiniCPM5-2B": "2026-09-10T11:55:22+00:00",
   "amd:model_gateway:Qwen3.8-27B": "2026-09-14T17:43:13+00:00",
