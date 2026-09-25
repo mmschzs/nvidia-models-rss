@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 21:09:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 03:30:10 +0000</lastBuildDate>
   <item>
     <title>【AMD】MiMo-V2.6-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -154,6 +154,28 @@ Tags: #API #OpenAI compatible
 Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
     <category>Free</category>
     <category>LLM (Text)</category>
+    <category>DeepSeek</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
+  <item>
+    <title>【AMD】DeepSeek-V4-Flash-Vision-Exp</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash-Vision-Exp</guid>
+    <pubDate>Thu, 10 Sep 2026 11:55:17 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>DeepSeek-V4-Flash-Vision-Exp served by the AMD GPU Cloud
+Publisher: DeepSeek
+Badge: Free
+Status: Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 1,048,576
+Model ID: model_gateway:DeepSeek-V4-Flash-Vision-Exp
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
+    <category>Free</category>
+    <category>VLM (Vision)</category>
     <category>DeepSeek</category>
     <category>API</category>
     <category>OpenAI compatible</category>
