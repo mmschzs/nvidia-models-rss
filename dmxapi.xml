@@ -5,20 +5,6 @@
     <link>https://www.dmxapi.cn</link>
     <description>Model catalog scraped from https://www.dmxapi.cn</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 04:02:19 +0000</lastBuildDate>
-  <item>
-    <title>【DMXAPI】bge-reranker-v2-m3-free</title>
-    <link>https://www.dmxapi.cn</link>
-    <guid isPermaLink="false">dmxapi:bge-reranker-v2-m3-free</guid>
-    <pubDate>Fri, 21 Aug 2026 13:17:57 +0000</pubDate>
-    <source url="https://www.dmxapi.cn">DMXAPI</source>
-    <description>Model: bge-reranker-v2-m3-free
-Vendor: jina
-Endpoints: jina-rerank
-Base URL: https://www.dmxapi.cn/v1
-First seen: 2026-08-21 13:17:57 UTC</description>
-    <category>jina</category>
-    <category>jina-rerank</category>
-  </item>
+    <lastBuildDate>Wed, 30 Sep 2026 11:56:37 +0000</lastBuildDate>
   </channel>
 </rss>
