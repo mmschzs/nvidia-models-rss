@@ -5,7 +5,29 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 04:23:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 11:55:51 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】Gemma-4-31B-IT</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:Gemma-4-31B-IT</guid>
+    <pubDate>Sat, 10 Oct 2026 11:55:47 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>Gemma-4-31B-IT served by the AMD GPU Cloud
+Publisher: Google
+Badge: Free
+Status: Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 262,144
+Model ID: model_gateway:Gemma-4-31B-IT
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.5 pts / 1M tokens • Output: 3 pts / 1M tokens • Cache read: 0.050000000000000004 pts / 1M tokens</description>
+    <category>Free</category>
+    <category>VLM (Vision)</category>
+    <category>Google</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
   <item>
     <title>【AMD】MiMo-V2.6-Flash</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
