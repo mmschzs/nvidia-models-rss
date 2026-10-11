@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 21:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 04:04:42 +0000</lastBuildDate>
   <item>
     <title>【AMD】Gemma-4-31B-IT</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -21,7 +21,7 @@ Providers: Radeon Cloud
 Context Length: 262,144
 Model ID: model_gateway:Gemma-4-31B-IT
 Tags: #API #OpenAI compatible
-Pricing: Input: 0.5 pts / 1M tokens • Output: 3 pts / 1M tokens • Cache read: 0.050000000000000004 pts / 1M tokens</description>
+Pricing: Input: 0.09 pts / 1M tokens • Output: 0.34 pts / 1M tokens • Cache read: 0.05 pts / 1M tokens</description>
     <category>Free</category>
     <category>VLM (Vision)</category>
     <category>Google</category>
@@ -87,7 +87,7 @@ Providers: Radeon Cloud
 Context Length: 262,144
 Model ID: model_gateway:Qwen3.8-27B
 Tags: #API #OpenAI compatible
-Pricing: Input: 0.5 pts / 1M tokens • Output: 3 pts / 1M tokens • Cache read: 0.050000000000000004 pts / 1M tokens</description>
+Pricing: Input: 0.425 pts / 1M tokens • Output: 2.55 pts / 1M tokens • Cache read: 0.085 pts / 1M tokens</description>
     <category>Free</category>
     <category>VLM (Vision)</category>
     <category>Qwen</category>
@@ -151,7 +151,7 @@ Providers: Radeon Cloud
 Context Length: 131,072
 Model ID: model_gateway:MiniCPM5-2B
 Tags: #API #OpenAI compatible
-Pricing: Input: 0.124 pts / 1M tokens • Output: 0.7425000000000001 pts / 1M tokens • Cache read: 0.124 pts / 1M tokens</description>
+Pricing: Input: 0.124 pts / 1M tokens • Output: 0.7425 pts / 1M tokens • Cache read: 0.124 pts / 1M tokens</description>
     <category>Free</category>
     <category>LLM (Text)</category>
     <category>OpenBMB</category>
@@ -173,7 +173,7 @@ Providers: Radeon Cloud
 Context Length: 262,144
 Model ID: model_gateway:Qwen3.8-Flash-Next
 Tags: #API #OpenAI compatible
-Pricing: Input: 0.15 pts / 1M tokens • Output: 0.46999999999999995 pts / 1M tokens • Cache read: 0.016 pts / 1M tokens</description>
+Pricing: Input: 0.15 pts / 1M tokens • Output: 0.47 pts / 1M tokens • Cache read: 0.016 pts / 1M tokens</description>
     <category>Free</category>
     <category>VLM (Vision)</category>
     <category>Qwen</category>
