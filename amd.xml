@@ -5,7 +5,27 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 22:18:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 03:35:28 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】Whisper Large V3 Turbo</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:whisper-large-v3-turbo</guid>
+    <pubDate>Wed, 14 Oct 2026 03:35:21 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>Dynamic vllm-router service managed by Model Ops
+Publisher: Radeon Cloud
+Badge: Free
+Status: Free
+Use Case: OCR (Document)
+Providers: Radeon Cloud
+Model ID: model_gateway:whisper-large-v3-turbo
+Tags: #API #OpenAI compatible</description>
+    <category>Free</category>
+    <category>OCR (Document)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
   <item>
     <title>【AMD】MiniCPM-V-4.7-35B-A3B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
