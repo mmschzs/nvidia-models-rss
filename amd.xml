@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 16:06:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:31:14 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -19,7 +19,8 @@ Status: Free
 Use Case: Decision (Classifier)
 Providers: Radeon Cloud
 Model ID: model_gateway:d3
-Tags: #API #Decision #Vision input #Video input</description>
+Tags: #API #Decision #Vision input #Video input
+Pricing: Input: 0.035 pts / 1M tokens • Cache read: 0.007 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
     <category>Radeon Cloud</category>
@@ -41,7 +42,8 @@ Status: Free
 Use Case: Decision (Classifier)
 Providers: Radeon Cloud
 Model ID: model_gateway:d3-flash
-Tags: #API #Decision #Vision input #Video input</description>
+Tags: #API #Decision #Vision input #Video input
+Pricing: Input: 0.035 pts / 1M tokens • Cache read: 0.007 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
     <category>Radeon Cloud</category>
@@ -63,7 +65,8 @@ Status: Free
 Use Case: Decision (Classifier)
 Providers: Radeon Cloud
 Model ID: model_gateway:Clef
-Tags: #API #Decision #Vision input</description>
+Tags: #API #Decision #Vision input
+Pricing: Input: 0.035 pts / 1M tokens • Cache read: 0.007 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
     <category>Radeon Cloud</category>
@@ -84,7 +87,8 @@ Status: Free
 Use Case: TTS (Speech)
 Providers: Radeon Cloud
 Model ID: model_gateway:OmniVoice
-Tags: #API #OpenAI compatible #Text-to-Speech</description>
+Tags: #API #OpenAI compatible #Text-to-Speech
+Pricing: Input: 0.035 pts / 1M tokens • Cache read: 0.007 pts / 1M tokens</description>
     <category>Free</category>
     <category>TTS (Speech)</category>
     <category>Radeon Cloud</category>
