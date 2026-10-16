@@ -5,7 +5,29 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 03:11:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 10:43:51 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】MiniCPM-V-4.7-35B-A3B</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:MiniCPM-V-4.7-35B-A3B</guid>
+    <pubDate>Tue, 13 Oct 2026 13:35:47 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>MiniCPM-V-4.7-35B-A3B served by the AMD GPU Cloud
+Publisher: OpenBMB
+Badge: Free
+Status: Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 262,144
+Model ID: model_gateway:MiniCPM-V-4.7-35B-A3B
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.035 pts / 1M tokens • Output: 0.07 pts / 1M tokens • Cache read: 0.0007 pts / 1M tokens</description>
+    <category>Free</category>
+    <category>VLM (Vision)</category>
+    <category>OpenBMB</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
   <item>
     <title>【AMD】MiniCPM-V-4.7-1B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
