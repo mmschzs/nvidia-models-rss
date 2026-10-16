@@ -5,7 +5,93 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 10:43:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:06:29 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】d3</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:d3</guid>
+    <pubDate>Fri, 16 Oct 2026 16:06:23 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>vLLM-SR's 27B decision model: typed questions about text, images or video, answered with probabilities on /v1/systemone.
+Publisher: Radeon Cloud
+Badge: Free
+Status: Free
+Use Case: Decision (Classifier)
+Providers: Radeon Cloud
+Model ID: model_gateway:d3
+Tags: #API #Decision #Vision input #Video input</description>
+    <category>Free</category>
+    <category>Decision (Classifier)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>Decision</category>
+    <category>Vision input</category>
+    <category>Video input</category>
+  </item>
+  <item>
+    <title>【AMD】d3-flash</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:d3-flash</guid>
+    <pubDate>Fri, 16 Oct 2026 16:06:23 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>vLLM-SR's 9B decision model, faster than d3: typed questions about text, images or video, answered with probabilities.
+Publisher: Radeon Cloud
+Badge: Free
+Status: Free
+Use Case: Decision (Classifier)
+Providers: Radeon Cloud
+Model ID: model_gateway:d3-flash
+Tags: #API #Decision #Vision input #Video input</description>
+    <category>Free</category>
+    <category>Decision (Classifier)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>Decision</category>
+    <category>Vision input</category>
+    <category>Video input</category>
+  </item>
+  <item>
+    <title>【AMD】Clef</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:Clef</guid>
+    <pubDate>Fri, 16 Oct 2026 16:06:22 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>Cloudflare's 27B decision model: answers typed questions about a situation with probabilities, on /v1/systemone.
+Publisher: Radeon Cloud
+Badge: Free
+Status: Free
+Use Case: Decision (Classifier)
+Providers: Radeon Cloud
+Model ID: model_gateway:Clef
+Tags: #API #Decision #Vision input</description>
+    <category>Free</category>
+    <category>Decision (Classifier)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>Decision</category>
+    <category>Vision input</category>
+  </item>
+  <item>
+    <title>【AMD】OmniVoice</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:OmniVoice</guid>
+    <pubDate>Fri, 16 Oct 2026 16:06:22 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>Multilingual text-to-speech on /v1/audio/speech, with preset, described or cloned voices. Non-commercial use only.
+Publisher: Radeon Cloud
+Badge: Free
+Status: Free
+Use Case: TTS (Speech)
+Providers: Radeon Cloud
+Model ID: model_gateway:OmniVoice
+Tags: #API #OpenAI compatible #Text-to-Speech</description>
+    <category>Free</category>
+    <category>TTS (Speech)</category>
+    <category>Radeon Cloud</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+    <category>Text-to-Speech</category>
+  </item>
   <item>
     <title>【AMD】MiniCPM-V-4.7-35B-A3B</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
