@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 10:25:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:23:58 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -229,12 +229,12 @@ Pricing: Input: 0.035 pts / 1M tokens • Output: 0.07 pts / 1M tokens • Cache
     <category>OpenAI compatible</category>
   </item>
   <item>
-    <title>【AMD】DeepSeek-V4.1-Flash</title>
+    <title>【AMD】DeepSeek-V4.1-Flash-1017</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4.1-Flash</guid>
     <pubDate>Mon, 14 Sep 2026 17:43:12 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek-V4.1-Flash served by the AMD GPU Cloud
+    <description>DeepSeek-V4.1-Flash-1017 served by the AMD GPU Cloud
 Publisher: DeepSeek
 Badge: Free
 Status: Free
