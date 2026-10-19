@@ -5,19 +5,32 @@
     <link>https://api-inference.modelscope.cn</link>
     <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 20:07:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 03:19:03 +0000</lastBuildDate>
   <item>
-    <title>【ModelScope】ACE-Step/acestep-v15-xl-sft</title>
-    <link>https://www.modelscope.cn/models/ACE-Step/acestep-v15-xl-sft</link>
-    <guid isPermaLink="false">modelscope:ACE-Step/acestep-v15-xl-sft</guid>
-    <pubDate>Tue, 13 Oct 2026 13:35:49 +0000</pubDate>
-    <source url="https://www.modelscope.cn/models/ACE-Step/acestep-v15-xl-sft">ModelScope</source>
-    <description>Model: ACE-Step/acestep-v15-xl-sft
-Namespace: ACE-Step
+    <title>【ModelScope】deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
+    <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
+    <guid isPermaLink="false">modelscope:deepseek-ai/DeepSeek-V4.1-Flash-1017</guid>
+    <pubDate>Mon, 19 Oct 2026 09:55:35 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017">ModelScope</source>
+    <description>Model: deepseek-ai/DeepSeek-V4.1-Flash-1017
+Namespace: deepseek-ai
 Owner: system
-Created: 2026-10-13 13:35:49 UTC
+Created: 2026-10-19 09:55:35 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
-    <category>ACE-Step</category>
+    <category>deepseek-ai</category>
+  </item>
+  <item>
+    <title>【ModelScope】stepfun-ai/Step-5-Preview</title>
+    <link>https://www.modelscope.cn/models/stepfun-ai/Step-5-Preview</link>
+    <guid isPermaLink="false">modelscope:stepfun-ai/Step-5-Preview</guid>
+    <pubDate>Wed, 14 Oct 2026 17:22:26 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/stepfun-ai/Step-5-Preview">ModelScope</source>
+    <description>Model: stepfun-ai/Step-5-Preview
+Namespace: stepfun-ai
+Owner: system
+Created: 2026-10-14 17:22:26 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>stepfun-ai</category>
   </item>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4.1-Flash</title>
