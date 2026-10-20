@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 22:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 03:27:39 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -87,13 +87,12 @@ Status: Free
 Use Case: TTS (Speech)
 Providers: Radeon Cloud
 Model ID: model_gateway:OmniVoice
-Tags: #API #OpenAI compatible #Text-to-Speech
+Tags: #API #Text-to-Speech
 Pricing: Input: 0.035 pts / 1M characters • Cache read: 0.007 pts / 1M characters</description>
     <category>Free</category>
     <category>TTS (Speech)</category>
     <category>Radeon Cloud</category>
     <category>API</category>
-    <category>OpenAI compatible</category>
     <category>Text-to-Speech</category>
   </item>
   <item>
@@ -258,17 +257,16 @@ Pricing: Input: 0.28 pts / 1M tokens • Output: 0.56 pts / 1M tokens • Cache 
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>MinerU2.5-Pro served by the AMD GPU Cloud
 Publisher: Radeon Cloud
-Badge: Limited Free
-Status: Limited Free
-Use Case: LLM (Text)
+Badge: Free
+Status: Free
+Use Case: OCR (Document)
 Providers: Radeon Cloud
 Model ID: model_gateway:MinerU2.5-Pro
-Tags: #API #OpenAI compatible</description>
-    <category>Limited Free</category>
-    <category>LLM (Text)</category>
+Tags: #API</description>
+    <category>Free</category>
+    <category>OCR (Document)</category>
     <category>Radeon Cloud</category>
     <category>API</category>
-    <category>OpenAI compatible</category>
   </item>
   <item>
     <title>【AMD】MiniCPM5-2B</title>
