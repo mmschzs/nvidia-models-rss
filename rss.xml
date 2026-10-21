@@ -5,12 +5,12 @@
     <link>https://build.nvidia.com/models</link>
     <description>Aggregated model catalog feed built from NVIDIA Build and AMD Radeon TokenFactory.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 03:22:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 11:11:14 +0000</lastBuildDate>
   <item>
     <title>【NVIDIA】qwen-image-edit-nvpcb-ovsl2sl</title>
     <link>https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/qwen-image-edit-nvpcb-ovsl2sl">NVIDIA</source>
     <description>An image edit model specialized for Omniverse synthetic to photographic solder-light style captured at NVIDIA PCB inspection stations
 Features: Downloadable</description>
@@ -21,7 +21,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】laguna-xs-2.1</title>
     <link>https://build.nvidia.com/poolside/laguna-xs-2.1</link>
     <guid isPermaLink="false">https://build.nvidia.com/poolside/laguna-xs-2.1</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/poolside/laguna-xs-2.1">NVIDIA</source>
     <description>Efficient 33B MoE for local, long-horizon agentic coding and terminal tasks
 Features: Free Endpoint</description>
@@ -32,7 +32,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】nemotron-3-embed-1b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3-embed-1b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3-embed-1b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3-embed-1b">NVIDIA</source>
     <description>1B embedding model for semantic search, retrieval, and RAG applications.
 Features: Free Endpoint</description>
@@ -43,7 +43,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】Video Super Resolution NIM</title>
     <link>https://build.nvidia.com/nvidia/vsr</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/vsr</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/vsr">NVIDIA</source>
     <description>Upscale encoded or ST 2110 video to higher resolutions with NVIDIA Video Super Resolution.
 Features: Downloadable</description>
@@ -54,7 +54,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】ising-calibration-1.5-31b</title>
     <link>https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/ising-calibration-1.5-31b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/ising-calibration-1.5-31b">NVIDIA</source>
     <description>NVIDIA-Ising-Calibration-1.5 is a dense multimodal vision-language model built on Gemma 4 31B. It analyzes quantum computing calibration experiment plots and generates structured technical text.
 Features: Free Endpoint</description>
@@ -65,7 +65,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】riva-translate-4b-instruct-v2</title>
     <link>https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2">NVIDIA</source>
     <description>Translation model in 37 languages with few-shots example prompts capability.
 Features: Free Endpoint</description>
@@ -76,7 +76,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】muse-glimmer-30b</title>
     <link>https://build.nvidia.com/meta/muse-glimmer-30b</link>
     <guid isPermaLink="false">https://build.nvidia.com/meta/muse-glimmer-30b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/meta/muse-glimmer-30b">NVIDIA</source>
     <description>Muse Glimmer 30B is a multimodal reasoning model accepting text and images, with native tool-calling and separate reasoning output.
 Features: Downloadable | Free Endpoint</description>
@@ -88,7 +88,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】nemotron-3.5-lightning-30b-a3b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b">NVIDIA</source>
     <description>Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks
 Features: Downloadable | Free Endpoint</description>
@@ -100,7 +100,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】wan2.2-animate-2-14b</title>
     <link>https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</link>
     <guid isPermaLink="false">https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/wan-ai/wan2.2-animate-2-14b">NVIDIA</source>
     <description>Wan2.2-Animate-2 is a novel end-to-end character animation framework
 Features: Downloadable</description>
@@ -111,7 +111,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】parakeet-tdt-0.6b</title>
     <link>https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/parakeet-tdt-0_6b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/parakeet-tdt-0_6b">NVIDIA</source>
     <description>Multilingual ASR across 25 European languages with punctuation, capitalization, and word timestamps
 Features: Downloadable</description>
@@ -122,7 +122,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】nemotron-parse-2.0</title>
     <link>https://build.nvidia.com/nvidia/nemotron-parse-2.0</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-parse-2.0</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-parse-2.0">NVIDIA</source>
     <description>Cutting-edge vision-language model excelling in retrieving text and metadata from images.
 Features: Downloadable</description>
@@ -133,7 +133,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】glm-5-3-flash</title>
     <link>https://build.nvidia.com/z-ai/glm-5-3-flash</link>
     <guid isPermaLink="false">https://build.nvidia.com/z-ai/glm-5-3-flash</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/z-ai/glm-5-3-flash">NVIDIA</source>
     <description>Multimodal 320B-total / 18B-active MoE with hybrid KDA and sparse MLA attention, native FP8 weights, reasoning and tool calling.
 Features: Free Endpoint</description>
@@ -144,11 +144,11 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】glm-5-3</title>
     <link>https://build.nvidia.com/z-ai/glm-5-3</link>
     <guid isPermaLink="false">https://build.nvidia.com/z-ai/glm-5-3</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/z-ai/glm-5-3">NVIDIA</source>
     <description>753B-parameter text MoE with DeepSeek-style sparse attention, native FP8 weights, reasoning and tool calling.
-Features: Deprecation in 8d | Free Endpoint</description>
-    <category>Deprecation in 8d</category>
+Features: Deprecation in 7d | Free Endpoint</description>
+    <category>Deprecation in 7d</category>
     <category>Free Endpoint</category>
     <category>Z.ai</category>
   </item>
@@ -156,7 +156,7 @@ Features: Deprecation in 8d | Free Endpoint</description>
     <title>【NVIDIA】Kumo Relational</title>
     <link>https://build.nvidia.com/nvidia/kumo-relational</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/kumo-relational</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/kumo-relational">NVIDIA</source>
     <description>A relational foundation model for prediction over structured, multi-table data.
 Features: Downloadable | Free Endpoint</description>
@@ -168,7 +168,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】deepseek-v4.1-flash</title>
     <link>https://build.nvidia.com/deepseek-ai/deepseek-v4.1-flash</link>
     <guid isPermaLink="false">https://build.nvidia.com/deepseek-ai/deepseek-v4.1-flash</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/deepseek-ai/deepseek-v4.1-flash">NVIDIA</source>
     <description>552B MoE, 8B active params with native multimodal support and lower API cost using smaller KV cache
 Features: Downloadable | Free Endpoint</description>
@@ -180,7 +180,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】3D Body Pose</title>
     <link>https://build.nvidia.com/nvidia/body-pose</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/body-pose</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/body-pose">NVIDIA</source>
     <description>Estimate 3D human body pose and skeleton from video input.
 Features: Downloadable | Free Endpoint</description>
@@ -192,7 +192,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】Kumo Tabular</title>
     <link>https://build.nvidia.com/nvidia/kumo-tabular</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/kumo-tabular</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/kumo-tabular">NVIDIA</source>
     <description>A tabular in-context learning model for classification and regression over structured tables.
 Features: Downloadable | Free Endpoint</description>
@@ -204,7 +204,7 @@ Features: Downloadable | Free Endpoint</description>
     <title>【NVIDIA】Step 5 Preview</title>
     <link>https://build.nvidia.com/stepfun-ai/step-5-preview</link>
     <guid isPermaLink="false">https://build.nvidia.com/stepfun-ai/step-5-preview</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/stepfun-ai/step-5-preview">NVIDIA</source>
     <description>Preview of StepFun's Step 5: ~600B-total / 27B-active multimodal MoE (text and image in, text out) with 1M context, reasoning and tool calling, served in NVFP4.
 Features: Free Endpoint</description>
@@ -215,7 +215,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】nemotron-3.5-super-vl-120b-a12b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b">NVIDIA</source>
     <description>Nemotron 3.5 Super early-access reasoning model for agentic, coding, tool-calling, and multimodal workloads
 Features: Free Endpoint</description>
@@ -226,7 +226,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】flux-3-image-klein</title>
     <link>https://build.nvidia.com/black-forest-labs/flux-3-image-klein</link>
     <guid isPermaLink="false">https://build.nvidia.com/black-forest-labs/flux-3-image-klein</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/black-forest-labs/flux-3-image-klein">NVIDIA</source>
     <description>FLUX 3 Image Klein is a state-of-the-art open-weight image generation and editing model
 Features: Downloadable</description>
@@ -237,7 +237,7 @@ Features: Downloadable</description>
     <title>【NVIDIA】rfd4-proteina</title>
     <link>https://build.nvidia.com/ipd/rfd4-proteina</link>
     <guid isPermaLink="false">https://build.nvidia.com/ipd/rfd4-proteina</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/ipd/rfd4-proteina">NVIDIA</source>
     <description>A unified generative model for protein, enzyme, binder and antibody design.
 Features: Free Endpoint</description>
@@ -248,7 +248,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】nemotron-3.5-embed-8b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b">NVIDIA</source>
     <description>8B multimodal embedding model for text and document-image retrieval in RAG applications.
 Features: Free Endpoint</description>
@@ -259,7 +259,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】nemotron-3.5-embed-1b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b">NVIDIA</source>
     <description>1B multimodal embedding model for text and document-image retrieval in RAG applications.
 Features: Free Endpoint</description>
@@ -270,7 +270,7 @@ Features: Free Endpoint</description>
     <title>【NVIDIA】nemotron-3.5-rerank-8b</title>
     <link>https://build.nvidia.com/nvidia/nemotron-3_5-rerank-8b</link>
     <guid isPermaLink="false">https://build.nvidia.com/nvidia/nemotron-3_5-rerank-8b</guid>
-    <pubDate>Wed, 21 Oct 2026 03:22:02 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 11:11:04 +0000</pubDate>
     <source url="https://build.nvidia.com/nvidia/nemotron-3_5-rerank-8b">NVIDIA</source>
     <description>8B multimodal reranking model that scores how relevant a text or document-image passage is to a query.
 Features: Free Endpoint</description>
