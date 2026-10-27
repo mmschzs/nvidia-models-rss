@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 03:45:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:37:15 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -257,13 +257,13 @@ Pricing: Input: 0.28 pts / 1M tokens • Output: 0.56 pts / 1M tokens • Cache 
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>MinerU2.5-Pro served by the AMD GPU Cloud
 Publisher: Radeon Cloud
-Badge: Free
-Status: Free
+Badge: Limited Free
+Status: Limited Free
 Use Case: OCR (Document)
 Providers: Radeon Cloud
 Model ID: model_gateway:MinerU2.5-Pro
 Tags: #API</description>
-    <category>Free</category>
+    <category>Limited Free</category>
     <category>OCR (Document)</category>
     <category>Radeon Cloud</category>
     <category>API</category>
