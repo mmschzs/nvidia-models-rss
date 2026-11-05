@@ -5,7 +5,7 @@
     <link>https://api-inference.modelscope.cn</link>
     <description>Model catalog scraped from https://api-inference.modelscope.cn</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 23:12:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 05:10:54 +0000</lastBuildDate>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
     <link>https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
@@ -135,6 +135,19 @@ Owner: system
 Created: 2026-08-03 14:24:48 UTC
 Endpoint: https://api-inference.modelscope.cn/v1/models</description>
     <category>deepseek-ai</category>
+  </item>
+  <item>
+    <title>【ModelScope】moonshotai/Kimi-K3.1-Pro</title>
+    <link>https://www.modelscope.cn/models/moonshotai/Kimi-K3.1-Pro</link>
+    <guid isPermaLink="false">modelscope:moonshotai/Kimi-K3.1-Pro</guid>
+    <pubDate>Tue, 28 Jul 2026 09:39:40 +0000</pubDate>
+    <source url="https://www.modelscope.cn/models/moonshotai/Kimi-K3.1-Pro">ModelScope</source>
+    <description>Model: moonshotai/Kimi-K3.1-Pro
+Namespace: moonshotai
+Owner: system
+Created: 2026-07-28 09:39:40 UTC
+Endpoint: https://api-inference.modelscope.cn/v1/models</description>
+    <category>moonshotai</category>
   </item>
   <item>
     <title>【ModelScope】deepseek-ai/DeepSeek-V4-Pro</title>
