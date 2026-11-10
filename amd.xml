@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 01:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:21:33 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -73,27 +73,6 @@ Pricing: Input: 0.035 pts / 1M tokens</description>
     <category>API</category>
     <category>Decision</category>
     <category>Vision input</category>
-  </item>
-  <item>
-    <title>【AMD】OmniVoice</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:OmniVoice</guid>
-    <pubDate>Fri, 16 Oct 2026 16:06:22 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Multilingual text-to-speech on /v1/audio/speech, with preset, described or cloned voices. Non-commercial use only.
-Publisher: Radeon Cloud
-Badge: Free
-Status: Free
-Use Case: TTS (Speech)
-Providers: Radeon Cloud
-Model ID: model_gateway:OmniVoice
-Tags: #API #Text-to-Speech
-Pricing: Input: 0.035 pts / 1M characters</description>
-    <category>Free</category>
-    <category>TTS (Speech)</category>
-    <category>Radeon Cloud</category>
-    <category>API</category>
-    <category>Text-to-Speech</category>
   </item>
   <item>
     <title>【AMD】MiniCPM-V-4.7-35B-A3B</title>
@@ -268,28 +247,6 @@ Pricing: Input: 0.035 pts / 1M tokens • Output: 0.07 pts / 1M tokens • Cache
     <category>Free</category>
     <category>LLM (Text)</category>
     <category>OpenBMB</category>
-    <category>API</category>
-    <category>OpenAI compatible</category>
-  </item>
-  <item>
-    <title>【AMD】Qwen3.8-Flash-Next</title>
-    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
-    <guid isPermaLink="false">amd:model_gateway:Qwen3.8-Flash-Next</guid>
-    <pubDate>Thu, 10 Sep 2026 11:55:20 +0000</pubDate>
-    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>Qwen3.8-Flash-Next served by the AMD GPU Cloud
-Publisher: Qwen
-Badge: Retiring 11/11
-Status: Retiring 11/11
-Use Case: VLM (Vision)
-Providers: Radeon Cloud
-Context Length: 262,144
-Model ID: model_gateway:Qwen3.8-Flash-Next
-Tags: #API #OpenAI compatible
-Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
-    <category>Retiring 11/11</category>
-    <category>VLM (Vision)</category>
-    <category>Qwen</category>
     <category>API</category>
     <category>OpenAI compatible</category>
   </item>
