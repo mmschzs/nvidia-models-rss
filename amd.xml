@@ -5,7 +5,7 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 22:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:08:28 +0000</lastBuildDate>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -177,7 +177,7 @@ Providers: Radeon Cloud
 Context Length: 262,144
 Model ID: model_gateway:GLM-5.3-Flash
 Tags: #API #OpenAI compatible
-Pricing: Input: 0.28 pts / 1M tokens • Output: 0.56 pts / 1M tokens • Cache read: 0.0056 pts / 1M tokens</description>
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
     <category>Free</category>
     <category>LLM (Text)</category>
     <category>Z.ai</category>
