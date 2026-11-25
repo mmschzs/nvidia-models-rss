@@ -5,7 +5,29 @@
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
     <description>Model catalog scraped from https://developer.amd.com.cn/radeon/tokenfactory</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 01:55:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 16:48:21 +0000</lastBuildDate>
+  <item>
+    <title>【AMD】Hy4-flash</title>
+    <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
+    <guid isPermaLink="false">amd:model_gateway:Hy4-flash</guid>
+    <pubDate>Wed, 25 Nov 2026 16:48:14 +0000</pubDate>
+    <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
+    <description>Hy4-flash served by the AMD GPU Cloud
+Publisher: Tencent
+Badge: Free
+Status: Free
+Use Case: VLM (Vision)
+Providers: Radeon Cloud
+Context Length: 1,048,320
+Model ID: model_gateway:Hy4-flash
+Tags: #API #OpenAI compatible
+Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
+    <category>Free</category>
+    <category>VLM (Vision)</category>
+    <category>Tencent</category>
+    <category>API</category>
+    <category>OpenAI compatible</category>
+  </item>
   <item>
     <title>【AMD】d3</title>
     <link>https://developer.amd.com.cn/radeon/tokenfactory</link>
@@ -13,7 +35,7 @@
     <pubDate>Fri, 16 Oct 2026 16:06:23 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>vLLM-SR's 27B decision model: typed questions about text, images or video, answered with probabilities on /v1/systemone.
-Publisher: Radeon Cloud
+Publisher: vLLM-SR
 Badge: Free
 Status: Free
 Use Case: Decision (Classifier)
@@ -23,7 +45,7 @@ Tags: #API #Decision #Vision input #Video input
 Pricing: Input: 0.035 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
-    <category>Radeon Cloud</category>
+    <category>vLLM-SR</category>
     <category>API</category>
     <category>Decision</category>
     <category>Vision input</category>
@@ -36,7 +58,7 @@ Pricing: Input: 0.035 pts / 1M tokens</description>
     <pubDate>Fri, 16 Oct 2026 16:06:23 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>vLLM-SR's 9B decision model, faster than d3: typed questions about text, images or video, answered with probabilities.
-Publisher: Radeon Cloud
+Publisher: vLLM-SR
 Badge: Free
 Status: Free
 Use Case: Decision (Classifier)
@@ -46,7 +68,7 @@ Tags: #API #Decision #Vision input #Video input
 Pricing: Input: 0.035 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
-    <category>Radeon Cloud</category>
+    <category>vLLM-SR</category>
     <category>API</category>
     <category>Decision</category>
     <category>Vision input</category>
@@ -59,7 +81,7 @@ Pricing: Input: 0.035 pts / 1M tokens</description>
     <pubDate>Fri, 16 Oct 2026 16:06:22 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>Cloudflare's 27B decision model: answers typed questions about a situation with probabilities, on /v1/systemone.
-Publisher: Radeon Cloud
+Publisher: Cloudflare
 Badge: Free
 Status: Free
 Use Case: Decision (Classifier)
@@ -69,7 +91,7 @@ Tags: #API #Decision #Vision input
 Pricing: Input: 0.035 pts / 1M tokens</description>
     <category>Free</category>
     <category>Decision (Classifier)</category>
-    <category>Radeon Cloud</category>
+    <category>Cloudflare</category>
     <category>API</category>
     <category>Decision</category>
     <category>Vision input</category>
@@ -147,7 +169,7 @@ Pricing: Input: 0.035 pts / 1M tokens • Output: 0.07 pts / 1M tokens • Cache
     <pubDate>Wed, 23 Sep 2026 03:23:35 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
     <description>MiMo-V2.6-Flash served by the AMD GPU Cloud
-Publisher: Radeon Cloud
+Publisher: Xiaomi
 Badge: Free
 Status: Free
 Use Case: VLM (Vision)
@@ -158,7 +180,7 @@ Tags: #API #OpenAI compatible
 Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
     <category>Free</category>
     <category>VLM (Vision)</category>
-    <category>Radeon Cloud</category>
+    <category>Xiaomi</category>
     <category>API</category>
     <category>OpenAI compatible</category>
   </item>
@@ -172,14 +194,14 @@ Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache 
 Publisher: Z.ai
 Badge: Free
 Status: Free
-Use Case: LLM (Text)
+Use Case: VLM (Vision)
 Providers: Radeon Cloud
 Context Length: 262,144
 Model ID: model_gateway:GLM-5.3-Flash
 Tags: #API #OpenAI compatible
 Pricing: Input: 0.14 pts / 1M tokens • Output: 0.28 pts / 1M tokens • Cache read: 0.0028 pts / 1M tokens</description>
     <category>Free</category>
-    <category>LLM (Text)</category>
+    <category>VLM (Vision)</category>
     <category>Z.ai</category>
     <category>API</category>
     <category>OpenAI compatible</category>
@@ -256,7 +278,7 @@ Pricing: Input: 0.035 pts / 1M tokens • Output: 0.07 pts / 1M tokens • Cache
     <guid isPermaLink="false">amd:model_gateway:DeepSeek-V4-Flash</guid>
     <pubDate>Thu, 10 Sep 2026 11:55:18 +0000</pubDate>
     <source url="https://developer.amd.com.cn/radeon/tokenfactory">AMD</source>
-    <description>DeepSeek V4 Flash 0731 served by the AMD GPU Cloud
+    <description>DeepSeek-V4-Flash-0731 served by the AMD GPU Cloud
 Publisher: DeepSeek
 Badge: Free
 Status: Free
